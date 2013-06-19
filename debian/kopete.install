@@ -711,3 +711,12 @@ usr/share/sounds/Kopete_Event.ogg
 usr/share/sounds/Kopete_Received.ogg
 usr/share/sounds/Kopete_Sent.ogg
 usr/share/sounds/Kopete_User_is_Online.ogg
+usr/lib/kde4/kcm_kopete_history2.so
+usr/lib/kde4/kopete_history2.so
+usr/share/kde4/apps/kconf_update/kopete-update_icq_ssl.pl
+usr/share/kde4/apps/kconf_update/kopete-update_icq_ssl.upd
+usr/share/kde4/apps/kopete_history2/history2chatui.rc
+usr/share/kde4/apps/kopete_history2/history2ui.rc
+usr/share/kde4/config.kcfg/history2config.kcfg
+usr/share/kde4/services/kconfiguredialog/kopete_history2_config.desktop
+usr/share/kde4/services/kopete_history2.desktop

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.4 i386
+# SymbolsHelper-Confirmed: 4:4.10.80 i386
 libkopete.so.4 libkopete4 #MINVER#
  _ZGVZN6Kopete2UI8ListView4Item7Private18theVisibilityTimerEvE5timer@Base 4:4.3.4
  _ZGVZN6Kopete2UI8ListView4Item7Private21theLayoutAnimateTimerEvE5timer@Base 4:4.3.4
@@ -468,7 +468,9 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete14AccountManager4loadEv@Base 4:4.3.4
  _ZN6Kopete14AccountManager4saveEv@Base 4:4.3.4
  _ZN6Kopete14AccountManager4selfEv@Base 4:4.3.4
+ _ZN6Kopete14AccountManager6resumeEv@Base 4:4.10.80
  _ZN6Kopete14AccountManager6s_selfE@Base 4:4.3.4
+ _ZN6Kopete14AccountManager7suspendEv@Base 4:4.10.80
  _ZN6Kopete14AccountManagerC1Ev@Base 4:4.3.4
  _ZN6Kopete14AccountManagerC2Ev@Base 4:4.3.4
  _ZN6Kopete14AccountManagerD0Ev@Base 4:4.3.4
@@ -1330,6 +1332,8 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete7Account23slotOnlineStatusChangedEPNS_7ContactERKNS_12OnlineStatusES5_@Base 4:4.3.4
  _ZN6Kopete7Account26slotContactPropertyChangedEPNS_17PropertyContainerERK7QStringRK8QVariantS8_@Base 4:4.3.4
  _ZN6Kopete7Account5blockERK7QString@Base 4:4.3.4
+ _ZN6Kopete7Account6resumeEv@Base 4:4.10.80
+ _ZN6Kopete7Account7suspendERKNS_13StatusMessageE@Base 4:4.10.80
  _ZN6Kopete7Account7unblockERK7QString@Base 4:4.3.4
  _ZN6Kopete7Account8contactsEv@Base 4:4.3.4
  _ZN6Kopete7Account8setColorERK6QColor@Base 4:4.3.4
