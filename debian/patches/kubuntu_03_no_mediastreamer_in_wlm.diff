@@ -1,0 +1,15 @@
+Index: kopete-4.10.80/protocols/CMakeLists.txt
+===================================================================
+--- kopete-4.10.80.orig/protocols/CMakeLists.txt	2013-06-18 16:54:11.838060735 +0100
++++ kopete-4.10.80/protocols/CMakeLists.txt	2013-06-18 16:54:11.834060735 +0100
+@@ -43,8 +43,8 @@
+ endif(SSL_FOUND OR WIN32)
+ 
+ if(MEDIASTREAMER_FOUND AND LIBORTP_FOUND AND WITH_WLM_MEDIASTREAMER)
+-  message(STATUS "Building Windows Live Messenger voice clip support")
+-  set(BUILD_WLM_MEDIASTREAMER TRUE)
++  message(STATUS "Not building Windows Live Messenger voice clip support")
++  set(BUILD_WLM_MEDIASTREAMER FALSE)
+ else(MEDIASTREAMER_FOUND AND LIBORTP_FOUND AND WITH_WLM_MEDIASTREAMER)
+   message(STATUS "Not building Windows Live Messenger voice clip support")
+   set(BUILD_WLM_MEDIASTREAMER FALSE)

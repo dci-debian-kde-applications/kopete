@@ -1,0 +1,74 @@
+Source: kopete
+Section: kde
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ kdepimlibs5-dev (>= 4:4.10.4), libsqlite3-dev, 
+ libortp-dev, libspeex-dev, libqimageblitz-dev (>= 1:0.0.4),
+ libqca2-dev (>= 2.0.0), libidn11-dev,
+ libxml2-dev, libxslt1-dev, libmsn-dev (>= 4.1),
+ libvncserver-dev (>= 0.9.8.1), 
+ libssl-dev, libxss-dev, 
+ libmediastreamer-dev, libmeanwhile-dev, libgadu-dev,
+ libjasper-dev, libgif-dev, libotr2-dev, libjsoncpp-dev
+Build-Conflicts: libmediastreamer-dev (= 3.3.0-1) [amd64], libv4l-dev [linux-any]
+Standards-Version: 3.9.4
+Homepage: http://www.kde.org/
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kopete
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kopete
+
+Package: libkopete4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: kopete (= ${binary:Version})
+Description: main Kopete library
+ Kopete is an instant messaging and chat application with support for a wide
+ variety of services, such as AIM, Yahoo, ICQ, MSN, and Jabber.  Advanced
+ features and additional protocols are available as plugins.
+ .
+ This package contains main Kopete library which is used by Kopete and its
+ plugins.
+ .
+ This package is part of the KDE networking module.
+
+Package: kopete
+Section: net
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
+Recommends: libqca2-plugin-ossl, libqt4-sql-sqlite, kopete-message-indicator
+Suggests: kdeartwork-emoticons, khelpcenter4, texlive-latex-base
+Description: instant messaging and chat application
+ Kopete is an instant messaging and chat application with support for a wide
+ variety of services, such as AIM, Yahoo, ICQ, MSN, and Jabber.  Advanced
+ features and additional protocols are available as plugins.
+ .
+ This package is part of the KDE networking module.
+
+Package: libkopete-dev
+Section: libdevel
+Architecture: any
+Depends: libkopete4 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libkopete4},
+ ${misc:Depends}
+Description: development files for the Kopete instant messaging and chat application
+ Kopete is an instant messaging and chat application with support for a wide
+ variety of services, such as AIM, Yahoo, ICQ, MSN, and Jabber. Advanced
+ features and additional protocols are available as plugins.
+ .
+ This package contains development files needed for building Kopete plugins.
+ .
+ This package is part of the KDE networking module.
+
+Package: kopete-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: ${misc:Depends}, kde-runtime-dbg
+Recommends: kde-workspace-dbg
+Suggests: kdenetwork (= ${source:Version})
+Breaks: kdenetwork-dbg
+Replaces: kdenetwork-dbg
+Description: debugging symbols for the KDE networking module
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE networking module.
