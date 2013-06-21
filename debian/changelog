@@ -1,7 +1,7 @@
-kopete (4:4.10.80-0ubuntu1) UNRELEASED; urgency=low
+kopete (4:4.10.80-0ubuntu1) saucy; urgency=low
 
   * New upstream release
   * Initial package split from kdenetwork
   * kubuntu_no_break_api.diff revert upstream API break
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Jun 2013 14:56:38 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jun 2013 02:22:39 +0100
