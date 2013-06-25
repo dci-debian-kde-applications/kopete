@@ -1,3 +1,9 @@
+kopete (4:4.10.80-0ubuntu2) saucy; urgency=low
+
+  * Add boost build-dep
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 25 Jun 2013 10:25:10 +0100
+
 kopete (4:4.10.80-0ubuntu1) saucy; urgency=low
 
   * New upstream release
