@@ -1,3 +1,9 @@
+kopete (4:4.10.90-0ubuntu1) UNRELEASED; urgency=low
+
+  * New upstream bet release
+
+ -- Michał Zając <quintasan@kubuntu.org>  Thu, 27 Jun 2013 02:57:46 +0200
+
 kopete (4:4.10.80-0ubuntu2) saucy; urgency=low
 
   * Add boost build-dep
