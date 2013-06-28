@@ -1,4 +1,4 @@
-kopete (4:4.10.90-0ubuntu1) UNRELEASED; urgency=low
+kopete (4:4.10.90-0ubuntu1) saucy; urgency=low
 
   [ Michał Zając ]
   * New upstream beta release
@@ -7,7 +7,7 @@ kopete (4:4.10.90-0ubuntu1) UNRELEASED; urgency=low
   * Delete the API patch since it's included in upstream now.
   * Fix control file to make -dbg depend on main package.
 
- -- Howard Chan <smartboyhw@gmail.com>  Fri, 28 Jun 2013 14:15:00 +0800
+ -- Howard Chan <smartboyhw@gmail.com>  Fri, 28 Jun 2013 18:19:57 +0100
 
 kopete (4:4.10.80-0ubuntu2) saucy; urgency=low
 
