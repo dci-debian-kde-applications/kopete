@@ -1,7 +1,5 @@
-Index: kopete-4.10.80/libkopete/kopetemimetypehandler.cpp
-===================================================================
---- kopete-4.10.80.orig/libkopete/kopetemimetypehandler.cpp	2013-06-19 15:01:39.080931369 +0100
-+++ kopete-4.10.80/libkopete/kopetemimetypehandler.cpp	2013-06-19 15:01:39.064931370 +0100
+--- a/libkopete/kopetemimetypehandler.cpp
++++ b/libkopete/kopetemimetypehandler.cpp
 @@ -128,7 +128,7 @@
  
  		if( mimeHandler )
@@ -44,7 +42,7 @@ Index: kopete-4.10.80/libkopete/kopetemimetypehandler.cpp
  void MimeTypeHandler::handleURL( const QString &mimeType, const KUrl &url ) const
  {
  	Q_UNUSED( mimeType );
-@@ -195,6 +206,11 @@
+@@ -200,6 +211,11 @@
  
  void EmoticonMimeTypeHandler::handleURL( const QString &, const KUrl &url ) const
  {
@@ -56,10 +54,8 @@ Index: kopete-4.10.80/libkopete/kopetemimetypehandler.cpp
    Emoticons::self()->installTheme( url.toLocalFile() );
  }
  
-Index: kopete-4.10.80/libkopete/kopetemimetypehandler.h
-===================================================================
---- kopete-4.10.80.orig/libkopete/kopetemimetypehandler.h	2013-06-19 15:01:39.080931369 +0100
-+++ kopete-4.10.80/libkopete/kopetemimetypehandler.h	2013-06-19 15:01:39.064931370 +0100
+--- a/libkopete/kopetemimetypehandler.h
++++ b/libkopete/kopetemimetypehandler.h
 @@ -67,6 +67,13 @@
  	bool canAcceptRemoteFiles() const;
  
@@ -74,18 +70,8 @@ Index: kopete-4.10.80/libkopete/kopetemimetypehandler.h
  	 * Handles the URL @p url, which has the mime type @p mimeType
  	 *
  	 * @param mimeType The mime type of the URL
-@@ -119,6 +126,7 @@
- 	const QStringList mimeTypes() const;
- 
- 	void handleURL( const QString &mimeType, const KUrl &url ) const;
-+	void handleURL( const KUrl &url ) const;
- };
- 
- } // Kopete
-Index: kopete-4.10.80/protocols/irc/ircprotocol.cpp
-===================================================================
---- kopete-4.10.80.orig/protocols/irc/ircprotocol.cpp	2013-06-19 15:01:39.080931369 +0100
-+++ kopete-4.10.80/protocols/irc/ircprotocol.cpp	2013-06-19 15:01:39.068931369 +0100
+--- a/protocols/irc/ircprotocol.cpp
++++ b/protocols/irc/ircprotocol.cpp
 @@ -77,7 +77,7 @@
  	registerAsProtocolHandler(QString::fromLatin1("irc"));
  }
@@ -95,10 +81,8 @@ Index: kopete-4.10.80/protocols/irc/ircprotocol.cpp
  {
  	kDebug(14120) << url;
  	if (!url.isValid())
-Index: kopete-4.10.80/protocols/irc/ircprotocol.h
-===================================================================
---- kopete-4.10.80.orig/protocols/irc/ircprotocol.h	2013-06-19 15:01:39.080931369 +0100
-+++ kopete-4.10.80/protocols/irc/ircprotocol.h	2013-06-19 15:01:39.068931369 +0100
+--- a/protocols/irc/ircprotocol.h
++++ b/protocols/irc/ircprotocol.h
 @@ -52,7 +52,7 @@
  
  		IRCProtocolHandler();
@@ -108,10 +92,8 @@ Index: kopete-4.10.80/protocols/irc/ircprotocol.h
  };
  
  static const QString CHAT_VIEW( QString::fromLatin1("kopete_chatwindow") );
-Index: kopete-4.10.80/protocols/jabber/jabberprotocol.cpp
-===================================================================
---- kopete-4.10.80.orig/protocols/jabber/jabberprotocol.cpp	2013-06-19 15:01:39.080931369 +0100
-+++ kopete-4.10.80/protocols/jabber/jabberprotocol.cpp	2013-06-19 15:01:39.068931369 +0100
+--- a/protocols/jabber/jabberprotocol.cpp
++++ b/protocols/jabber/jabberprotocol.cpp
 @@ -353,6 +353,11 @@
  
  void JabberProtocol::handleURL(const QString&, const KUrl & kurl) const
@@ -124,10 +106,8 @@ Index: kopete-4.10.80/protocols/jabber/jabberprotocol.cpp
  	QUrl url=kurl; //QUrl has better query handling.
  	if(url.scheme() != "xmpp" && !url.scheme().isEmpty() )
  		return;
-Index: kopete-4.10.80/protocols/jabber/jabberprotocol.h
-===================================================================
---- kopete-4.10.80.orig/protocols/jabber/jabberprotocol.h	2013-06-19 15:01:39.080931369 +0100
-+++ kopete-4.10.80/protocols/jabber/jabberprotocol.h	2013-06-19 15:01:39.068931369 +0100
+--- a/protocols/jabber/jabberprotocol.h
++++ b/protocols/jabber/jabberprotocol.h
 @@ -148,6 +148,7 @@
  	/**
  	 * inherited from Kopete::MimeTypeHandler
@@ -136,10 +116,8 @@ Index: kopete-4.10.80/protocols/jabber/jabberprotocol.h
  	virtual void handleURL(const QString&, const KUrl & kurl) const;
  
  private:
-Index: kopete-4.10.80/protocols/oscar/aim/aimprotocol.cpp
-===================================================================
---- kopete-4.10.80.orig/protocols/oscar/aim/aimprotocol.cpp	2013-06-19 15:01:39.080931369 +0100
-+++ kopete-4.10.80/protocols/oscar/aim/aimprotocol.cpp	2013-06-19 15:01:39.068931369 +0100
+--- a/protocols/oscar/aim/aimprotocol.cpp
++++ b/protocols/oscar/aim/aimprotocol.cpp
 @@ -43,7 +43,7 @@
  	registerAsProtocolHandler(QString::fromLatin1("aim"));
  }
@@ -149,10 +127,8 @@ Index: kopete-4.10.80/protocols/oscar/aim/aimprotocol.cpp
  {
  /**
   * Send a Message  =================================================
-Index: kopete-4.10.80/protocols/oscar/aim/aimprotocol.h
-===================================================================
---- kopete-4.10.80.orig/protocols/oscar/aim/aimprotocol.h	2013-06-19 15:01:39.080931369 +0100
-+++ kopete-4.10.80/protocols/oscar/aim/aimprotocol.h	2013-06-19 15:01:39.072931369 +0100
+--- a/protocols/oscar/aim/aimprotocol.h
++++ b/protocols/oscar/aim/aimprotocol.h
 @@ -29,7 +29,7 @@
  {
  public:
@@ -162,10 +138,8 @@ Index: kopete-4.10.80/protocols/oscar/aim/aimprotocol.h
  };
  
  class AIMProtocol : public OscarProtocol
-Index: kopete-4.10.80/protocols/skype/skypeprotocol.cpp
-===================================================================
---- kopete-4.10.80.orig/protocols/skype/skypeprotocol.cpp	2013-06-19 15:01:39.080931369 +0100
-+++ kopete-4.10.80/protocols/skype/skypeprotocol.cpp	2013-06-19 15:01:39.072931369 +0100
+--- a/protocols/skype/skypeprotocol.cpp
++++ b/protocols/skype/skypeprotocol.cpp
 @@ -46,7 +46,7 @@
  	registerAsProtocolHandler("tell");
  }
@@ -174,7 +148,7 @@ Index: kopete-4.10.80/protocols/skype/skypeprotocol.cpp
 +void SkypeProtocolHandler::handleURL(const KUrl &url) const {
  	kDebug(SKYPE_DEBUG_GLOBAL);
  	if ( ! SkypeProtocol::protocol()->hasAccount() ) {
- 		kDebug(SKYPE_DEBUG_GLOBAL) << "No Skype account registred";
+ 		kDebug(SKYPE_DEBUG_GLOBAL) << "No Skype account registered";
 @@ -55,6 +55,10 @@
  	SkypeProtocol::protocol()->account()->SkypeActionHandler(url.url());
  }
@@ -186,10 +160,8 @@ Index: kopete-4.10.80/protocols/skype/skypeprotocol.cpp
  class SkypeProtocolPrivate {
  	private:
  	public:
-Index: kopete-4.10.80/protocols/skype/skypeprotocol.h
-===================================================================
---- kopete-4.10.80.orig/protocols/skype/skypeprotocol.h	2013-06-19 15:01:39.080931369 +0100
-+++ kopete-4.10.80/protocols/skype/skypeprotocol.h	2013-06-19 15:01:39.072931369 +0100
+--- a/protocols/skype/skypeprotocol.h
++++ b/protocols/skype/skypeprotocol.h
 @@ -36,6 +36,7 @@
  {
  	public:
@@ -198,10 +170,8 @@ Index: kopete-4.10.80/protocols/skype/skypeprotocol.h
  		void handleURL(const QString &, const KUrl &url) const;
  };
  
-Index: kopete-4.10.80/libkopete/kopetecontact.cpp
-===================================================================
---- kopete-4.10.80.orig/libkopete/kopetecontact.cpp	2013-06-19 15:01:39.080931369 +0100
-+++ kopete-4.10.80/libkopete/kopetecontact.cpp	2013-06-19 15:01:39.072931369 +0100
+--- a/libkopete/kopetecontact.cpp
++++ b/libkopete/kopetecontact.cpp
 @@ -274,7 +274,7 @@
  	// through the use of the customContextMenuActions() function
  
@@ -211,24 +181,22 @@ Index: kopete-4.10.80/libkopete/kopetecontact.cpp
  	if( customActions && !customActions->isEmpty() )
  	{
  		menu->addSeparator();
-@@ -518,6 +518,11 @@
- 	return 0L;
+@@ -519,6 +519,11 @@
  }
  
-+QList<KAction*> *Contact::customContextMenuActions( ChatSession * /* manager */ )
+ QList<KAction*> *Contact::customContextMenuActions( ChatSession * /* manager */ )
 +{
 +	return customContextMenuActions();
 +}
 +
- bool Contact::isOnline() const
++QList<KAction*> *Contact::customContextMenuActions( ChatSession * /* manager */ )
  {
- 	return onlineStatus().isDefinitelyOnline();
-Index: kopete-4.10.80/libkopete/kopetecontact.h
-===================================================================
---- kopete-4.10.80.orig/libkopete/kopetecontact.h	2013-06-19 15:01:39.080931369 +0100
-+++ kopete-4.10.80/libkopete/kopetecontact.h	2013-06-19 15:01:39.072931369 +0100
-@@ -232,6 +232,11 @@
- 	virtual QList<KAction *> *customContextMenuActions();
+ 	return customContextMenuActions();
+ }
+--- a/libkopete/kopetecontact.h
++++ b/libkopete/kopetecontact.h
+@@ -237,6 +237,11 @@
+ 	virtual KDE_DEPRECATED QList<KAction *> *customContextMenuActions( ChatSession *manager );
  
  	/**
 +	 * @todo  What is this function for ?
@@ -239,10 +207,8 @@ Index: kopete-4.10.80/libkopete/kopetecontact.h
  	 * @brief Get the Context Menu for this contact
  	 *
  	 * This menu includes generic actions common to each protocol, and action defined in
-Index: kopete-4.10.80/protocols/skype/skypecontact.cpp
-===================================================================
---- kopete-4.10.80.orig/protocols/skype/skypecontact.cpp	2013-06-19 15:01:39.080931369 +0100
-+++ kopete-4.10.80/protocols/skype/skypecontact.cpp	2013-06-19 15:01:39.072931369 +0100
+--- a/protocols/skype/skypecontact.cpp
++++ b/protocols/skype/skypecontact.cpp
 @@ -361,6 +361,10 @@
  	return actions;
  }
@@ -254,10 +220,8 @@ Index: kopete-4.10.80/protocols/skype/skypecontact.cpp
  void SkypeContact::enableActions(bool value) {
  	d->callContactAction->setEnabled(value);
  	d->authorizeAction->setEnabled(value);
-Index: kopete-4.10.80/protocols/skype/skypecontact.h
-===================================================================
---- kopete-4.10.80.orig/protocols/skype/skypecontact.h	2013-06-19 15:01:39.080931369 +0100
-+++ kopete-4.10.80/protocols/skype/skypecontact.h	2013-06-19 15:01:39.072931369 +0100
+--- a/protocols/skype/skypecontact.h
++++ b/protocols/skype/skypecontact.h
 @@ -83,6 +83,7 @@
  		bool hasChat() const;
  		///Tell kopete which actions to show in the contact pop-up menu
