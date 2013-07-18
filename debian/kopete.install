@@ -706,7 +706,6 @@ usr/share/kde4/services/xmpp.protocol
 usr/share/kde4/servicetypes/kopeteplugin.desktop
 usr/share/kde4/servicetypes/kopeteprotocol.desktop
 usr/share/kde4/servicetypes/kopeteui.desktop
-usr/share/sounds/KDE-Im-Phone-Ring.wav
 usr/share/sounds/Kopete_Event.ogg
 usr/share/sounds/Kopete_Received.ogg
 usr/share/sounds/Kopete_Sent.ogg
