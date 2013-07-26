@@ -5,7 +5,7 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 .PHONY: override_dh_auto_test
 
 override_dh_auto_configure:
-	$(overridden_command) -- -DDISABLE_VIDEOSUPPORT=true
+	$(overridden_command)
 
 override_dh_shlibdeps:
 	$(overridden_command) -plibkopete4 -- -xkopete
