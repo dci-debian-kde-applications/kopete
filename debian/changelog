@@ -1,11 +1,11 @@
-kopete (4:4.10.97-0ubuntu1) UNRELEASED; urgency=low
+kopete (4:4.10.97-0ubuntu1) saucy; urgency=low
 
   * New upstream RC 2 release
   * Remove DISABLE_VIDEOSUPPORT=true, no longer a compile failure
   * Add build-dep on libv4l-dev, libexpat1-dev
   * Add back Skype protocol now trademarked icons removed upstream
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 25 Jul 2013 13:01:13 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 26 Jul 2013 19:45:14 +0100
 
 kopete (4:4.10.95-0ubuntu1) saucy; urgency=low
 
