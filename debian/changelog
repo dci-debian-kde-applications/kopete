@@ -1,7 +1,7 @@
 kopete (4:4.11.0-0ubuntu1) UNRELEASED; urgency=low
 
   * New upstream release
-  * Add libsrtp0-dev as build-dep of kopete
+  * Add libsrtp0-dev and libasound2-dev as build-dep of kopete
 
  -- Howard Chan <smartboyhw@gmail.com>  Thu, 08 Aug 2013 12:25:57 +0800
 
