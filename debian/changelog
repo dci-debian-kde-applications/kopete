@@ -1,9 +1,17 @@
 kopete (4:4.11.0-0ubuntu1) UNRELEASED; urgency=low
 
+  [ Howard Chan ]
   * New upstream release
   * Add libsrtp0-dev and libasound2-dev as build-dep of kopete
   * Introduce patch at http://bugsfiles.kde.org/attachment.cgi?id=80534
     to fix audio_stream
+
+  [ Scott Kitterman ]
+  * Disable building googletalk on powerpc because the embedded libjingle does
+    not support ppc
+    - Override config option in debian/rules
+    - Add powerpc specific kopete.install file
+  * Removed obsolete debian/source/lintian-overrides
 
  -- Howard Chan <smartboyhw@gmail.com>  Thu, 08 Aug 2013 12:25:57 +0800
 
