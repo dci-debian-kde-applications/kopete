@@ -2,12 +2,12 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
-DEB_HOST_GNU_TYPE   ?= $(shell dpkg-architecture -qDEB_HOST_GNU_TYPE)
+DEB_HOST_GNU_CPU ?= $(shell dpkg-architecture -qDEB_HOST_GNU_CPU)
 
 .PHONY: override_dh_auto_test
 
 override_dh_auto_configure:
-ifeq ($(DEB_HOST_GNU_TYPE),powerpc)
+ifeq ($(DEB_HOST_GNU_CPU),powerpc)
 	$(overridden_command) -- -DWITH_GOOGLETALK=false
 else
 	$(overridden_command)

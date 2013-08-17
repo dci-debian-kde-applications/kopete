@@ -1,3 +1,10 @@
+kopete (4:4.11.0-0ubuntu2) saucy; urgency=low
+
+  * Query DEB_HOST_GNU_CPU instead of DEB_HOST_GNU_TYPE for the powerpc
+    detection
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 17 Aug 2013 15:45:18 +0200
+
 kopete (4:4.11.0-0ubuntu1) saucy; urgency=low
 
   [ Howard Chan ]
