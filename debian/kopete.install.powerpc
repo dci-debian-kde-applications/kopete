@@ -719,8 +719,7 @@ usr/share/kde4/apps/kopete_history2/history2ui.rc
 usr/share/kde4/config.kcfg/history2config.kcfg
 usr/share/kde4/services/kconfiguredialog/kopete_history2_config.desktop
 usr/share/kde4/services/kopete_history2.desktop
-usr/lib/libkopete_videodevice.so.4.11.0
-usr/lib/libkopete_videodevice.so.4
+usr/lib/libkopete_videodevice.so.4*
 usr/lib/kde4/kcm_kopete_avdeviceconfig.so
 usr/share/kde4/services/kopete_avdeviceconfig.desktop
 usr/share/kde4/apps/kopete/icons/oxygen/32x32/apps/kopete_avdevice.png

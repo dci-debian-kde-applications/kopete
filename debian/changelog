@@ -1,6 +1,10 @@
 kopete (4:4.11.1-0ubuntu1) UNRELEASED; urgency=low
 
+  [ Philip Muškovac ]
   * New upstream bugfix release.
+
+  [ Rohan Garg ]
+  * Improve regex for kopete.install*
 
  -- Philip Muškovac <yofel@kubuntu.org>  Fri, 30 Aug 2013 16:22:54 +0200
 
