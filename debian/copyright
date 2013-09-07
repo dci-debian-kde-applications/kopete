@@ -1,0 +1,1073 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kopete
+Upstream-Contact: Jeremy Paul Whiting <jpwhiting@kde.org>
+                  Pali Rohár <pali.rohar@gmail.com>
+                  Urs Wolfer <uwolfer@kde.org>
+Source: http://www.kde.org/download/
+
+Files: *
+Copyright: 1998-1999, Adam Fritzler <afritz@auk.cx>
+           2007, Aleix Pol <aleixpol@gmail.com>
+           2005-2006, Andre Duffeck <duffeck@kde.org>
+           2009, Attila Herman <attila589/at/gmail.com>
+           2008, Benson Tsai <btsai@vrwarp.com>
+           2007, Charles Connell <charles@connells.org>
+           2002-2003, Chris TenHarmsel <tenharmsel@staticmethod.net>
+           2005-2006, Claudio da Silveira Pinheiro <taupter@gmail.com>
+           2003, Cornelius Schumacher <schumacher@kde.org>
+           2002-2003, Daniel Stone <dstone@kde.org>
+           2008, Detlev Casanova <detlev.casanova@gmail.com>
+           2001-2005, Duncan Mac-Vicar Prett <duncan@kde.org>
+           2004-2005, Engin AYDOGAN <engin@bzzzt.biz>
+           2009, Fabian Rami <fabian.rami@wowcompany.com>
+           2010, Frank Schaefer <fschaefer.oss@googlemail.com>
+           2002-2003, Gav Wood <gav@kde.org>
+           2005, Gregg Edghill <gregg.edghill@gmail.com>
+           2003-2004, Grzegorz Jaskiewicz <gj at pointblue.com.pl>
+           2006-2009, Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+           2000-2002, Hiroyuki Yamamoto
+           2006, Hui Jin <angela.jin@gmail.com>
+           2008, Igor Janssen <alaves17@gmail.com>
+           2010, Igor Poboiko <igor.poboiko@gmail.com>
+           2003, Ismail Donmez <ismail.donmez@boun.edu.tr>
+           2002, James Grant
+           2002, Jan-Pascal van Best <janpascal@vanbest.org>
+           2003, Jason Keirstead <jason@keirstead.org
+           2003-2004, Jason Keirstead <jason@keirstead.org>
+           2005, Jeremy Kerr <jk@ozlabs.org>
+           2004, John Tapsell <john@geola.co.uk>
+           2005, Justin Huff <jjhuff@mspin.net>
+           2001-2010, Kopete developers <kopete-devel@kde.org>
+           2003-2004, Marc Cramdal <marc.cramdal@gmail.com>
+           1998-1999, Mark Spencer <markster@marko.net>
+           2002-2004, Martijn Klingens <klingens@kde.org>
+           2003-2008, Matt Rogers <mattr@kde.org>
+           2004, Meredydd Luff. All rights reserved
+           2005-2007, Michaël Larouche <larouche@kde.org>
+           2003-2008, Michel Hermier <michel.hermier@gmail.com>
+           2002, Nick Betcher <nbetcher@kde.org>
+           2008-2009, Nikolaj Hald Nielsen <nhnFreespirit@gmail.com>
+           2004-2007, Novell, Inc http://www.opensuse.org
+           2001, Olaf Lueg <olueg@olsd.de>
+           2002-2009, Olivier Goffart <ogoffart@kde.org>
+           2009, Pali Rohár <pali.rohar@gmail.com>
+           2002, Philip S Tellis <philip.tellis@gmx.net>
+           2004, Puzzlebird
+           2005, Remko Troncon
+           2003, Richard Lärkäng <nouseforaname@home.se>
+           2003-2004, Richard Smith <kde@metafoo.co.uk>
+           2002, Richard Stellingwerff <remenic@linuxfromscratch.org>
+           2010, Rion
+           2003, Roberto Pariset <victorheremita@fastwebnet.it>
+           2005-2009, Roman Jarosz <kedgedev@gmail.com>
+           2002, Ryan Cumming <bodnar42@phalynx.dhs.org>
+           2004-2005, SUSE Linux AG http://www.suse.com
+           2008-2009, Seb Ruiz <ruiz@kde.org>
+           2003-2004, Sivaram Gottimukkala <suppandi@gmail.com>
+           2001-2004, Stefan Gehn <metz@gehn.net>
+           2003, Tais M. Hansen
+           2007, Tejas Dinkar <tejas@gja.in>
+           2008, Teo Mrnjavac <teo.mrnjavac@gmail.com>
+           2004, Thiago S. Barcelos <barcelos@ime.usp.br> (Kopete port)
+           2009, Thomas Lübking <thomas.luebking@web.de>
+           2006, Thorben Kröger <thorbenk@gmx.net>
+           2007-2009, Tiago Salem Herrmann <tiagosh@gmail.com>
+           2004, Till Adam <adam@kde.org>
+           2002-2005, Till Gerken <till@tantalo.net>
+           2008-2010, Timo Schluessler <timo@schluessler.org>
+           2002-2011, Tobias Koenig <tokoe@kde.org>
+           2002-2004, Tom Linsky <twl6@po.cwru.edu>
+           2005-2006, Tommi Rantala <tommi.rantala@cs.helsinki.fi>
+           2002, Vladimir Shutoff <vovan@shutoff.ru> (original code)
+           2010-2012, Volker Härtel <cyberbeat@gmx.de>
+           2002-2007, Will Stephenson <wstephenson@kde.org>
+           2002-2003, Zack Rusin <zack@kde.org>
+License: GPL-2+
+
+Files: cmake/*
+Copyright: 2006, Alessandro Praduroux <pradu@pradu.it>
+           2008, Detlev Casanova <detlev.casanova @ gmail.com>
+           2009, Jaroslav Reznik <jreznik@redhat.com>
+           2008, Jeremy Kerr <jk@ozlabs.org>
+           2008, Matt Rogers <mattr@kde.org>
+           2008, Michael Zanetti <michael_zanetti @ gnx.net>
+           2008, Maciej Mrozowski, <reavertm@poczta.fm>
+           2009-2013, Pali Rohár <pali.rohar@gmail.com>
+           2008, Pino Toscano <pino@kde.org>
+           2011, Raphael Kubo da Costa <kubito@gmail.com>
+           2009, Tiago Salem Herrmann <tiagosh@gmail.com>
+           2007, Urs Wolfer <uwolfer @ kde.org>
+           2006, Will Stephenson <wstephenson@kde.org>
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+ derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files: doc/*
+Copyright: 2008, Charles Connell <charles@connells.org>
+           2005, Matt Rogers <mattr@kde.org>
+           2005-2006, Michaël Larouche <michael.larouche@kdemail.net>
+           2003-2005, Will Stephenson <wstephenson@kde.org>
+License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
+ .
+ On Debian systems, the complete text of the GNU Free Documentation
+ License version 1.2 can be found in "/usr/share/common-licenses/GFDL-1.2".
+
+Files: kopete/chatwindow/a11y/*
+Copyright: 2011, JosMillán Soto <fid@gpul.org>
+License: LGPL-2.1+
+
+Files: kopete/chatwindow/chatmemberslistview.cpp
+       kopete/chatwindow/chatmemberslistview.h
+       kopete/config/status/statusconfig.cpp
+       kopete/config/status/statusconfig.h
+       kopete/config/status/statusmodel.cpp
+       kopete/config/status/statusmodel.h
+       kopete/contactlist/kopetegrouplistaction.cpp
+       kopete/contactlist/kopetegrouplistaction.h
+       kopete/infoeventwidget.cpp
+       kopete/infoeventwidget.h
+       kopete/kconf_update/kopete-account-kconf_update.cpp
+       kopete/kconf_update/kopete-nameTracking.cpp
+       kopete/kconf_update/kopete-pluginloader2.cpp
+       kopete/kimiface.h
+       kopete/kopetedbusinterface.cpp
+       kopete/kopetedbusinterface.h
+       kopete/kopetedbusinterface_p.cpp
+       kopete/kopetedbusinterface_p.h
+       kopete/statusmenu/kopeteonlinestatusaction.cpp
+       kopete/statusmenu/kopeteonlinestatusaction.h
+       kopete/statusmenu/kopetestatusaction.cpp
+       kopete/statusmenu/kopetestatusaction.h
+       kopete/statusmenu/kopetestatuseditaction.cpp
+       kopete/statusmenu/kopetestatuseditaction.h
+       kopete/statusmenu/kopetestatusgroupaction.cpp
+       kopete/statusmenu/kopetestatusgroupaction.h
+       kopete/statusmenu/kopetestatusrootaction.cpp
+       kopete/statusmenu/kopetestatusrootaction.h
+Copyright: 2008, Dennis Nienhüser <earthwings@gentoo.org>
+           2007, Duncan Mac-Vicar Prett <duncan@kde.org>
+           2002-2003, Martijn Klingens <klingens@kde.org>
+           2007, Michaël Larouche <larouche@kde.org>
+           2004, Olivier Goffart <ogoffart@kde.fr>
+           2002-2005, Olivier Goffart <ogoffart@kde.org>
+           2008, Roman Jarosz <kedgedev@centrum.cz>
+           2003-2007, Will Stephenson <wstephenson@kde.org>
+           2001-2008, the Kopete developers <kopete-devel@kde.org>
+License: LGPL-2+
+
+Files: kopete/chatwindow/kopeterichtextwidget.cpp
+       kopete/chatwindow/kopeterichtextwidget.h
+Copyright: 2009, Benson Tsai <btsai@vrwarp.com>
+           2003-2005, Jason Keirstead <jason@keirstead.org>
+           2006, Michaël Larouche <larouche@kde.org>
+           2003, Richard Moore <rich@kde.org>
+           2009, Roman Jarosz <kedgedev@gmail.com>
+License: LGPL-2
+
+Files: libkopete/avdevice/*
+       libkopete/contactlist/*
+       libkopete/tasks/*
+       libkopete/private/kopeteemoticons.cpp
+       libkopete/private/kopeteemoticons.h
+       libkopete/private/kopeteidleplatform_dummy.cpp
+       libkopete/private/kopeteidleplatform_mac.cpp
+       libkopete/private/kopeteidleplatform_p.h
+       libkopete/private/kopeteidleplatform_win.cpp
+       libkopete/private/kopeteidleplatform_x11.cpp
+       libkopete/private/kopeteutils_private.cpp
+       libkopete/private/kopeteutils_private.h
+       libkopete/tests/statusmessage_test.cpp
+       libkopete/tests/statusmessage_test.h
+       libkopete/tests/xmlcontactstorage_test.cpp
+       libkopete/tests/xmlcontactstorage_test.h
+       libkopete/ui/accountselector.cpp
+       libkopete/ui/accountselector.h
+       libkopete/ui/addcontactpage.cpp
+       libkopete/ui/addcontactpage.h
+       libkopete/ui/addresseeitem.cpp
+       libkopete/ui/addresseeitem.h
+       libkopete/ui/avatardialog.cpp
+       libkopete/ui/avatardialog.h
+       libkopete/ui/avatarselectorwidget.cpp
+       libkopete/ui/avatarselectorwidget.h
+       libkopete/ui/avatarwebcamdialog.cpp
+       libkopete/ui/avatarwebcamdialog.h
+       libkopete/ui/contactaddednotifydialog.cpp
+       libkopete/ui/contactaddednotifydialog.h
+       libkopete/ui/editaccountwidget.cpp
+       libkopete/ui/editaccountwidget.h
+       libkopete/ui/kopetecontactaction.cpp
+       libkopete/ui/kopetecontactaction.h
+       libkopete/ui/kopeteinfodialog.cpp
+       libkopete/ui/kopeteinfodialog.h
+       libkopete/ui/kopetepasswordwidget.cpp
+       libkopete/ui/kopetepasswordwidget.h
+       libkopete/ui/kopetestdaction.cpp
+       libkopete/ui/kopetestdaction.h
+       libkopete/ui/kopeteview.cpp
+       libkopete/ui/kopeteview.h
+       libkopete/ui/kopeteviewplugin.cpp
+       libkopete/ui/kopeteviewplugin.h
+       libkopete/chatsessionmemberslistmodel.cpp
+       libkopete/chatsessionmemberslistmodel.h
+       libkopete/connectionmanager.cpp
+       libkopete/connectionmanager.h
+       libkopete/kabcpersistence.cpp
+       libkopete/kabcpersistence.h
+       libkopete/kopete_export.h
+       libkopete/kopeteaccount.cpp
+       libkopete/kopeteaccount.h
+       libkopete/kopeteaccountmanager.cpp
+       libkopete/kopeteaccountmanager.h
+       libkopete/kopeteaddedinfoevent.cpp
+       libkopete/kopeteaddedinfoevent.h
+       libkopete/kopeteavatarmanager.cpp
+       libkopete/kopeteavatarmanager.h
+       libkopete/kopeteblacklister.cpp
+       libkopete/kopeteblacklister.h
+       libkopete/kopetechatsession.cpp
+       libkopete/kopetechatsession.h
+       libkopete/kopetechatsessionmanager.cpp
+       libkopete/kopetechatsessionmanager.h
+       libkopete/kopetecommand.cpp
+       libkopete/kopetecommand.h
+       libkopete/kopetecommandhandler.cpp
+       libkopete/kopetecommandhandler.h
+       libkopete/kopetecontact.cpp
+       libkopete/kopetecontact.h
+       libkopete/kopetecontactlist.cpp
+       libkopete/kopetecontactlist.h
+       libkopete/kopetecontactlistelement.cpp
+       libkopete/kopetecontactlistelement.h
+       libkopete/kopetefileengine.cpp
+       libkopete/kopetefileengine.h
+       libkopete/kopeteglobal.cpp
+       libkopete/kopeteglobal.h
+       libkopete/kopetegroup.cpp
+       libkopete/kopetegroup.h
+       libkopete/kopetegroup_p.h
+       libkopete/kopeteidentity.cpp
+       libkopete/kopeteidentity.h
+       libkopete/kopeteidentitymanager.cpp
+       libkopete/kopeteidentitymanager.h
+       libkopete/kopeteidletimer.cpp
+       libkopete/kopeteidletimer.h
+       libkopete/kopeteinfoevent.cpp
+       libkopete/kopeteinfoevent.h
+       libkopete/kopeteinfoeventmanager.cpp
+       libkopete/kopeteinfoeventmanager.h
+       libkopete/kopetemessage.cpp
+       libkopete/kopetemessage.h
+       libkopete/kopetemessageevent.cpp
+       libkopete/kopetemessageevent.h
+       libkopete/kopetemessagehandler.cpp
+       libkopete/kopetemessagehandler.h
+       libkopete/kopetemessagehandlerchain.cpp
+       libkopete/kopetemessagehandlerchain.h
+       libkopete/kopetemetacontact.cpp
+       libkopete/kopetemetacontact.h
+       libkopete/kopetemetacontact_p.h
+       libkopete/kopetemimetypehandler.cpp
+       libkopete/kopetemimetypehandler.h
+       libkopete/kopeteonlinestatus.cpp
+       libkopete/kopeteonlinestatus.h
+       libkopete/kopeteonlinestatusmanager.cpp
+       libkopete/kopeteonlinestatusmanager.h
+       libkopete/kopetepassword.cpp
+       libkopete/kopetepassword.h
+       libkopete/kopetepasswordedaccount.cpp
+       libkopete/kopetepasswordedaccount.h
+       libkopete/kopetepicture.cpp
+       libkopete/kopetepicture.h
+       libkopete/kopeteplugin.cpp
+       libkopete/kopeteplugin.h
+       libkopete/kopetepluginmanager.cpp
+       libkopete/kopetepluginmanager.h
+       libkopete/kopeteproperties.cpp
+       libkopete/kopeteproperties.h
+       libkopete/kopeteproperty.cpp
+       libkopete/kopeteproperty.h
+       libkopete/kopetepropertycontainer.cpp
+       libkopete/kopetepropertycontainer.h
+       libkopete/kopeteprotocol.cpp
+       libkopete/kopeteprotocol.h
+       libkopete/kopetesimplemessagehandler.cpp
+       libkopete/kopetesimplemessagehandler.h
+       libkopete/kopetesockettimeoutwatcher.cpp
+       libkopete/kopetesockettimeoutwatcher.h
+       libkopete/kopetestatusitems.cpp
+       libkopete/kopetestatusitems.h
+       libkopete/kopetestatusmanager.cpp
+       libkopete/kopetestatusmanager.h
+       libkopete/kopetestatusmessage.cpp
+       libkopete/kopetestatusmessage.h
+       libkopete/kopetetransfermanager.cpp
+       libkopete/kopetetransfermanager.h
+       libkopete/kopeteuiglobal.cpp
+       libkopete/kopeteuiglobal.h
+       libkopete/kopeteutils.cpp
+       libkopete/kopeteutils.h
+       libkopete/kopetewalletmanager.cpp
+       libkopete/kopetewalletmanager.h
+       libkopete/managedconnectionaccount.cpp
+       libkopete/managedconnectionaccount.h
+Copyright: 2009, Alex Fiestas <alex@eyeos.org>
+           2006-2007, Charles Connell <charles@connells.org>
+           2005-2006, Cláudio da Silveira Pinheiro <taupter@gmail.com>
+           2001, Cornelius Schumacher <schumacher@kde.org>
+           2002, Daniel Stone <dstone@kde.org>
+           2004, Dirk Mueller <mueller@kde.org>
+           2001-2007, Duncan Mac-Vicar Prett <duncan@kde.org>
+           2005, Engin AYDOGAN <engin@bzzzt.biz>
+           2009, Fabian Rami <fabian.rami@wowcompany.com>
+           2010-2011, Frank Schaefer <fschaefer.oss@googlemail.com>
+           2007, Guillermo A. Amaral B <me@guillermoamaral.com>
+           2007, Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+           2002, Hendrik vom Lehn <hvl@linux-4-ever.de>
+           2003-2005, Jason Keirstead <jason@keirstead.org>
+           2003, Justin Karneges <justin@affinix.com>
+           2002-2004, Martijn Klingens <klingens@kde.org>
+           2004-2006, Matt Rogers <mattr@kde.org>
+           2005-2007, Michaël Larouche <larouche@kde.org>
+           2005, Michel Hermier <michel.hermier@wanadoo.fr>
+           2002-2003, Nick Betcher <nbetcher@kde.org>
+           2002-2008, Olivier Goffart <ogoffart@kde.org>
+           2002-2004, Richard Smith <richard@metafoo.co.uk>
+           2004, Roie Kerstein <sf_kersteinroie@bezeqint.net>
+           2006-2009, Roman Jarosz <kedgedev@centrum.cz>
+           2001-2002, Ryan Cumming <ryan@kde.org>
+           2002-2004, Stefan Gehn <metz@gehn.net>
+           2003, Tarkvara Design Inc.
+           2005, Waldo Bastian <bastian@kde.org>
+           2003-2007, Will Stephenson <wstephenson@kde.org>
+           2001-2010, the Kopete developers <kopete-devel@kde.org>
+License: LGPL-2+
+
+Files: libkopete/ui/collapsiblewidget.cpp
+       libkopete/ui/collapsiblewidget.h
+Copyright: 2005, Daniel Molkentin <molkentin@kde.org>
+License: LGPL-2
+
+Files: libkopete/avdevice/bayer.cpp
+       libkopete/avdevice/bayer.h
+Copyright: 2004, Takafumi Mizuno <taka-qce@ls-a.jp>
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+Files: plugins/otr/*
+Copyright: 2007, Michael Zanetti <michael_zanetti@gmx.net>
+License: GPL-2+ or GPL-3+ with KDE e.V. exception
+
+Files: plugins/privacy/privacymessagehandler.cpp
+       plugins/privacy/privacymessagehandler.h
+Copyright: 2006, Andre Duffeck <duffeck@kde.org>
+           2002-2006, the Kopete developers <kopete-devel@kde.org>
+License: LGPL-2+
+
+Files: protocols/bonjour/bonjourprotocol.cpp
+       protocols/bonjour/bonjourprotocol.cpp
+Copyright: 2003, Will Stephenson <will@stevello.free-online.co.u>
+           2002-2003, the Kopete developers <kopete-devel@kde.org>
+License: LGPL-2+
+
+Files: protocols/groupwise/libgroupwise/*
+Copyright: 2003, Justin Karneges <justin@affinix.com>
+           2004-2008, Novell, Inc http://www.opensuse.org
+           2004-2005, SUSE Linux AG http://www.suse.com
+           2003, Will Stephenson <will@stevello.free-online.co.uk>
+           2002-2007, the Kopete developers <kopete-devel@kde.org>
+License: LGPL-2+
+
+Files: protocols/groupwise/gwconnector.cpp
+       protocols/groupwise/gwconnector.h
+       protocols/groupwise/libgroupwise/bytestream.cpp
+       protocols/groupwise/libgroupwise/bytestream.h
+Copyright: 2003, Justin Karneges <justin@affinix.com>
+           2004-2007, Kopete developers <kopete-devel@kde.org>
+           2004, Till Gerken <till@tantalo.net>
+License: LGPL-2.1+
+
+Files: protocols/irc/libkirc/kernel/*
+Copyright: 2007-2008, Michel Hermier <michel.hermier@gmail.com>
+           2007-2008, the Kopete developers <kopete-devel@kde.org>
+License: LGPL-2+
+
+Files: protocols/irc/ksparser.cpp
+Copyright: 2001, Malte Starostik <malte@kde.org>
+License: LGPL-2
+
+Files: protocols/jabber/libiris/*
+Copyright: 2008-2010, Barracuda Networks, Inc
+           2009-2010, Dennis Schridde
+           2013, Il'inykh Sergey (rion)
+           2001-2008, Justin Karneges
+           2003, Justin Karneges
+           2006, Maciek Niedzielski
+           2003-2007, Michail Pishchagin
+           2000, Red Hat, Inc
+           2003-2008, Remko Troncon
+           2003, Rion
+           2002-2003, Simon Josefsson
+           2003, The Internet Society
+           2010, Tobias Markmann
+           1999,2000, Tom Tromey
+License: LGPL-2.1
+
+Files: protocols/jabber/libiris/src/jdns/*
+Copyright: 2005, Jeremie Miller
+           2005,2006,2008, Justin Karneges
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Files: protocols/jabber/libiris/src/xmpp/xmpp-im/xmpp_bitsofbinary.cpp
+       protocols/jabber/libiris/src/xmpp/xmpp-im/xmpp_bitsofbinary.h
+Copyright: 2010, Rion
+License: GPL-2+
+
+Files: protocols/jabber/googletalk/libjingle/*
+Copyright: 2003-2012, Google Inc.
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ * Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+ * The name of the author may not be used to endorse or promote products
+   derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+ GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY
+ WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+Files: protocols/jabber/googletalk/libjingle/talk/base/md5.h
+       protocols/jabber/googletalk/libjingle/talk/base/md5c.c
+Copyright: No copyright claimed
+License: public-domain
+ This code implements the MD5 message-digest algorithm.
+ The algorithm is due to Ron Rivest.  This code was
+ written by Colin Plumb in 1993, no copyright is claimed.
+ This code is in the public domain; do with it what you wish.
+ .
+ Equivalent code is available from RSA Data Security, Inc.
+ This code has been tested against that, and is equivalent,
+ except that you don't need to include two pages of legalese
+ with every copy.
+
+Files: protocols/jabber/googletalk/libjingle/talk/base/sha1.h
+       protocols/jabber/googletalk/libjingle/talk/base/sha1.c
+Copyright: No copyright claimed
+License: public-domain
+ SHA-1 in C
+ By Steve Reid <sreid@sea-to-sky.net>
+ 100% Public Domain
+ .
+ -----------------
+ Modified 7/98
+ By James H. Brown <jbrown@burgoyne.com>
+ Still 100% Public Domain
+
+Files: protocols/jabber/googletalk/libjingle/talk/base/sigslot.h
+Copyright: No copyright claimed
+License: public-domain
+ Written by Sarah Thompson (sarah@telergy.com) 2002.
+ .
+ License: Public domain. You are free to use this code however you like, with
+ the proviso that the author takes on no responsibility or liability for any
+ use.
+
+Files: protocols/jabber/googletalk/libjingle/talk/base/base64.h
+       protocols/jabber/googletalk/libjingle/talk/base/base64.cc
+Copyright: 1999, Bob Withers <bwit@pobox.com>
+License: Other permissive
+ This code may be freely used for any purpose, either personal
+ or commercial, provided the authors copyright notice remains
+ intact.
+
+Files: protocols/jabber/googletalk/libjingle/talk/base/scoped_ptr.h
+Copyright: 1998-1999, Greg Colvin
+           1998-1999, Beman Dawes
+           2001-2002, Peter Dimov
+License: Other permissive
+ Permission to copy, use, modify, sell and distribute this software
+ is granted provided this copyright notice appears in all copies.
+ This software is provided "as is" without express or implied
+ warranty, and with no claim as to its suitability for any purpose.
+
+Files: protocols/jabber/googletalk/libjingle/talk/third_party/libudev/libudev.h
+Copyright: 2008-2010, Kay Sievers <kay.sievers@vrfy.org>
+License: LGPL-2.1+
+
+Files: 
+protocols/oscar/icq/ui/icqauthreplydialog.cpp
+protocols/oscar/icq/ui/icqauthreplydialog.h
+protocols/oscar/icq/ui/icqchangepassworddialog.cpp
+protocols/oscar/icq/ui/icqchangepassworddialog.h
+protocols/oscar/icq/ui/icqsearchdialog.cpp
+protocols/oscar/icq/ui/icqsearchdialog.h
+protocols/oscar/icq/ui/icquserinfowidget.cpp
+protocols/oscar/icq/ui/icquserinfowidget.h
+protocols/oscar/icq/ui/infocombobox.cpp
+protocols/oscar/icq/ui/infocombobox.h
+protocols/oscar/liboscar/chatroomhandler.cpp
+protocols/oscar/liboscar/chatroomhandler.h
+protocols/oscar/liboscar/client.cpp
+protocols/oscar/liboscar/client.h
+protocols/oscar/liboscar/connection.cpp
+protocols/oscar/liboscar/connection.h
+protocols/oscar/liboscar/connectionhandler.cpp
+protocols/oscar/liboscar/connectionhandler.h
+protocols/oscar/liboscar/contact.cpp
+protocols/oscar/liboscar/contact.h
+protocols/oscar/liboscar/contactmanager.cpp
+protocols/oscar/liboscar/contactmanager.h
+protocols/oscar/liboscar/coreprotocol.cpp
+protocols/oscar/liboscar/coreprotocol.h
+protocols/oscar/liboscar/flapprotocol.cpp
+protocols/oscar/liboscar/flapprotocol.h
+protocols/oscar/liboscar/icqinfovalue.h
+protocols/oscar/liboscar/icquserinfo.cpp
+protocols/oscar/liboscar/icquserinfo.h
+protocols/oscar/liboscar/inputprotocolbase.cpp
+protocols/oscar/liboscar/inputprotocolbase.h
+protocols/oscar/liboscar/oftprotocol.cpp
+protocols/oscar/liboscar/oftprotocol.h
+protocols/oscar/liboscar/ofttransfer.cpp
+protocols/oscar/liboscar/ofttransfer.h
+protocols/oscar/liboscar/oscarclientstream.cpp
+protocols/oscar/liboscar/oscarclientstream.h
+protocols/oscar/liboscar/oscarguid.cpp
+protocols/oscar/liboscar/oscarguid.h
+protocols/oscar/liboscar/oscarmessage.cpp
+protocols/oscar/liboscar/oscarmessage.h
+protocols/oscar/liboscar/oscarmessageplugin.cpp
+protocols/oscar/liboscar/oscarmessageplugin.h
+protocols/oscar/liboscar/oscarsettings.cpp
+protocols/oscar/liboscar/oscarsettings.h
+protocols/oscar/liboscar/oscartypeclasses.cpp
+protocols/oscar/liboscar/oscartypeclasses.h
+protocols/oscar/liboscar/oscartypes.h
+protocols/oscar/liboscar/oscarutils.cpp
+protocols/oscar/liboscar/oscarutils.h
+protocols/oscar/liboscar/rateclassmanager.cpp
+protocols/oscar/liboscar/rateclassmanager.h
+protocols/oscar/liboscar/safedelete.cpp
+protocols/oscar/liboscar/safedelete.h
+protocols/oscar/liboscar/snacprotocol.cpp
+protocols/oscar/liboscar/snacprotocol.h
+protocols/oscar/liboscar/stream.cpp
+protocols/oscar/liboscar/stream.h
+protocols/oscar/liboscar/tasks/blmlimitstask.cpp
+protocols/oscar/liboscar/tasks/blmlimitstask.h
+protocols/oscar/liboscar/tasks/chatnavservicetask.cpp
+protocols/oscar/liboscar/tasks/chatnavservicetask.h
+protocols/oscar/liboscar/tasks/chatroomtask.cpp
+protocols/oscar/liboscar/tasks/chatroomtask.h
+protocols/oscar/liboscar/tasks/clientreadytask.cpp
+protocols/oscar/liboscar/tasks/clientreadytask.h
+protocols/oscar/liboscar/tasks/closeconnectiontask.cpp
+protocols/oscar/liboscar/tasks/closeconnectiontask.h
+protocols/oscar/liboscar/tasks/errortask.cpp
+protocols/oscar/liboscar/tasks/errortask.h
+protocols/oscar/liboscar/tasks/filetransfertask.cpp
+protocols/oscar/liboscar/tasks/filetransfertask.h
+protocols/oscar/liboscar/tasks/icbmparamstask.cpp
+protocols/oscar/liboscar/tasks/icbmparamstask.h
+protocols/oscar/liboscar/tasks/icqchangepasswordtask.cpp
+protocols/oscar/liboscar/tasks/icqchangepasswordtask.h
+protocols/oscar/liboscar/tasks/icqtask.cpp
+protocols/oscar/liboscar/tasks/icqtask.h
+protocols/oscar/liboscar/tasks/icqtlvinforequesttask.cpp
+protocols/oscar/liboscar/tasks/icqtlvinforequesttask.h
+protocols/oscar/liboscar/tasks/icqtlvinfoupdatetask.cpp
+protocols/oscar/liboscar/tasks/icqtlvinfoupdatetask.h
+protocols/oscar/liboscar/tasks/icquserinfotask.cpp
+protocols/oscar/liboscar/tasks/icquserinfotask.h
+protocols/oscar/liboscar/tasks/icquserinfoupdatetask.cpp
+protocols/oscar/liboscar/tasks/icquserinfoupdatetask.h
+protocols/oscar/liboscar/tasks/locationrightstask.cpp
+protocols/oscar/liboscar/tasks/locationrightstask.h
+protocols/oscar/liboscar/tasks/logintask.cpp
+protocols/oscar/liboscar/tasks/logintask.h
+protocols/oscar/liboscar/tasks/offlinemessagestask.cpp
+protocols/oscar/liboscar/tasks/offlinemessagestask.h
+protocols/oscar/liboscar/tasks/onlinenotifiertask.cpp
+protocols/oscar/liboscar/tasks/onlinenotifiertask.h
+protocols/oscar/liboscar/tasks/oscarlogintask.cpp
+protocols/oscar/liboscar/tasks/oscarlogintask.h
+protocols/oscar/liboscar/tasks/ownuserinfotask.cpp
+protocols/oscar/liboscar/tasks/ownuserinfotask.h
+protocols/oscar/liboscar/tasks/prmparamstask.cpp
+protocols/oscar/liboscar/tasks/prmparamstask.h
+protocols/oscar/liboscar/tasks/profiletask.cpp
+protocols/oscar/liboscar/tasks/profiletask.h
+protocols/oscar/liboscar/tasks/rateinfotask.cpp
+protocols/oscar/liboscar/tasks/rateinfotask.h
+protocols/oscar/liboscar/tasks/senddcinfotask.cpp
+protocols/oscar/liboscar/tasks/senddcinfotask.h
+protocols/oscar/liboscar/tasks/sendidletimetask.cpp
+protocols/oscar/liboscar/tasks/sendidletimetask.h
+protocols/oscar/liboscar/tasks/serverversionstask.cpp
+protocols/oscar/liboscar/tasks/serverversionstask.h
+protocols/oscar/liboscar/tasks/servicesetuptask.cpp
+protocols/oscar/liboscar/tasks/servicesetuptask.h
+protocols/oscar/liboscar/tasks/ssiactivatetask.cpp
+protocols/oscar/liboscar/tasks/ssiactivatetask.h
+protocols/oscar/liboscar/tasks/ssiauthtask.cpp
+protocols/oscar/liboscar/tasks/ssiauthtask.h
+protocols/oscar/liboscar/tasks/ssilisttask.cpp
+protocols/oscar/liboscar/tasks/ssilisttask.h
+protocols/oscar/liboscar/tasks/ssimodifytask.cpp
+protocols/oscar/liboscar/tasks/ssimodifytask.h
+protocols/oscar/liboscar/tasks/ssiparamstask.cpp
+protocols/oscar/liboscar/tasks/ssiparamstask.h
+protocols/oscar/liboscar/tasks/task.cpp
+protocols/oscar/liboscar/tasks/task.h
+protocols/oscar/liboscar/tasks/userinfotask.cpp
+protocols/oscar/liboscar/tasks/userinfotask.h
+protocols/oscar/liboscar/tasks/usersearchtask.cpp
+protocols/oscar/liboscar/tasks/usersearchtask.h
+protocols/oscar/liboscar/tasks/warningtask.cpp
+protocols/oscar/liboscar/tasks/warningtask.h
+protocols/oscar/liboscar/tests/aimlogintasktest.cpp
+protocols/oscar/liboscar/tests/aimlogintasktest.h
+protocols/oscar/liboscar/tests/connectiontest.cpp
+protocols/oscar/liboscar/tests/connectiontest.h
+protocols/oscar/liboscar/tests/filetransfertest.cpp
+protocols/oscar/liboscar/tests/filetransfertest.h
+protocols/oscar/liboscar/tests/oscartestbase.cpp
+protocols/oscar/liboscar/tests/oscartestbase.h
+protocols/oscar/liboscar/tests/rateinfotest.cpp
+protocols/oscar/liboscar/tests/rateinfotest.h
+protocols/oscar/liboscar/tests/serverversionstest.cpp
+protocols/oscar/liboscar/tests/serverversionstest.h
+protocols/oscar/liboscar/transfer.cpp
+protocols/oscar/liboscar/transfer.h
+protocols/oscar/liboscar/userdetails.cpp
+protocols/oscar/liboscar/userdetails.h
+protocols/oscar/liboscar/xtrazxawayservice.cpp
+protocols/oscar/liboscar/xtrazxawayservice.h
+protocols/oscar/liboscar/xtrazxrandomizerservice.cpp
+protocols/oscar/liboscar/xtrazxrandomizerservice.h
+protocols/oscar/liboscar/xtrazxservice.cpp
+protocols/oscar/liboscar/xtrazxservice.h
+protocols/oscar/liboscar/xtrazxtraznotify.cpp
+protocols/oscar/liboscar/xtrazxtraznotify.h
+Copyright: 2009, Benson Tsai <btsai@vrwarp.com>
+           2006, Brian Smith <linuxfood@linuxfood.net>
+           2006, Chani Armitage <chanika@gmail.com>
+           2005, Conrad Hoffmann <conrausch@gmx.de>
+           2004-2005, Gustavo Pichorim Boiko <gustavo.boiko@kdemail.net>
+           2003, Justin Karneges <justin@affinix.com>
+           2004-2006, Matt Rogers <mattr@kde.org>
+           2004, Novell, Inc.
+           2006-2008, Roman Jarosz <kedgedev@centrum.cz>
+           2004, SuSE Linux AG http://www.suse.com
+           2002-2008, the Kopete developers <kopete-devel@kde.org>
+License: LGPL-2+
+
+Files: protocols/oscar/liboscar/tests/main.cpp
+Copyright: 2004, Zack Rusin <zack@kde.org>
+License: BSD-2-clause
+
+Files: protocols/oscar/aim/aimjoinchat.cpp
+       protocols/oscar/aim/aimjoinchat.h
+       protocols/oscar/liboscar/oftmetatransfer.cpp
+       protocols/oscar/liboscar/oftmetatransfer.h
+       protocols/oscar/liboscar/oscardebug.h
+       protocols/oscar/liboscar/tasks/buddyicontask.cpp
+       protocols/oscar/liboscar/tasks/buddyicontask.h
+       protocols/oscar/liboscar/tasks/chatservicetask.cpp
+       protocols/oscar/liboscar/tasks/chatservicetask.h
+       protocols/oscar/liboscar/tasks/serverredirecttask.cpp
+       protocols/oscar/liboscar/tasks/serverredirecttask.h
+Copyright: 2005, Matt Rogers <mattr@kde.org>
+License: LGPL-2.1+
+
+Files: protocols/qq/qqcontact.cpp
+       protocols/qq/qqprotocol.cpp
+Copyright: 2002, Duncan Mac-Vicar Prett <duncan@kde.org>
+           2002-2003, Martijn Klingens <klingens@kde.org>
+           2005, Michaël Larouche <larouche@kde.org>
+           2002-2005, Olivier Goffart <ogoffart at kde.org>
+           2002, Ryan Cumming <bodnar42@phalynx.dhs.org>
+           2003, Will Stephenson <will@stevello.free-online.co.u>
+           2002-2005, the Kopete developers <kopete-devel@kde.org>
+License: LGPL-2+
+
+Files: protocols/qq/md5.c
+       protocols/qq/md5.h
+Copyright: 1999, Aladdin Enterprises. All rights reserved
+License: Zlib
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the authors be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+    claim that you wrote the original software. If you use this software
+    in a product, an acknowledgment in the product documentation would be
+    appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+    misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+
+Files: protocols/skype/libskype/skype.cpp
+       protocols/skype/libskype/skype.h
+       protocols/skype/libskype/skypedbus/skypeconnection.cpp
+       protocols/skype/libskype/skypedbus/skypeconnection.h
+       protocols/skype/skypeaccount.cpp
+       protocols/skype/skypeaccount.h
+       protocols/skype/skypeaddcontact.cpp
+       protocols/skype/skypeaddcontact.h
+       protocols/skype/skypecalldialog.cpp
+       protocols/skype/skypecalldialog.h
+       protocols/skype/skypechatsession.cpp
+       protocols/skype/skypechatsession.h
+       protocols/skype/skypeconference.cpp
+       protocols/skype/skypeconference.h
+       protocols/skype/skypecontact.cpp
+       protocols/skype/skypecontact.h
+       protocols/skype/skypedetails.cpp
+       protocols/skype/skypedetails.h
+       protocols/skype/skypeeditaccount.cpp
+       protocols/skype/skypeeditaccount.h
+       protocols/skype/skypeprotocol.cpp
+       protocols/skype/skypeprotocol.h
+Copyright: 2005, Kopete Developers <kopete-devel@kde.org>
+           2005, Michal Vaner <michal.vaner@kdemail.net>
+           2008-2009, Pali Rohár <pali.rohar@gmail.com>
+License: LGPL-2+
+
+Files: protocols/testbed/testbedprotocol.cpp
+Copyright: 2003, Will Stephenson <will@stevello.free-online.co.u>
+           2002-2003, the Kopete developers <kopete-devel@kde.org>
+License: LGPL-2+
+
+Files: protocols/wlm/wlmprotocol.cpp
+Copyright: 2008, Tiago Salem Herrmann <tiagosh@gmail.com>
+           2002-2003, the Kopete developers <kopete-devel@kde.org>
+License: LGPL-2+
+
+Files: protocols/yahoo/libkyahoo/alivetask.cpp
+       protocols/yahoo/libkyahoo/alivetask.h
+       protocols/yahoo/libkyahoo/changestatustask.cpp
+       protocols/yahoo/libkyahoo/changestatustask.h
+       protocols/yahoo/libkyahoo/chatsessiontask.cpp
+       protocols/yahoo/libkyahoo/chatsessiontask.h
+       protocols/yahoo/libkyahoo/client.cpp
+       protocols/yahoo/libkyahoo/client.h
+       protocols/yahoo/libkyahoo/conferencetask.cpp
+       protocols/yahoo/libkyahoo/conferencetask.h
+       protocols/yahoo/libkyahoo/connector.cpp
+       protocols/yahoo/libkyahoo/connector.h
+       protocols/yahoo/libkyahoo/coreprotocol.cpp
+       protocols/yahoo/libkyahoo/coreprotocol.h
+       protocols/yahoo/libkyahoo/filetransfernotifiertask.cpp
+       protocols/yahoo/libkyahoo/filetransfernotifiertask.h
+       protocols/yahoo/libkyahoo/inputprotocolbase.cpp
+       protocols/yahoo/libkyahoo/inputprotocolbase.h
+       protocols/yahoo/libkyahoo/listtask.cpp
+       protocols/yahoo/libkyahoo/listtask.h
+       protocols/yahoo/libkyahoo/logintask.cpp
+       protocols/yahoo/libkyahoo/logintask.h
+       protocols/yahoo/libkyahoo/logofftask.cpp
+       protocols/yahoo/libkyahoo/logofftask.h
+       protocols/yahoo/libkyahoo/mailnotifiertask.cpp
+       protocols/yahoo/libkyahoo/mailnotifiertask.h
+       protocols/yahoo/libkyahoo/messagereceivertask.cpp
+       protocols/yahoo/libkyahoo/messagereceivertask.h
+       protocols/yahoo/libkyahoo/modifybuddytask.cpp
+       protocols/yahoo/libkyahoo/modifybuddytask.h
+       protocols/yahoo/libkyahoo/modifyyabtask.cpp
+       protocols/yahoo/libkyahoo/modifyyabtask.h
+       protocols/yahoo/libkyahoo/oscartypes.h
+       protocols/yahoo/libkyahoo/picturenotifiertask.cpp
+       protocols/yahoo/libkyahoo/picturenotifiertask.h
+       protocols/yahoo/libkyahoo/pingtask.cpp
+       protocols/yahoo/libkyahoo/pingtask.h
+       protocols/yahoo/libkyahoo/receivefiletask.cpp
+       protocols/yahoo/libkyahoo/receivefiletask.h
+       protocols/yahoo/libkyahoo/requestpicturetask.cpp
+       protocols/yahoo/libkyahoo/requestpicturetask.h
+       protocols/yahoo/libkyahoo/safedelete.cpp
+       protocols/yahoo/libkyahoo/safedelete.h
+       protocols/yahoo/libkyahoo/sendauthresptask.cpp
+       protocols/yahoo/libkyahoo/sendauthresptask.h
+       protocols/yahoo/libkyahoo/sendfiletask.cpp
+       protocols/yahoo/libkyahoo/sendfiletask.h
+       protocols/yahoo/libkyahoo/sendmessagetask.cpp
+       protocols/yahoo/libkyahoo/sendmessagetask.h
+       protocols/yahoo/libkyahoo/sendnotifytask.cpp
+       protocols/yahoo/libkyahoo/sendnotifytask.h
+       protocols/yahoo/libkyahoo/sendpicturetask.cpp
+       protocols/yahoo/libkyahoo/sendpicturetask.h
+       protocols/yahoo/libkyahoo/statusnotifiertask.cpp
+       protocols/yahoo/libkyahoo/statusnotifiertask.h
+       protocols/yahoo/libkyahoo/stealthtask.cpp
+       protocols/yahoo/libkyahoo/stealthtask.h
+       protocols/yahoo/libkyahoo/stream.cpp
+       protocols/yahoo/libkyahoo/stream.h
+       protocols/yahoo/libkyahoo/task.cpp
+       protocols/yahoo/libkyahoo/task.h
+       protocols/yahoo/libkyahoo/tests/logintest.cpp
+       protocols/yahoo/libkyahoo/tests/logintest.h
+       protocols/yahoo/libkyahoo/transfer.cpp
+       protocols/yahoo/libkyahoo/transfer.h
+       protocols/yahoo/libkyahoo/webcamimgformat.cpp
+       protocols/yahoo/libkyahoo/webcamimgformat.h
+       protocols/yahoo/libkyahoo/webcamtask.cpp
+       protocols/yahoo/libkyahoo/webcamtask.h
+       protocols/yahoo/libkyahoo/yabentry.cpp
+       protocols/yahoo/libkyahoo/yabentry.h
+       protocols/yahoo/libkyahoo/yabtask.cpp
+       protocols/yahoo/libkyahoo/yabtask.h
+       protocols/yahoo/libkyahoo/yahoochattask.cpp
+       protocols/yahoo/libkyahoo/yahoochattask.h
+       protocols/yahoo/libkyahoo/yahooclientstream.cpp
+       protocols/yahoo/libkyahoo/yahooclientstream.h
+       protocols/yahoo/libkyahoo/yahootypes.h
+       protocols/yahoo/libkyahoo/ymsgprotocol.cpp
+       protocols/yahoo/libkyahoo/ymsgprotocol.h
+       protocols/yahoo/libkyahoo/ymsgtransfer.cpp
+       protocols/yahoo/libkyahoo/ymsgtransfer.h
+       protocols/yahoo/ui/yahoouserinfodialog.cpp
+       protocols/yahoo/ui/yahoouserinfodialog.h
+Copyright: 2005,2006, Andre Duffeck <duffeck@kde.org>
+           2011, Cristi Posoiu <cristi.posoiu@gmail.com>
+           2004, Duncan Mac-Vicar Prett <duncan@kde.org>
+           2003, Justin Karneges <justin@affinix.com>
+           2004-2009, Matt Rogers <mattr@kde.org>
+           2004, SUSE Linux AG http://www.suse.com
+           2002-2009, the Kopete developers <kopete-devel@kde.org>
+License: LGPL-2+
+
+Files: protocols/yahoo/libkyahoo/md5.c
+       protocols/yahoo/libkyahoo/md5.h
+Copyright: 1999, Aladdin Enterprises. All rights reserved
+License: Zlib
+ This software is provided 'as-is', without any express or implied
+ warranty.  In no event will the authors be held liable for any damages
+ arising from the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not
+    claim that you wrote the original software. If you use this software
+    in a product, an acknowledgment in the product documentation would be
+    appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+    misrepresented as being the original software.
+ 3. This notice may not be removed or altered from any source distribution.
+
+Files: protocols/yahoo/libkyahoo/sha1.c
+       protocols/yahoo/libkyahoo/sha1.h
+Copyright: 2001-2003, Allan Saddi <allan@saddi.com>
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY ALLAN SADDI AND HIS CONTRIBUTORS ``AS IS''
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL ALLAN SADDI OR HIS CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+Files: protocols/yahoo/libkyahoo/bytestream.cpp
+       protocols/yahoo/libkyahoo/bytestream.h
+       protocols/yahoo/libkyahoo/crypt.c
+       protocols/yahoo/libkyahoo/yahooconnector.cpp
+       protocols/yahoo/libkyahoo/yahooconnector.h
+Copyright: 1996-2000, Free Software Foundation, Inc
+           2003, Justin Karneges <justin@affinix.com>
+           2004, Kopete developers <kopete-devel@kde.org>
+           2004, Matt Rogers <matt.rogers@kdemail.net>
+           2004, Till Gerken <till@tantalo.net>
+License: LGPL-2.1+
+
+Files: debian/*
+Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+License: GPL-2+
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General Public
+ License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: LGPL-2
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License version 2 as
+ published by the Free Software Foundation
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this program; if not, write to the
+ Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation; either version 2 of the
+ License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this program; if not, write to the
+ Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1".
+
+License: GPL-2+ or GPL-3+ with KDE e.V. exception
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 2 of
+ the License or (at your option) version 3 or any later version
+ accepted by the membership of KDE e.V. (or its successor approved
+ by the membership of KDE e.V.), which shall act as a proxy
+ defined in Section 14 of version 3 of the license.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ versions 2 and 3 can be found in `/usr/share/common-licenses/GPL-2' and
+ `/usr/share/common-licenses/GPL-3'.
+
