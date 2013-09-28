@@ -1,5 +1,6 @@
 kopete (4:4.11.1-0r0) UNRELEASED; urgency=low
 
   * First release of kdenetwork after being split by upstream.
+  * Syntax error in debian/copyright.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 07 Sep 2013 14:47:06 +0200

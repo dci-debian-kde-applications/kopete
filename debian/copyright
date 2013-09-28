@@ -570,161 +570,160 @@ Files: protocols/jabber/googletalk/libjingle/talk/third_party/libudev/libudev.h
 Copyright: 2008-2010, Kay Sievers <kay.sievers@vrfy.org>
 License: LGPL-2.1+
 
-Files: 
-protocols/oscar/icq/ui/icqauthreplydialog.cpp
-protocols/oscar/icq/ui/icqauthreplydialog.h
-protocols/oscar/icq/ui/icqchangepassworddialog.cpp
-protocols/oscar/icq/ui/icqchangepassworddialog.h
-protocols/oscar/icq/ui/icqsearchdialog.cpp
-protocols/oscar/icq/ui/icqsearchdialog.h
-protocols/oscar/icq/ui/icquserinfowidget.cpp
-protocols/oscar/icq/ui/icquserinfowidget.h
-protocols/oscar/icq/ui/infocombobox.cpp
-protocols/oscar/icq/ui/infocombobox.h
-protocols/oscar/liboscar/chatroomhandler.cpp
-protocols/oscar/liboscar/chatroomhandler.h
-protocols/oscar/liboscar/client.cpp
-protocols/oscar/liboscar/client.h
-protocols/oscar/liboscar/connection.cpp
-protocols/oscar/liboscar/connection.h
-protocols/oscar/liboscar/connectionhandler.cpp
-protocols/oscar/liboscar/connectionhandler.h
-protocols/oscar/liboscar/contact.cpp
-protocols/oscar/liboscar/contact.h
-protocols/oscar/liboscar/contactmanager.cpp
-protocols/oscar/liboscar/contactmanager.h
-protocols/oscar/liboscar/coreprotocol.cpp
-protocols/oscar/liboscar/coreprotocol.h
-protocols/oscar/liboscar/flapprotocol.cpp
-protocols/oscar/liboscar/flapprotocol.h
-protocols/oscar/liboscar/icqinfovalue.h
-protocols/oscar/liboscar/icquserinfo.cpp
-protocols/oscar/liboscar/icquserinfo.h
-protocols/oscar/liboscar/inputprotocolbase.cpp
-protocols/oscar/liboscar/inputprotocolbase.h
-protocols/oscar/liboscar/oftprotocol.cpp
-protocols/oscar/liboscar/oftprotocol.h
-protocols/oscar/liboscar/ofttransfer.cpp
-protocols/oscar/liboscar/ofttransfer.h
-protocols/oscar/liboscar/oscarclientstream.cpp
-protocols/oscar/liboscar/oscarclientstream.h
-protocols/oscar/liboscar/oscarguid.cpp
-protocols/oscar/liboscar/oscarguid.h
-protocols/oscar/liboscar/oscarmessage.cpp
-protocols/oscar/liboscar/oscarmessage.h
-protocols/oscar/liboscar/oscarmessageplugin.cpp
-protocols/oscar/liboscar/oscarmessageplugin.h
-protocols/oscar/liboscar/oscarsettings.cpp
-protocols/oscar/liboscar/oscarsettings.h
-protocols/oscar/liboscar/oscartypeclasses.cpp
-protocols/oscar/liboscar/oscartypeclasses.h
-protocols/oscar/liboscar/oscartypes.h
-protocols/oscar/liboscar/oscarutils.cpp
-protocols/oscar/liboscar/oscarutils.h
-protocols/oscar/liboscar/rateclassmanager.cpp
-protocols/oscar/liboscar/rateclassmanager.h
-protocols/oscar/liboscar/safedelete.cpp
-protocols/oscar/liboscar/safedelete.h
-protocols/oscar/liboscar/snacprotocol.cpp
-protocols/oscar/liboscar/snacprotocol.h
-protocols/oscar/liboscar/stream.cpp
-protocols/oscar/liboscar/stream.h
-protocols/oscar/liboscar/tasks/blmlimitstask.cpp
-protocols/oscar/liboscar/tasks/blmlimitstask.h
-protocols/oscar/liboscar/tasks/chatnavservicetask.cpp
-protocols/oscar/liboscar/tasks/chatnavservicetask.h
-protocols/oscar/liboscar/tasks/chatroomtask.cpp
-protocols/oscar/liboscar/tasks/chatroomtask.h
-protocols/oscar/liboscar/tasks/clientreadytask.cpp
-protocols/oscar/liboscar/tasks/clientreadytask.h
-protocols/oscar/liboscar/tasks/closeconnectiontask.cpp
-protocols/oscar/liboscar/tasks/closeconnectiontask.h
-protocols/oscar/liboscar/tasks/errortask.cpp
-protocols/oscar/liboscar/tasks/errortask.h
-protocols/oscar/liboscar/tasks/filetransfertask.cpp
-protocols/oscar/liboscar/tasks/filetransfertask.h
-protocols/oscar/liboscar/tasks/icbmparamstask.cpp
-protocols/oscar/liboscar/tasks/icbmparamstask.h
-protocols/oscar/liboscar/tasks/icqchangepasswordtask.cpp
-protocols/oscar/liboscar/tasks/icqchangepasswordtask.h
-protocols/oscar/liboscar/tasks/icqtask.cpp
-protocols/oscar/liboscar/tasks/icqtask.h
-protocols/oscar/liboscar/tasks/icqtlvinforequesttask.cpp
-protocols/oscar/liboscar/tasks/icqtlvinforequesttask.h
-protocols/oscar/liboscar/tasks/icqtlvinfoupdatetask.cpp
-protocols/oscar/liboscar/tasks/icqtlvinfoupdatetask.h
-protocols/oscar/liboscar/tasks/icquserinfotask.cpp
-protocols/oscar/liboscar/tasks/icquserinfotask.h
-protocols/oscar/liboscar/tasks/icquserinfoupdatetask.cpp
-protocols/oscar/liboscar/tasks/icquserinfoupdatetask.h
-protocols/oscar/liboscar/tasks/locationrightstask.cpp
-protocols/oscar/liboscar/tasks/locationrightstask.h
-protocols/oscar/liboscar/tasks/logintask.cpp
-protocols/oscar/liboscar/tasks/logintask.h
-protocols/oscar/liboscar/tasks/offlinemessagestask.cpp
-protocols/oscar/liboscar/tasks/offlinemessagestask.h
-protocols/oscar/liboscar/tasks/onlinenotifiertask.cpp
-protocols/oscar/liboscar/tasks/onlinenotifiertask.h
-protocols/oscar/liboscar/tasks/oscarlogintask.cpp
-protocols/oscar/liboscar/tasks/oscarlogintask.h
-protocols/oscar/liboscar/tasks/ownuserinfotask.cpp
-protocols/oscar/liboscar/tasks/ownuserinfotask.h
-protocols/oscar/liboscar/tasks/prmparamstask.cpp
-protocols/oscar/liboscar/tasks/prmparamstask.h
-protocols/oscar/liboscar/tasks/profiletask.cpp
-protocols/oscar/liboscar/tasks/profiletask.h
-protocols/oscar/liboscar/tasks/rateinfotask.cpp
-protocols/oscar/liboscar/tasks/rateinfotask.h
-protocols/oscar/liboscar/tasks/senddcinfotask.cpp
-protocols/oscar/liboscar/tasks/senddcinfotask.h
-protocols/oscar/liboscar/tasks/sendidletimetask.cpp
-protocols/oscar/liboscar/tasks/sendidletimetask.h
-protocols/oscar/liboscar/tasks/serverversionstask.cpp
-protocols/oscar/liboscar/tasks/serverversionstask.h
-protocols/oscar/liboscar/tasks/servicesetuptask.cpp
-protocols/oscar/liboscar/tasks/servicesetuptask.h
-protocols/oscar/liboscar/tasks/ssiactivatetask.cpp
-protocols/oscar/liboscar/tasks/ssiactivatetask.h
-protocols/oscar/liboscar/tasks/ssiauthtask.cpp
-protocols/oscar/liboscar/tasks/ssiauthtask.h
-protocols/oscar/liboscar/tasks/ssilisttask.cpp
-protocols/oscar/liboscar/tasks/ssilisttask.h
-protocols/oscar/liboscar/tasks/ssimodifytask.cpp
-protocols/oscar/liboscar/tasks/ssimodifytask.h
-protocols/oscar/liboscar/tasks/ssiparamstask.cpp
-protocols/oscar/liboscar/tasks/ssiparamstask.h
-protocols/oscar/liboscar/tasks/task.cpp
-protocols/oscar/liboscar/tasks/task.h
-protocols/oscar/liboscar/tasks/userinfotask.cpp
-protocols/oscar/liboscar/tasks/userinfotask.h
-protocols/oscar/liboscar/tasks/usersearchtask.cpp
-protocols/oscar/liboscar/tasks/usersearchtask.h
-protocols/oscar/liboscar/tasks/warningtask.cpp
-protocols/oscar/liboscar/tasks/warningtask.h
-protocols/oscar/liboscar/tests/aimlogintasktest.cpp
-protocols/oscar/liboscar/tests/aimlogintasktest.h
-protocols/oscar/liboscar/tests/connectiontest.cpp
-protocols/oscar/liboscar/tests/connectiontest.h
-protocols/oscar/liboscar/tests/filetransfertest.cpp
-protocols/oscar/liboscar/tests/filetransfertest.h
-protocols/oscar/liboscar/tests/oscartestbase.cpp
-protocols/oscar/liboscar/tests/oscartestbase.h
-protocols/oscar/liboscar/tests/rateinfotest.cpp
-protocols/oscar/liboscar/tests/rateinfotest.h
-protocols/oscar/liboscar/tests/serverversionstest.cpp
-protocols/oscar/liboscar/tests/serverversionstest.h
-protocols/oscar/liboscar/transfer.cpp
-protocols/oscar/liboscar/transfer.h
-protocols/oscar/liboscar/userdetails.cpp
-protocols/oscar/liboscar/userdetails.h
-protocols/oscar/liboscar/xtrazxawayservice.cpp
-protocols/oscar/liboscar/xtrazxawayservice.h
-protocols/oscar/liboscar/xtrazxrandomizerservice.cpp
-protocols/oscar/liboscar/xtrazxrandomizerservice.h
-protocols/oscar/liboscar/xtrazxservice.cpp
-protocols/oscar/liboscar/xtrazxservice.h
-protocols/oscar/liboscar/xtrazxtraznotify.cpp
-protocols/oscar/liboscar/xtrazxtraznotify.h
+Files: protocols/oscar/icq/ui/icqauthreplydialog.cpp
+       protocols/oscar/icq/ui/icqauthreplydialog.h
+       protocols/oscar/icq/ui/icqchangepassworddialog.cpp
+       protocols/oscar/icq/ui/icqchangepassworddialog.h
+       protocols/oscar/icq/ui/icqsearchdialog.cpp
+       protocols/oscar/icq/ui/icqsearchdialog.h
+       protocols/oscar/icq/ui/icquserinfowidget.cpp
+       protocols/oscar/icq/ui/icquserinfowidget.h
+       protocols/oscar/icq/ui/infocombobox.cpp
+       protocols/oscar/icq/ui/infocombobox.h
+       protocols/oscar/liboscar/chatroomhandler.cpp
+       protocols/oscar/liboscar/chatroomhandler.h
+       protocols/oscar/liboscar/client.cpp
+       protocols/oscar/liboscar/client.h
+       protocols/oscar/liboscar/connection.cpp
+       protocols/oscar/liboscar/connection.h
+       protocols/oscar/liboscar/connectionhandler.cpp
+       protocols/oscar/liboscar/connectionhandler.h
+       protocols/oscar/liboscar/contact.cpp
+       protocols/oscar/liboscar/contact.h
+       protocols/oscar/liboscar/contactmanager.cpp
+       protocols/oscar/liboscar/contactmanager.h
+       protocols/oscar/liboscar/coreprotocol.cpp
+       protocols/oscar/liboscar/coreprotocol.h
+       protocols/oscar/liboscar/flapprotocol.cpp
+       protocols/oscar/liboscar/flapprotocol.h
+       protocols/oscar/liboscar/icqinfovalue.h
+       protocols/oscar/liboscar/icquserinfo.cpp
+       protocols/oscar/liboscar/icquserinfo.h
+       protocols/oscar/liboscar/inputprotocolbase.cpp
+       protocols/oscar/liboscar/inputprotocolbase.h
+       protocols/oscar/liboscar/oftprotocol.cpp
+       protocols/oscar/liboscar/oftprotocol.h
+       protocols/oscar/liboscar/ofttransfer.cpp
+       protocols/oscar/liboscar/ofttransfer.h
+       protocols/oscar/liboscar/oscarclientstream.cpp
+       protocols/oscar/liboscar/oscarclientstream.h
+       protocols/oscar/liboscar/oscarguid.cpp
+       protocols/oscar/liboscar/oscarguid.h
+       protocols/oscar/liboscar/oscarmessage.cpp
+       protocols/oscar/liboscar/oscarmessage.h
+       protocols/oscar/liboscar/oscarmessageplugin.cpp
+       protocols/oscar/liboscar/oscarmessageplugin.h
+       protocols/oscar/liboscar/oscarsettings.cpp
+       protocols/oscar/liboscar/oscarsettings.h
+       protocols/oscar/liboscar/oscartypeclasses.cpp
+       protocols/oscar/liboscar/oscartypeclasses.h
+       protocols/oscar/liboscar/oscartypes.h
+       protocols/oscar/liboscar/oscarutils.cpp
+       protocols/oscar/liboscar/oscarutils.h
+       protocols/oscar/liboscar/rateclassmanager.cpp
+       protocols/oscar/liboscar/rateclassmanager.h
+       protocols/oscar/liboscar/safedelete.cpp
+       protocols/oscar/liboscar/safedelete.h
+       protocols/oscar/liboscar/snacprotocol.cpp
+       protocols/oscar/liboscar/snacprotocol.h
+       protocols/oscar/liboscar/stream.cpp
+       protocols/oscar/liboscar/stream.h
+       protocols/oscar/liboscar/tasks/blmlimitstask.cpp
+       protocols/oscar/liboscar/tasks/blmlimitstask.h
+       protocols/oscar/liboscar/tasks/chatnavservicetask.cpp
+       protocols/oscar/liboscar/tasks/chatnavservicetask.h
+       protocols/oscar/liboscar/tasks/chatroomtask.cpp
+       protocols/oscar/liboscar/tasks/chatroomtask.h
+       protocols/oscar/liboscar/tasks/clientreadytask.cpp
+       protocols/oscar/liboscar/tasks/clientreadytask.h
+       protocols/oscar/liboscar/tasks/closeconnectiontask.cpp
+       protocols/oscar/liboscar/tasks/closeconnectiontask.h
+       protocols/oscar/liboscar/tasks/errortask.cpp
+       protocols/oscar/liboscar/tasks/errortask.h
+       protocols/oscar/liboscar/tasks/filetransfertask.cpp
+       protocols/oscar/liboscar/tasks/filetransfertask.h
+       protocols/oscar/liboscar/tasks/icbmparamstask.cpp
+       protocols/oscar/liboscar/tasks/icbmparamstask.h
+       protocols/oscar/liboscar/tasks/icqchangepasswordtask.cpp
+       protocols/oscar/liboscar/tasks/icqchangepasswordtask.h
+       protocols/oscar/liboscar/tasks/icqtask.cpp
+       protocols/oscar/liboscar/tasks/icqtask.h
+       protocols/oscar/liboscar/tasks/icqtlvinforequesttask.cpp
+       protocols/oscar/liboscar/tasks/icqtlvinforequesttask.h
+       protocols/oscar/liboscar/tasks/icqtlvinfoupdatetask.cpp
+       protocols/oscar/liboscar/tasks/icqtlvinfoupdatetask.h
+       protocols/oscar/liboscar/tasks/icquserinfotask.cpp
+       protocols/oscar/liboscar/tasks/icquserinfotask.h
+       protocols/oscar/liboscar/tasks/icquserinfoupdatetask.cpp
+       protocols/oscar/liboscar/tasks/icquserinfoupdatetask.h
+       protocols/oscar/liboscar/tasks/locationrightstask.cpp
+       protocols/oscar/liboscar/tasks/locationrightstask.h
+       protocols/oscar/liboscar/tasks/logintask.cpp
+       protocols/oscar/liboscar/tasks/logintask.h
+       protocols/oscar/liboscar/tasks/offlinemessagestask.cpp
+       protocols/oscar/liboscar/tasks/offlinemessagestask.h
+       protocols/oscar/liboscar/tasks/onlinenotifiertask.cpp
+       protocols/oscar/liboscar/tasks/onlinenotifiertask.h
+       protocols/oscar/liboscar/tasks/oscarlogintask.cpp
+       protocols/oscar/liboscar/tasks/oscarlogintask.h
+       protocols/oscar/liboscar/tasks/ownuserinfotask.cpp
+       protocols/oscar/liboscar/tasks/ownuserinfotask.h
+       protocols/oscar/liboscar/tasks/prmparamstask.cpp
+       protocols/oscar/liboscar/tasks/prmparamstask.h
+       protocols/oscar/liboscar/tasks/profiletask.cpp
+       protocols/oscar/liboscar/tasks/profiletask.h
+       protocols/oscar/liboscar/tasks/rateinfotask.cpp
+       protocols/oscar/liboscar/tasks/rateinfotask.h
+       protocols/oscar/liboscar/tasks/senddcinfotask.cpp
+       protocols/oscar/liboscar/tasks/senddcinfotask.h
+       protocols/oscar/liboscar/tasks/sendidletimetask.cpp
+       protocols/oscar/liboscar/tasks/sendidletimetask.h
+       protocols/oscar/liboscar/tasks/serverversionstask.cpp
+       protocols/oscar/liboscar/tasks/serverversionstask.h
+       protocols/oscar/liboscar/tasks/servicesetuptask.cpp
+       protocols/oscar/liboscar/tasks/servicesetuptask.h
+       protocols/oscar/liboscar/tasks/ssiactivatetask.cpp
+       protocols/oscar/liboscar/tasks/ssiactivatetask.h
+       protocols/oscar/liboscar/tasks/ssiauthtask.cpp
+       protocols/oscar/liboscar/tasks/ssiauthtask.h
+       protocols/oscar/liboscar/tasks/ssilisttask.cpp
+       protocols/oscar/liboscar/tasks/ssilisttask.h
+       protocols/oscar/liboscar/tasks/ssimodifytask.cpp
+       protocols/oscar/liboscar/tasks/ssimodifytask.h
+       protocols/oscar/liboscar/tasks/ssiparamstask.cpp
+       protocols/oscar/liboscar/tasks/ssiparamstask.h
+       protocols/oscar/liboscar/tasks/task.cpp
+       protocols/oscar/liboscar/tasks/task.h
+       protocols/oscar/liboscar/tasks/userinfotask.cpp
+       protocols/oscar/liboscar/tasks/userinfotask.h
+       protocols/oscar/liboscar/tasks/usersearchtask.cpp
+       protocols/oscar/liboscar/tasks/usersearchtask.h
+       protocols/oscar/liboscar/tasks/warningtask.cpp
+       protocols/oscar/liboscar/tasks/warningtask.h
+       protocols/oscar/liboscar/tests/aimlogintasktest.cpp
+       protocols/oscar/liboscar/tests/aimlogintasktest.h
+       protocols/oscar/liboscar/tests/connectiontest.cpp
+       protocols/oscar/liboscar/tests/connectiontest.h
+       protocols/oscar/liboscar/tests/filetransfertest.cpp
+       protocols/oscar/liboscar/tests/filetransfertest.h
+       protocols/oscar/liboscar/tests/oscartestbase.cpp
+       protocols/oscar/liboscar/tests/oscartestbase.h
+       protocols/oscar/liboscar/tests/rateinfotest.cpp
+       protocols/oscar/liboscar/tests/rateinfotest.h
+       protocols/oscar/liboscar/tests/serverversionstest.cpp
+       protocols/oscar/liboscar/tests/serverversionstest.h
+       protocols/oscar/liboscar/transfer.cpp
+       protocols/oscar/liboscar/transfer.h
+       protocols/oscar/liboscar/userdetails.cpp
+       protocols/oscar/liboscar/userdetails.h
+       protocols/oscar/liboscar/xtrazxawayservice.cpp
+       protocols/oscar/liboscar/xtrazxawayservice.h
+       protocols/oscar/liboscar/xtrazxrandomizerservice.cpp
+       protocols/oscar/liboscar/xtrazxrandomizerservice.h
+       protocols/oscar/liboscar/xtrazxservice.cpp
+       protocols/oscar/liboscar/xtrazxservice.h
+       protocols/oscar/liboscar/xtrazxtraznotify.cpp
+       protocols/oscar/liboscar/xtrazxtraznotify.h
 Copyright: 2009, Benson Tsai <btsai@vrwarp.com>
            2006, Brian Smith <linuxfood@linuxfood.net>
            2006, Chani Armitage <chanika@gmail.com>
