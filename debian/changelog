@@ -1,3 +1,9 @@
+kopete (4:4.11.80-0ubuntu1) UNRELEASED; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 13 Nov 2013 19:53:00 +0100
+
 kopete (4:4.11.2-0ubuntu3) trusty; urgency=low
 
   * Import new_linphone.diff patch from debian, to fix FTBFS against new
