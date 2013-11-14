@@ -11,7 +11,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
  libvncserver-dev (>= 0.9.8.1), 
  libssl-dev, libxss-dev, 
  libmediastreamer-dev, libmeanwhile-dev, libgadu-dev,
- libjasper-dev, libgif-dev, libotr2-dev, libjsoncpp-dev,
+ libjasper-dev, libgif-dev, libotr5-dev, libjsoncpp-dev,
  libboost1.54-dev, libv4l-dev, libexpat1-dev, libsrtp0-dev,
  libasound2-dev
 Build-Conflicts: libmediastreamer-dev (= 3.3.0-1) [amd64]

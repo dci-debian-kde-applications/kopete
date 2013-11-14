@@ -1,6 +1,10 @@
 kopete (4:4.11.80-0ubuntu1) UNRELEASED; urgency=low
 
   * New upstream beta release
+  * Bump build dependency to libotr5-dev
+  * Update symbols
+  * Update install files
+  * Drop new_linphone.diff, not required anymore
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 13 Nov 2013 19:53:00 +0100
 

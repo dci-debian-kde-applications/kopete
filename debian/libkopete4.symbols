@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.10.80 i386
+# SymbolsHelper-Confirmed: 4:4.11.80 i386
 libkopete.so.4 libkopete4 #MINVER#
  _ZGVZN6Kopete2UI8ListView4Item7Private18theVisibilityTimerEvE5timer@Base 4:4.3.4
  _ZGVZN6Kopete2UI8ListView4Item7Private21theLayoutAnimateTimerEvE5timer@Base 4:4.3.4
@@ -1377,6 +1377,7 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete7Contact8sendFileERK4KUrlRK7QStringj@Base 4:4.3.4
  _ZN6Kopete7Contact8setPhotoERK7QString@Base 4:4.3.4
  _ZN6Kopete7Contact9popupMenuEPNS_11ChatSessionE@Base 4:4.3.4
+ _ZN6Kopete7Contact9popupMenuEv@Base 4:4.11.80
  _ZN6Kopete7Contact9serializeER4QMapI7QStringS2_ES4_@Base 4:4.3.4
  _ZN6Kopete7Contact9slotBlockEv@Base 4:4.3.4
  _ZN6Kopete7Contact9startChatEv@Base 4:4.3.4
@@ -1399,12 +1400,14 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete7Message13setImportanceENS0_17MessageImportanceE@Base 4:4.3.4
  _ZN6Kopete7Message14regexpPatternsEv@Base 4:4.4.1
  _ZN6Kopete7Message14setFilePreviewERK7QPixmap@Base 4:4.3.4
+ _ZN6Kopete7Message17setForcedHtmlBodyERK7QString@Base 4:4.11.80
  _ZN6Kopete7Message18setBackgroundColorERK6QColor@Base 4:4.3.4
  _ZN6Kopete7Message18setForegroundColorERK6QColor@Base 4:4.3.4
  _ZN6Kopete7Message18setRequestedPluginERK7QString@Base 4:4.3.4
  _ZN6Kopete7Message19setRichTextOverrideEb@Base 4:4.3.4
  _ZN6Kopete7Message21setBackgroundOverrideEb@Base 4:4.3.4
  _ZN6Kopete7Message21setForegroundOverrideEb@Base 4:4.3.4
+ _ZN6Kopete7Message21setFormattingOverrideEb@Base 4:4.11.80
  _ZN6Kopete7Message23setFileTransferDisabledEb@Base 4:4.3.4
  _ZN6Kopete7Message6escapeERK7QString@Base 4:4.3.4
  _ZN6Kopete7Message6nextIdEv@Base 4:4.3.4
