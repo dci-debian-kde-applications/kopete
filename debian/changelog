@@ -1,6 +1,10 @@
 kopete (4:4.11.95-0ubuntu1) UNRELEASED; urgency=low
 
+  [ Rohan Garg ]
   * New upstream beta release
+
+  [ Philip Muškovac ]
+  * Build-depend on kdepim-dev (for kleopatra)
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 19:13:30 +0100
 

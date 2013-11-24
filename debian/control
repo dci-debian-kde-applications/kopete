@@ -13,7 +13,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
  libmediastreamer-dev, libmeanwhile-dev, libgadu-dev,
  libjasper-dev, libgif-dev, libotr5-dev, libjsoncpp-dev,
  libboost1.54-dev, libv4l-dev, libexpat1-dev, libsrtp0-dev,
- libasound2-dev
+ libasound2-dev, kdepim-dev
 Build-Conflicts: libmediastreamer-dev (= 3.3.0-1) [amd64]
 Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
