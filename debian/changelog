@@ -1,4 +1,4 @@
-kopete (4:4.11.95-0ubuntu1) UNRELEASED; urgency=low
+kopete (4:4.11.95-0ubuntu1) trusty; urgency=low
 
   [ Rohan Garg ]
   * New upstream beta release
@@ -7,7 +7,7 @@ kopete (4:4.11.95-0ubuntu1) UNRELEASED; urgency=low
   * Build-depend on kdepim-dev (for kleopatra)
   * Add cryptography plugins to kopete.install 
 
- -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 19:13:30 +0100
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 25 Nov 2013 18:16:36 +0100
 
 kopete (4:4.11.80-0ubuntu1) trusty; urgency=low
 
