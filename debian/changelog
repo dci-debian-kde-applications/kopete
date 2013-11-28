@@ -1,3 +1,9 @@
+kopete (4:4.11.95-0ubuntu3) trusty; urgency=low
+
+  * Update install files for powerpc (Try #2)
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 26 Nov 2013 18:24:47 +0100
+
 kopete (4:4.11.95-0ubuntu2) trusty; urgency=low
 
   * Update install files for powerpc
