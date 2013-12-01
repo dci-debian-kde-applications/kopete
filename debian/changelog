@@ -3,6 +3,8 @@ kopete (4:4.11.3-2) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Import part of libjingle's r305 to allow building on unknown architectures;
     patch libjingle_unknown_architecture.diff.
+  * Temporarily disable the googletalk integration on non-Linux OSes, as it
+    does not build on them and it needs quite some changes to do that.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 30 Nov 2013 22:13:16 +0100
 

@@ -1,9 +1,23 @@
 #!/usr/bin/make -f
 
+DEB_HOST_ARCH_OS ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
+
+ifneq ($(DEB_HOST_ARCH_OS),linux)
+  CONFIGURE_ARGS += -DWITH_GOOGLETALK=false
+endif
+
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_auto_configure:
-	$(overridden_command) -- -DKDE4_BUILD_TESTS=false
+	$(overridden_command) -- -DKDE4_BUILD_TESTS=false $(CONFIGURE_ARGS)
+
+override_dh_install:
+	grep -v googletalk-call debian/kopete.install > debian/kopete.install.kfreebsd
+	$(overridden_command)
+
+override_dh_clean:
+	$(overridden_command)
+	rm -f debian/kopete.install.kfreebsd
 
 .PHONY: override_dh_auto_test
 
