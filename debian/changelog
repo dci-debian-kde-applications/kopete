@@ -1,5 +1,7 @@
 kopete (4:4.11.3-3) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Fix validity of copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 11 Dec 2013 08:28:17 +0100
 
