@@ -1,8 +1,8 @@
-kopete (4:4.12.0-0ubuntu1) UNRELEASED; urgency=low
+kopete (4:4.12.0-0ubuntu1) trusty; urgency=low
 
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 12 Dec 2013 16:14:51 +0000
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Dec 2013 17:18:59 +0000
 
 kopete (4:4.11.97-0ubuntu1) trusty; urgency=low
 
