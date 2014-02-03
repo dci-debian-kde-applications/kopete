@@ -9,6 +9,7 @@ kopete (4:4.11.5-1) UNRELEASED; urgency=medium
   * Build the unit tests.
   * Bump Standards-Version to 3.9.5, no changes needed.
   * Add autopkgtests.
+  * Add abi-compliance-checker info.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Feb 2014 16:59:39 +0100
 
