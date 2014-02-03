@@ -5,6 +5,9 @@ kopete (4:4.11.5-1) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * Fix validity of copyright.
 
+  [ Maximiliano Curia ]
+  * Build the unit tests.
+
  -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Feb 2014 16:59:39 +0100
 
 kopete (4:4.11.3-2) unstable; urgency=low

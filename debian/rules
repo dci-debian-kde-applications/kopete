@@ -9,7 +9,7 @@ endif
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_auto_configure:
-	$(overridden_command) -- -DKDE4_BUILD_TESTS=false $(CONFIGURE_ARGS)
+	$(overridden_command) -- $(CONFIGURE_ARGS)
 
 override_dh_install:
 	grep -v googletalk-call debian/kopete.install > debian/kopete.install.kfreebsd
