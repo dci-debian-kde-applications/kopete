@@ -9,6 +9,11 @@
     /usr/include/kopete
 </headers>
 
+<skip_headers>
+    /usr/include/kopete/ui/addressbookselectordialog.h
+    /usr/include/kopete/ui/addressbookselectorwidget.h
+</skip_headers>
+
 <libs>
     /usr/lib/libkopete.so
 </libs>
