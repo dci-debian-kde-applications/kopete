@@ -1,4 +1,4 @@
-kopete (4:4.11.5-1) UNRELEASED; urgency=medium
+kopete (4:4.11.5-1) unstable; urgency=medium
 
   * New upstream release.
 
@@ -12,7 +12,7 @@ kopete (4:4.11.5-1) UNRELEASED; urgency=medium
   * Add abi-compliance-checker info.
   * Remove private header from installed files.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Feb 2014 16:59:39 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Feb 2014 18:41:43 +0100
 
 kopete (4:4.11.3-2) unstable; urgency=low
 
