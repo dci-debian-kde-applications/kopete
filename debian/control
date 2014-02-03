@@ -37,7 +37,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.11),
  libboost-dev,
  libxdamage-dev,
  libgnutls-dev
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kopete.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kopete.git
