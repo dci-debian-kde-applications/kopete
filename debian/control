@@ -8,35 +8,37 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Eshat Cakar <info@eshat.de>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdepimlibs5-dev (>= 4:4.11),
- nepomuk-core-dev (>= 4:4.11),
- pkg-config,
- libsqlite3-dev,
- libqimageblitz-dev (>= 1:0.0.4),
- libortp-dev (>= 0.13),
- libsrtp0-dev,
- libjsoncpp-dev,
- libqca2-dev (>= 2.0.0),
- libidn11-dev,
- libxml2-dev,
- libxslt1-dev,
- libmsn-dev (>= 4.1),
- libgif-dev,
- libmediastreamer-dev (>= 3.6),
- libmeanwhile-dev,
- libgadu-dev (>= 1.8.0),
- libexpat-dev,
- libssl-dev,
- libv4l-dev [linux-any],
- libjasper-dev,
- libasound2-dev (>= 1.0.14a) [linux-any],
- zlib1g-dev,
- libjpeg-dev,
- libboost-dev,
- libxdamage-dev,
- libgnutls-dev
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdepimlibs5-dev (>= 4:4.11),
+               libasound2-dev (>= 1.0.14a) [linux-any],
+               libboost-dev,
+               libexpat-dev,
+               libgadu-dev (>= 1.8.0),
+               libgif-dev,
+               libgnutls-dev,
+               libidn11-dev,
+               libjasper-dev,
+               libjpeg-dev,
+               libjsoncpp-dev,
+               libmeanwhile-dev,
+               libmediastreamer-dev (>= 3.6),
+               libmsn-dev (>= 4.1),
+               libortp-dev (>= 0.13),
+               libqca2-dev (>= 2.0.0),
+               libqimageblitz-dev (>= 1:0.0.4),
+               libsqlite3-dev,
+               libsrtp0-dev,
+               libssl-dev,
+               libv4l-dev [linux-any],
+               libxdamage-dev,
+               libxml2-dev,
+               libxslt1-dev,
+               nepomuk-core-dev (>= 4:4.11),
+               pkg-config,
+               pkg-kde-tools (>= 0.12),
+               zlib1g-dev
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kopete.git
@@ -45,7 +47,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kopete.git
 Package: libkopete4
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: kopete (= ${binary:Version})
 Description: main Kopete library
  Kopete is an instant messaging and chat application with support for a wide
@@ -60,7 +62,7 @@ Description: main Kopete library
 Package: kopete
 Section: net
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
+Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Recommends: libqca2-plugin-ossl, libqt4-sql-sqlite
 Suggests: kdeartwork-emoticons, khelpcenter4, texlive-latex-base
 Description: instant messaging and chat application
@@ -73,8 +75,9 @@ Description: instant messaging and chat application
 Package: libkopete-dev
 Section: libdevel
 Architecture: any
-Depends: libkopete4 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libkopete4},
- ${misc:Depends}
+Depends: libkopete4 (= ${binary:Version}),
+         ${misc:Depends},
+         ${sameVersionDep:kdelibs5-dev:libkopete4}
 Description: development files for the Kopete instant messaging and chat application
  Kopete is an instant messaging and chat application with support for a wide
  variety of services, such as AIM, Yahoo, ICQ, MSN, and Jabber. Advanced

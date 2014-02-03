@@ -667,8 +667,8 @@ usr/share/kde4/apps/kopete_yahoo/yahoochatui.rc
 usr/share/kde4/apps/kopete_yahoo/yahooconferenceui.rc
 usr/share/kde4/apps/kopete_yahoo/yahooimui.rc
 usr/share/kde4/apps/kopeterichtexteditpart/kopeterichtexteditpartfull.rc
-usr/share/kde4/config.kcfg/historyconfig.kcfg
 usr/share/kde4/config.kcfg/history2config.kcfg
+usr/share/kde4/config.kcfg/historyconfig.kcfg
 usr/share/kde4/config.kcfg/kopeteappearancesettings.kcfg
 usr/share/kde4/config.kcfg/kopetebehaviorsettings.kcfg
 usr/share/kde4/config.kcfg/kopetestatussettings.kcfg
@@ -685,8 +685,8 @@ usr/share/kde4/services/emailwindow.desktop
 usr/share/kde4/services/kconfiguredialog/kopete_addbookmarks_config.desktop
 usr/share/kde4/services/kconfiguredialog/kopete_autoreplace_config.desktop
 usr/share/kde4/services/kconfiguredialog/kopete_highlight_config.desktop
-usr/share/kde4/services/kconfiguredialog/kopete_history_config.desktop
 usr/share/kde4/services/kconfiguredialog/kopete_history2_config.desktop
+usr/share/kde4/services/kconfiguredialog/kopete_history_config.desktop
 usr/share/kde4/services/kconfiguredialog/kopete_latex_config.desktop
 usr/share/kde4/services/kconfiguredialog/kopete_nowlistening_config.desktop
 usr/share/kde4/services/kconfiguredialog/kopete_pipes_config.desktop
