@@ -1,8 +1,8 @@
-kopete (4:4.12.2-0ubuntu1) UNRELEASED; urgency=medium
+kopete (4:4.12.2-0ubuntu1) trusty; urgency=medium
 
   * New upstream bugfix release
 
- -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 03 Feb 2014 16:49:05 +0100
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 05 Feb 2014 00:09:40 +0000
 
 kopete (4:4.12.1-0ubuntu1) trusty; urgency=low
 
