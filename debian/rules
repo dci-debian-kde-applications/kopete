@@ -2,12 +2,13 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
-DEB_HOST_GNU_CPU ?= $(shell dpkg-architecture -qDEB_HOST_GNU_CPU)
+DEB_HOST_ARCH ?= $(shell dpkg-architecture -qDEB_HOST_ARCH)
+no_jingle := arm64 powerpc ppc64el
 
 .PHONY: override_dh_auto_test
 
 override_dh_auto_configure:
-ifeq ($(DEB_HOST_GNU_CPU),powerpc)
+ifneq (,$(filter $(DEB_HOST_ARCH),$(no_jingle)))
 	$(overridden_command) -- -DWITH_GOOGLETALK=false
 else
 	$(overridden_command)

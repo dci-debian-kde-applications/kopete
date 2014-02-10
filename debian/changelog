@@ -1,3 +1,9 @@
+kopete (4:4.12.2-0ubuntu2) trusty; urgency=medium
+
+  * Build without Google talk and libjingle on failing architectures
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Feb 2014 14:49:56 +0000
+
 kopete (4:4.12.2-0ubuntu1) trusty; urgency=medium
 
   * New upstream bugfix release
