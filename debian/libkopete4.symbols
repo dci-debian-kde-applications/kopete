@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.2 amd64
+# SymbolsHelper-Confirmed: 4:4.12.3 amd64 armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x sparc
 libkopete.so.4 libkopete4 #MINVER#
  _ZGVZN6Kopete2UI8ListView4Item7Private18theVisibilityTimerEvE5timer@Base 4:4.3.4
  _ZGVZN6Kopete2UI8ListView4Item7Private21theLayoutAnimateTimerEvE5timer@Base 4:4.3.4
@@ -35,8 +35,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN15AccountSelectorD0Ev@Base 4:4.3.4
  _ZN15AccountSelectorD1Ev@Base 4:4.3.4
  _ZN15AccountSelectorD2Ev@Base 4:4.3.4
- (optional=external|arch=kfreebsd-any)_ZN15KEmoticonsTheme5TokenD1Ev@Base 4:4.6.5
- (optional=external|arch=kfreebsd-any)_ZN15KEmoticonsTheme5TokenD2Ev@Base 4:4.6.5
  _ZN15KopeteStdAction11changeAliasEPK7QObjectPKcPS0_@Base 4:4.3.4
  _ZN15KopeteStdAction11contactInfoEPK7QObjectPKcPS0_@Base 4:4.3.4
  _ZN15KopeteStdAction11preferencesEP17KActionCollectionPKc@Base 4:4.3.4
@@ -96,8 +94,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN17SettingsContainerD0Ev@Base 4:4.3.4
  _ZN17SettingsContainerD1Ev@Base 4:4.3.4
  _ZN17SettingsContainerD2Ev@Base 4:4.3.4
- (optional=external)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@Base 4:4.6.5
- (optional=external)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@Base 4:4.6.5
  _ZN23KopeteEditAccountWidget10setAccountEPN6Kopete7AccountE@Base 4:4.3.4
  _ZN23KopeteEditAccountWidgetC1EPN6Kopete7AccountE@Base 4:4.3.4
  _ZN23KopeteEditAccountWidgetC2EPN6Kopete7AccountE@Base 4:4.3.4
@@ -347,8 +343,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete12WebcamWidgetD1Ev@Base 4:4.3.4
  _ZN6Kopete12WebcamWidgetD2Ev@Base 4:4.3.4
  _ZN6Kopete12nameFromKABCERK7QString@Base 4:4.3.4
- (optional=external|arch=kfreebsd-any)_ZN6Kopete13AvatarManager11AvatarEntryD1Ev@Base 4:4.6.5
- (optional=external|arch=kfreebsd-any)_ZN6Kopete13AvatarManager11AvatarEntryD2Ev@Base 4:4.6.5
  _ZN6Kopete13AvatarManager11avatarAddedENS0_11AvatarEntryE@Base 4:4.3.4
  _ZN6Kopete13AvatarManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6Kopete13AvatarManager11qt_metacastEPKc@Base 4:4.3.4
