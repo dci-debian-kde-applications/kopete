@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
- kdepimlibs5-dev (>= 4:4.12.97), libsqlite3-dev, 
+ kdepimlibs5-dev (>= 4:4.13.0), libsqlite3-dev, 
  libortp-dev, libspeex-dev, libqimageblitz-dev (>= 1:0.0.4),
  libqca2-dev (>= 2.0.0), libidn11-dev,
  libxml2-dev, libxslt1-dev, libmsn-dev (>= 4.1),
@@ -13,7 +13,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
  libmediastreamer-dev, libmeanwhile-dev, libgadu-dev,
  libjasper-dev, libgif-dev, libotr5-dev, libjsoncpp-dev,
  libboost1.54-dev, libv4l-dev, libexpat1-dev, libsrtp0-dev,
- libasound2-dev, kdepim-dev (>= 4:4.12.97)
+ libasound2-dev, kdepim-dev (>= 4:4.13.0)
 Build-Conflicts: libmediastreamer-dev (= 3.3.0-1) [amd64]
 Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
