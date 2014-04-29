@@ -40,7 +40,7 @@ Section: net
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
 Recommends: libqca2-plugin-ossl, libqt4-sql-sqlite, kopete-message-indicator
-Suggests: kdeartwork-emoticons, khelpcenter4, texlive-latex-base
+Suggests: kdeartwork-emoticons, khelpcenter4, texlive-latex-base, imagemagick
 Description: instant messaging and chat application
  Kopete is an instant messaging and chat application with support for a wide
  variety of services, such as AIM, Yahoo, ICQ, MSN, and Jabber.  Advanced
