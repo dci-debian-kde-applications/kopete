@@ -1,8 +1,8 @@
-kopete (4:4.13.0-0ubuntu3) UNRELEASED; urgency=medium
+kopete (4:4.13.0-0ubuntu3) utopic; urgency=medium
 
   * Build-depend on boost1.55.
 
- -- Dimitri John Ledkov <xnox@ubuntu.com>  Sat, 03 May 2014 21:35:55 +0100
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Sat, 03 May 2014 21:36:06 +0100
 
 kopete (4:4.13.0-0ubuntu2) utopic; urgency=medium
 
