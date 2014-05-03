@@ -453,6 +453,11 @@ usr/share/kde4/apps/kopete/icons/oxygen/64x64/apps/wlm_protocol.png
 usr/share/kde4/apps/kopete/icons/oxygen/64x64/apps/wp_protocol.png
 usr/share/kde4/apps/kopete/icons/oxygen/64x64/apps/yahoo_protocol.png
 usr/share/kde4/apps/kopete/icons/oxygen/scalable/apps/meanwhile_protocol.svgz
+usr/share/kde4/apps/kopete/icons/oxygen/48x48/apps/skype_protocol.png
+usr/share/kde4/apps/kopete/icons/oxygen/128x128/apps/skype_protocol.png
+usr/share/kde4/apps/kopete/icons/oxygen/16x16/apps/skype_protocol.png
+usr/share/kde4/apps/kopete/icons/oxygen/22x22/apps/skype_protocol.png
+usr/share/kde4/apps/kopete/icons/oxygen/32x32/apps/skype_protocol.png
 usr/share/kde4/apps/kopete_jabber/jabberchatui.rc
 usr/share/kde4/apps/kopete/kopetechatwindow.rc
 usr/share/kde4/apps/kopete/kopetecommandui.rc

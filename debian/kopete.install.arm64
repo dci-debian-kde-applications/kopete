@@ -196,6 +196,11 @@ usr/share/icons/oxygen/scalable/actions/webcamsend.svgz
 usr/share/icons/oxygen/scalable/status/object-locked-finished.svgz
 usr/share/icons/oxygen/scalable/status/object-locked-unverified.svgz
 usr/share/icons/oxygen/scalable/status/object-locked-verified.svgz
+usr/share/kde4/apps/kopete/icons/oxygen/48x48/apps/skype_protocol.png
+usr/share/kde4/apps/kopete/icons/oxygen/128x128/apps/skype_protocol.png
+usr/share/kde4/apps/kopete/icons/oxygen/16x16/apps/skype_protocol.png
+usr/share/kde4/apps/kopete/icons/oxygen/22x22/apps/skype_protocol.png
+usr/share/kde4/apps/kopete/icons/oxygen/32x32/apps/skype_protocol.png
 usr/share/kde4/apps/kconf_update/kopete-account-0.10.pl
 usr/share/kde4/apps/kconf_update/kopete-account-kconf_update.sh
 usr/share/kde4/apps/kconf_update/kopete-account-kconf_update.upd
