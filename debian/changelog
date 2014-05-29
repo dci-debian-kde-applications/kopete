@@ -1,12 +1,16 @@
-kopete (4:4.13.0-0ubuntu4) UNRELEASED; urgency=medium
+kopete (4:4.13.0-0ubuntu5) utopic; urgency=medium
 
+  [ Harald Sitter ]
   * Restore lost changelog entries from before kdenetwork split
   * Drop kubuntu_03_no_mediastreamer_in_wlm.diff
     This patch was originally introduced to prevent !main software from
     getting dragged in when kopete still lived in main and was on the Kubuntu
     ISO. Since kopete is no longer in main this is a non-issue.
 
- -- Harald Sitter <apachelogger@kubuntu.org>  Tue, 13 May 2014 10:57:46 +0200
+  [ Jonathan Riddell ]
+  * Add conflicts on obsolete kopete-cryptography
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 29 May 2014 16:57:19 +0100
 
 kopete (4:4.13.0-0ubuntu3) utopic; urgency=medium
 
