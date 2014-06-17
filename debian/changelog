@@ -1,3 +1,95 @@
+kopete (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Merge with Debian, remaining changes:
+    - debian/control:
+      - Build against libboost1.55-dev
+      - Build against libexpat1-dev instead of libexpat-dev
+      - kopete recommends kopete-message-indicator
+  * Drop libjingle_unknown_architecture.diff now fixed upstream
+  * Drop build-dep on nepomuk-core-dev
+  * Add missing file to kopete-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Jun 2014 10:41:56 +0100
+
+kopete (4:4.13.1-2) UNRELEASED; urgency=medium
+
+  [ Pino Toscano ]
+  * Add the libxss-dev build dependency, for enabling the idle time detection.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 02 Jun 2014 22:33:18 +0200
+
+kopete (4:4.13.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 May 2014 14:11:17 +0200
+
+kopete (4:4.12.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Apr 2014 12:24:39 +0200
+
+kopete (4:4.12.3-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Mar 2014 00:06:40 +0100
+
+kopete (4:4.12.2-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Remove patch: new_linphone.diff, fixed upstream.
+  * Update build dependencies.
+  * Update install files.
+  * Update symbols files.
+  * Bump kde-sc-dev-latest build dependency.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:32:03 +0100
+
+kopete (4:4.11.5-1) unstable; urgency=medium
+
+  * New upstream release.
+
+  [ Pino Toscano ]
+  * Fix validity of copyright.
+
+  [ Maximiliano Curia ]
+  * Build the unit tests.
+  * Bump Standards-Version to 3.9.5, no changes needed.
+  * Add autopkgtests.
+  * Add abi-compliance-checker info.
+  * Remove private header from installed files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Feb 2014 18:41:43 +0100
+
+kopete (4:4.11.3-2) unstable; urgency=low
+
+  * Team upload.
+  * Import part of libjingle's r305 to allow building on unknown architectures;
+    patch libjingle_unknown_architecture.diff.
+  * Temporarily disable the googletalk integration on non-Linux OSes, as it
+    does not build on them and it needs quite some changes to do that.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 01 Dec 2013 10:59:10 +0100
+
+kopete (4:4.11.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 10 Nov 2013 11:02:25 +0100
+
+kopete (4:4.11.2-1) experimental; urgency=low
+
+  * First release of kdenetwork after being split by upstream.
+  * Syntax error in debian/copyright.
+  * Update build-dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Oct 2013 14:09:31 +0200
+
 kopete (4:4.13.0-0ubuntu5) utopic; urgency=medium
 
   [ Harald Sitter ]

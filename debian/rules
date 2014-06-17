@@ -1,22 +1,26 @@
 #!/usr/bin/make -f
 
+DEB_HOST_ARCH_OS ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
+
+ifneq ($(DEB_HOST_ARCH_OS),linux)
+  CONFIGURE_ARGS += -DWITH_GOOGLETALK=false
+endif
+
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
-DEB_HOST_ARCH ?= $(shell dpkg-architecture -qDEB_HOST_ARCH)
-no_jingle := arm64 powerpc ppc64el
+override_dh_auto_configure:
+	$(overridden_command) -- $(CONFIGURE_ARGS)
+
+override_dh_install:
+	grep -v googletalk-call debian/kopete.install > debian/kopete.install.kfreebsd
+	$(overridden_command)
+
+override_dh_clean:
+	$(overridden_command)
+	rm -f debian/kopete.install.kfreebsd
 
 .PHONY: override_dh_auto_test
-
-override_dh_auto_configure:
-ifneq (,$(filter $(DEB_HOST_ARCH),$(no_jingle)))
-	$(overridden_command) -- -DWITH_GOOGLETALK=false
-else
-	$(overridden_command)
-endif
 
 override_dh_shlibdeps:
 	$(overridden_command) -plibkopete4 -- -xkopete
 	$(overridden_command) --remaining-packages
-
-override_dh_strip:
-	$(overridden_command) --dbg-package=kopete-dbg

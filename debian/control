@@ -2,28 +2,58 @@ Source: kopete
 Section: kde
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
-Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
- cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
- kdepimlibs5-dev (>= 4:4.13.0), libsqlite3-dev, 
- libortp-dev, libspeex-dev, libqimageblitz-dev (>= 1:0.0.4),
- libqca2-dev (>= 2.0.0), libidn11-dev,
- libxml2-dev, libxslt1-dev, libmsn-dev (>= 4.1),
- libvncserver-dev (>= 0.9.8.1), 
- libssl-dev, libxss-dev, 
- libmediastreamer-dev, libmeanwhile-dev, libgadu-dev,
- libjasper-dev, libgif-dev, libotr5-dev, libjsoncpp-dev,
- libboost1.55-dev, libv4l-dev, libexpat1-dev, libsrtp0-dev,
- libasound2-dev, kdepim-dev (>= 4:4.13.0)
-Build-Conflicts: libmediastreamer-dev (= 3.3.0-1) [amd64]
-Standards-Version: 3.9.4
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <sune@debian.org>,
+           Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           George Kiagiadakis <kiagiadakis.george@gmail.com>,
+           Eshat Cakar <info@eshat.de>,
+           Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.12),
+               kdepimlibs5-dev (>= 4:4.11),
+               libasound2-dev (>= 1.0.14a) [linux-any],
+               libboost1.55-dev,
+               libexpat1-dev,
+               libgadu-dev (>= 1.8.0),
+               libgif-dev,
+               libgnutls-dev,
+               libgpgme11-dev,
+               libidn11-dev,
+               libjasper-dev,
+               libjpeg-dev,
+               libjsoncpp-dev,
+               libmeanwhile-dev,
+               libmediastreamer-dev (>= 3.6),
+               libmsn-dev (>= 4.1),
+               libortp-dev (>= 0.13),
+               libotr5-dev,
+               libqca2-dev (>= 2.0.0),
+               libqimageblitz-dev (>= 1:0.0.4),
+               libsqlite3-dev,
+               libsrtp0-dev,
+               libssl-dev,
+               libv4l-dev [linux-any],
+               libxdamage-dev,
+               libxml2-dev,
+               libxslt1-dev,
+               libxss-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.12),
+               zlib1g-dev
+Standards-Version: 3.9.5
+XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
 Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kopete
 Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kopete
+X-Debian-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kopete.git
+X-Debian-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kopete.git
 
 Package: libkopete4
 Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: kopete (= ${binary:Version})
 Description: main Kopete library
  Kopete is an instant messaging and chat application with support for a wide
@@ -38,10 +68,9 @@ Description: main Kopete library
 Package: kopete
 Section: net
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
+Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Recommends: libqca2-plugin-ossl, libqt4-sql-sqlite, kopete-message-indicator
-Suggests: kdeartwork-emoticons, khelpcenter4, texlive-latex-base, imagemagick
-Conflicts: kopete-cryptography
+Suggests: kdeartwork-emoticons, khelpcenter4, texlive-latex-base
 Description: instant messaging and chat application
  Kopete is an instant messaging and chat application with support for a wide
  variety of services, such as AIM, Yahoo, ICQ, MSN, and Jabber.  Advanced
@@ -52,8 +81,9 @@ Description: instant messaging and chat application
 Package: libkopete-dev
 Section: libdevel
 Architecture: any
-Depends: libkopete4 (= ${binary:Version}), ${sameVersionDep:kdelibs5-dev:libkopete4},
- ${misc:Depends}
+Depends: libkopete4 (= ${binary:Version}),
+         ${misc:Depends},
+         ${sameVersionDep:kdelibs5-dev:libkopete4}
 Description: development files for the Kopete instant messaging and chat application
  Kopete is an instant messaging and chat application with support for a wide
  variety of services, such as AIM, Yahoo, ICQ, MSN, and Jabber. Advanced
@@ -62,15 +92,3 @@ Description: development files for the Kopete instant messaging and chat applica
  This package contains development files needed for building Kopete plugins.
  .
  This package is part of the KDE networking module.
-
-Package: kopete-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: ${misc:Depends}, kde-runtime-dbg, kopete (= ${binary:Version})
-Recommends: kde-workspace-dbg
-Breaks: kdenetwork-dbg
-Replaces: kdenetwork-dbg
-Description: debugging symbols for the KDE networking module
- This package contains debugging files used to investigate problems with
- binaries included in the KDE networking module.
