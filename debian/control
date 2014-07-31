@@ -2,6 +2,8 @@ Source: kopete
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+X-Ubuntu-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
@@ -11,7 +13,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
 Build-Depends: cmake,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
-               kdepimlibs5-dev (>= 4:4.11),
+               kdepimlibs5-dev (>= 4:4.13.3-2),
                libasound2-dev (>= 1.0.14a) [linux-any],
                libboost-dev,
                libexpat-dev,
@@ -38,7 +40,6 @@ Build-Depends: cmake,
                libxml2-dev,
                libxslt1-dev,
                libxss-dev,
-               nepomuk-core-dev (>= 4:4.11),
                pkg-config,
                pkg-kde-tools (>= 0.12),
                zlib1g-dev
@@ -47,6 +48,8 @@ XS-Testsuite: autopkgtest
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kopete.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kopete.git
+X-Ubuntu-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kopete
+X-Ubuntu-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/kopete
 
 Package: libkopete4
 Section: libs
@@ -69,6 +72,7 @@ Architecture: any
 Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Recommends: libqca2-plugin-ossl, libqt4-sql-sqlite
 Suggests: kdeartwork-emoticons, khelpcenter4, texlive-latex-base, imagemagick
+Conflicts: kopete-cryptography
 Description: instant messaging and chat application
  Kopete is an instant messaging and chat application with support for a wide
  variety of services, such as AIM, Yahoo, ICQ, MSN, and Jabber.  Advanced
