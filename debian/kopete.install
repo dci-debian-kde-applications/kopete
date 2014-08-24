@@ -1,6 +1,6 @@
-usr/bin/googletalk-call
 usr/bin/kopete
 usr/bin/kopete_latexconvert.sh
+usr/bin/libjingle-call
 usr/bin/winpopup-install
 usr/bin/winpopup-send
 usr/lib/kde4/kcm_kopete_accountconfig.so

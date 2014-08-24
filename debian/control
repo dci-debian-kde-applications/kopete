@@ -71,7 +71,7 @@ Section: net
 Architecture: any
 Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
 Recommends: libqca2-plugin-ossl, libqt4-sql-sqlite
-Suggests: kdeartwork-emoticons, khelpcenter4, texlive-latex-base, imagemagick
+Suggests: imagemagick, kdeartwork-emoticons, khelpcenter4, texlive-latex-base
 Conflicts: kopete-cryptography
 Description: instant messaging and chat application
  Kopete is an instant messaging and chat application with support for a wide

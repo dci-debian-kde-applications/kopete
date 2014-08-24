@@ -1,6 +1,7 @@
 kopete (4:4.14.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update install file.
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 24 Aug 2014 04:03:55 +0200
 
