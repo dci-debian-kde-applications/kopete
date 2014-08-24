@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.12.3 amd64 armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390x sparc
+# SymbolsHelper-Confirmed: 4:4.14.0 amd64
 libkopete.so.4 libkopete4 #MINVER#
  _ZGVZN6Kopete2UI8ListView4Item7Private18theVisibilityTimerEvE5timer@Base 4:4.3.4
  _ZGVZN6Kopete2UI8ListView4Item7Private21theLayoutAnimateTimerEvE5timer@Base 4:4.3.4
@@ -180,9 +180,9 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete11ChatSession21slotUpdateDisplayNameEv@Base 4:4.3.4
  _ZN6Kopete11ChatSession21toggleGraphicOverrideEb@Base 4:4.7.1
  _ZN6Kopete11ChatSession22setContactOnlineStatusEPKNS_7ContactERKNS_12OnlineStatusE@Base 4:4.3.4
+ _ZN6Kopete11ChatSession22slotDisplayNameChangedERK7QStringS3_@Base 4:4.14.0
  _ZN6Kopete11ChatSession23slotOnlineStatusChangedEPNS_7ContactERKNS_12OnlineStatusES5_@Base 4:4.3.4
  _ZN6Kopete11ChatSession25receivedEventNotificationERK7QString@Base 4:4.3.4
- _ZN6Kopete11ChatSession26slotContactPropertyChangedEPNS_17PropertyContainerERK7QStringRK8QVariantS8_@Base 4:4.3.4
  _ZN6Kopete11ChatSession3refEv@Base 4:4.3.4
  _ZN6Kopete11ChatSession4viewEbRK7QString@Base 4:4.3.4
  _ZN6Kopete11ChatSession5derefEv@Base 4:4.3.4
@@ -276,6 +276,7 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete11MetaContact24slotContactStatusChangedEPNS_7ContactERKNS_12OnlineStatusES5_@Base 4:4.3.4
  _ZN6Kopete11MetaContact27setDisplayNameSourceContactEPNS_7ContactE@Base 4:4.3.4
  _ZN6Kopete11MetaContact28slotUpdateAddressBookPictureEv@Base 4:4.3.4
+ _ZN6Kopete11MetaContact29slotContactDisplayNameChangedERK7QStringS3_@Base 4:4.14.0
  _ZN6Kopete11MetaContact7executeEv@Base 4:4.3.4
  _ZN6Kopete11MetaContact8sendFileERK4KUrlRK7QStringm@Base 4:4.3.4
  _ZN6Kopete11MetaContact8setPhotoERK4KUrl@Base 4:4.3.4
@@ -506,6 +507,7 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete14CommandHandler11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6Kopete14CommandHandler11qt_metacastEPKc@Base 4:4.3.4
  _ZN6Kopete14CommandHandler13registerAliasEP7QObjectRK7QStringS5_S5_NS0_11CommandTypeEjiRK9KShortcutS5_@Base 4:4.3.4
+ _ZN6Kopete14CommandHandler13slotExecErrorEN8QProcess12ProcessErrorE@Base 4:4.14.0
  _ZN6Kopete14CommandHandler14commandHandledERK7QString@Base 4:4.3.4
  _ZN6Kopete14CommandHandler14commandHandlerEv@Base 4:4.3.4
  _ZN6Kopete14CommandHandler14parseArgumentsERK7QString@Base 4:4.3.4
@@ -522,14 +524,14 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete14CommandHandler15unregisterAliasEP7QObjectRK7QString@Base 4:4.3.4
  _ZN6Kopete14CommandHandler16slotClearCommandERK7QStringPNS_11ChatSessionE@Base 4:4.3.4
  _ZN6Kopete14CommandHandler16slotCloseCommandERK7QStringPNS_11ChatSessionE@Base 4:4.3.4
- _ZN6Kopete14CommandHandler16slotExecFinishedEP9K3Process@Base 4:4.3.4
+ _ZN6Kopete14CommandHandler16slotExecFinishedEv@Base 4:4.14.0
  _ZN6Kopete14CommandHandler16slotPluginLoadedEPNS_6PluginE@Base 4:4.3.4
  _ZN6Kopete14CommandHandler16staticMetaObjectE@Base 4:4.3.4
  _ZN6Kopete14CommandHandler17unregisterCommandEP7QObjectRK7QString@Base 4:4.3.4
  _ZN6Kopete14CommandHandler18slotAwayAllCommandERK7QStringPNS_11ChatSessionE@Base 4:4.3.4
+ _ZN6Kopete14CommandHandler19slotExecSendMessageEP8KProcessRK7QString@Base 4:4.14.0
  _ZN6Kopete14CommandHandler19slotPluginDestroyedEP7QObject@Base 4:4.3.4
  _ZN6Kopete14CommandHandler1pE@Base 4:4.3.4
- _ZN6Kopete14CommandHandler20slotExecReturnedDataEP9K3ProcessPci@Base 4:4.3.4
  _ZN6Kopete14CommandHandler24commandHandledByProtocolERK7QStringPNS_8ProtocolE@Base 4:4.3.4
  _ZN6Kopete14CommandHandler8commandsEPNS_8ProtocolE@Base 4:4.3.4
  _ZN6Kopete14CommandHandlerC1Ev@Base 4:4.3.4
@@ -1276,9 +1278,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete6Status10StatusItemC1Ev@Base 4:4.3.4
  _ZN6Kopete6Status10StatusItemC2ERK7QString@Base 4:4.3.4
  _ZN6Kopete6Status10StatusItemC2Ev@Base 4:4.3.4
- (optional=gccinternal)_ZN6Kopete6Status10StatusItemD0Ev@Base 4:4.6.5
- (optional=gccinternal)_ZN6Kopete6Status10StatusItemD1Ev@Base 4:4.6.5
- (optional=gccinternal)_ZN6Kopete6Status10StatusItemD2Ev@Base 4:4.6.5
  _ZN6Kopete6Status11StatusGroup11appendChildEPNS0_10StatusItemE@Base 4:4.3.4
  _ZN6Kopete6Status11StatusGroup11insertChildEiPNS0_10StatusItemE@Base 4:4.3.4
  _ZN6Kopete6Status11StatusGroup11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -1354,17 +1353,23 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete7Contact11setNickNameERK7QString@Base 4:4.3.4
  _ZN6Kopete7Contact11slotUnblockEv@Base 4:4.3.4
  _ZN6Kopete7Contact13deleteContactEv@Base 4:4.3.4
+ _ZN6Kopete7Contact13setCustomNameERK7QString@Base 4:4.14.0
  _ZN6Kopete7Contact14setFileCapableEb@Base 4:4.3.4
  _ZN6Kopete7Contact14setMetaContactEPNS_11MetaContactE@Base 4:4.3.4
  _ZN6Kopete7Contact14slotAddContactEv@Base 4:4.3.4
  _ZN6Kopete7Contact15setOnlineStatusERKNS_12OnlineStatusE@Base 4:4.3.4
  _ZN6Kopete7Contact16contactDestroyedEPS0_@Base 4:4.3.4
  _ZN6Kopete7Contact16idleStateChangedEPS0_@Base 4:4.3.4
+ _ZN6Kopete7Contact16nameTypeToStringENS0_8NameTypeE@Base 4:4.14.0
  _ZN6Kopete7Contact16setStatusMessageERKNS_13StatusMessageE@Base 4:4.3.4
  _ZN6Kopete7Contact16staticMetaObjectE@Base 4:4.3.4
  _ZN6Kopete7Contact17changeMetaContactEv@Base 4:4.3.4
+ _ZN6Kopete7Contact18displayNameChangedERK7QStringS3_@Base 4:4.14.0
+ _ZN6Kopete7Contact18nameTypeFromStringERK7QString@Base 4:4.14.0
  _ZN6Kopete7Contact19onlineStatusChangedEPS0_RKNS_12OnlineStatusES4_@Base 4:4.3.4
+ _ZN6Kopete7Contact19slotPropertyChangedEPNS_17PropertyContainerERK7QStringRK8QVariantS8_@Base 4:4.14.0
  _ZN6Kopete7Contact19toggleAlwaysVisibleEv@Base 4:4.4.1
+ _ZN6Kopete7Contact20setPreferredNameTypeENS0_8NameTypeE@Base 4:4.14.0
  _ZN6Kopete7Contact20statusMessageChangedEPS0_@Base 4:4.10.2
  _ZN6Kopete7Contact21canAcceptFilesChangedEv@Base 4:4.3.4
  _ZN6Kopete7Contact24customContextMenuActionsEPNS_11ChatSessionE@Base 4:4.3.4
@@ -1838,6 +1843,7 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZNK6Kopete5Group7groupIdEv@Base 4:4.3.4
  _ZNK6Kopete5Group7membersEv@Base 4:4.3.4
  _ZNK6Kopete6Global10Properties10createPropERK7QStringS4_S4_b@Base 4:4.3.4
+ _ZNK6Kopete6Global10Properties10customNameEv@Base 4:4.14.0
  _ZNK6Kopete6Global10Properties11onlineSinceEv@Base 4:4.3.4
  _ZNK6Kopete6Global10Properties11statusTitleEv@Base 4:4.3.4
  _ZNK6Kopete6Global10Properties11templateMapEv@Base 4:4.3.4
@@ -1888,7 +1894,9 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZNK6Kopete7Account8priorityEv@Base 4:4.3.4
  _ZNK6Kopete7Account8protocolEv@Base 4:4.3.4
  _ZNK6Kopete7Account9accountIdEv@Base 4:4.3.4
+ _ZNK6Kopete7Contact10customNameEv@Base 4:4.14.0
  _ZNK6Kopete7Contact10metaObjectEv@Base 4:4.3.4
+ _ZNK6Kopete7Contact11displayNameEv@Base 4:4.14.0
  _ZNK6Kopete7Contact11metaContactEv@Base 4:4.3.4
  _ZNK6Kopete7Contact12onlineStatusEv@Base 4:4.3.4
  _ZNK6Kopete7Contact13formattedNameEv@Base 4:4.3.4
@@ -1896,6 +1904,7 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZNK6Kopete7Contact13statusMessageEv@Base 4:4.3.4
  _ZNK6Kopete7Contact14canAcceptFilesEv@Base 4:4.3.4
  _ZNK6Kopete7Contact17formattedIdleTimeEv@Base 4:4.3.4
+ _ZNK6Kopete7Contact17preferredNameTypeEv@Base 4:4.14.0
  _ZNK6Kopete7Contact4iconEv@Base 4:4.3.4
  _ZNK6Kopete7Contact7accountEv@Base 4:4.3.4
  _ZNK6Kopete7Contact7toolTipEv@Base 4:4.3.4
