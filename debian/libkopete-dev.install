@@ -50,6 +50,7 @@ usr/include/kopete/kopeteversion.h
 usr/include/kopete/ui/accountselector.h
 usr/include/kopete/ui/addcontactpage.h
 usr/include/kopete/ui/addressbookselectordialog.h
+usr/include/kopete/ui/addressbookselectorwidget.h
 usr/include/kopete/ui/avatardialog.h
 usr/include/kopete/ui/avatarselectorwidget.h
 usr/include/kopete/ui/contactaddednotifydialog.h
