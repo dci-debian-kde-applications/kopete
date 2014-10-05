@@ -7,6 +7,9 @@ kopete (4:4.14.1-2) UNRELEASED; urgency=medium
   * Change from googletalk-call to libjingle-call in the kfreebsd .install
     exclusion.
   * Update .install files.
+  * Add an explicit kdelibs5-dev build dependency before kdepimlibs5-dev;
+    this should help pulling phonon-backend-dummy as build dependency instead
+    of a real backend, even if some library depends on phonon.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Oct 2014 15:50:57 +0200
 
