@@ -1,5 +1,8 @@
 kopete (4:4.14.1-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Remove (apparently unused) libgnutls-dev build dependency.
+    (Closes: #764102)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Oct 2014 15:50:57 +0200
 
