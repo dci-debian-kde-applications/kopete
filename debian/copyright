@@ -486,7 +486,7 @@ Files: protocols/jabber/libiris/src/xmpp/xmpp-im/xmpp_bitsofbinary.cpp
 Copyright: 2010, Rion
 License: GPL-2+
 
-Files: protocols/jabber/googletalk/libjingle/*
+Files: protocols/jabber/libjingle/*
 Copyright: 2003-2012, Google Inc.
 License: BSD-3-clause
  Redistribution and use in source and binary forms, with or without
@@ -512,8 +512,8 @@ License: BSD-3-clause
  WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  SUCH DAMAGE.
 
-Files: protocols/jabber/googletalk/libjingle/talk/base/md5.h
-       protocols/jabber/googletalk/libjingle/talk/base/md5c.c
+Files: protocols/jabber/libjingle/talk/base/md5.h
+       protocols/jabber/libjingle/talk/base/md5c.c
 Copyright: No copyright claimed
 License: public-domain
  This code implements the MD5 message-digest algorithm.
@@ -526,8 +526,8 @@ License: public-domain
  except that you don't need to include two pages of legalese
  with every copy.
 
-Files: protocols/jabber/googletalk/libjingle/talk/base/sha1.h
-       protocols/jabber/googletalk/libjingle/talk/base/sha1.c
+Files: protocols/jabber/libjingle/talk/base/sha1.h
+       protocols/jabber/libjingle/talk/base/sha1.c
 Copyright: No copyright claimed
 License: public-domain
  SHA-1 in C
@@ -539,7 +539,7 @@ License: public-domain
  By James H. Brown <jbrown@burgoyne.com>
  Still 100% Public Domain
 
-Files: protocols/jabber/googletalk/libjingle/talk/base/sigslot.h
+Files: protocols/jabber/libjingle/talk/base/sigslot.h
 Copyright: No copyright claimed
 License: public-domain
  Written by Sarah Thompson (sarah@telergy.com) 2002.
@@ -548,15 +548,15 @@ License: public-domain
  the proviso that the author takes on no responsibility or liability for any
  use.
 
-Files: protocols/jabber/googletalk/libjingle/talk/base/base64.h
-       protocols/jabber/googletalk/libjingle/talk/base/base64.cc
+Files: protocols/jabber/libjingle/talk/base/base64.h
+       protocols/jabber/libjingle/talk/base/base64.cc
 Copyright: 1999, Bob Withers <bwit@pobox.com>
 License:
  This code may be freely used for any purpose, either personal
  or commercial, provided the authors copyright notice remains
  intact.
 
-Files: protocols/jabber/googletalk/libjingle/talk/base/scoped_ptr.h
+Files: protocols/jabber/libjingle/talk/base/scoped_ptr.h
 Copyright: 1998-1999, Greg Colvin
            1998-1999, Beman Dawes
            2001-2002, Peter Dimov
@@ -566,7 +566,7 @@ License:
  This software is provided "as is" without express or implied
  warranty, and with no claim as to its suitability for any purpose.
 
-Files: protocols/jabber/googletalk/libjingle/talk/third_party/libudev/libudev.h
+Files: protocols/jabber/libjingle/talk/third_party/libudev/libudev.h
 Copyright: 2008-2010, Kay Sievers <kay.sievers@vrfy.org>
 License: LGPL-2.1+
 
@@ -964,7 +964,7 @@ Copyright: 1996-2000, Free Software Foundation, Inc
 License: LGPL-2.1+
 
 Files: debian/*
-Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Copyright: 2007-2014, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 License: GPL-2+
 
 License: GPL-2+
