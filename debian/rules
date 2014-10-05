@@ -12,7 +12,7 @@ override_dh_auto_configure:
 	$(overridden_command) -- $(CONFIGURE_ARGS)
 
 override_dh_install:
-	grep -v googletalk-call debian/kopete.install > debian/kopete.install.kfreebsd
+	grep -v libjingle-call debian/kopete.install > debian/kopete.install.kfreebsd
 	$(overridden_command)
 
 override_dh_clean:
