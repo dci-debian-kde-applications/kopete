@@ -10,6 +10,7 @@ usr/lib/kde4/kcm_kopete_autoreplace.so
 usr/lib/kde4/kcm_kopete_avdeviceconfig.so
 usr/lib/kde4/kcm_kopete_behaviorconfig.so
 usr/lib/kde4/kcm_kopete_chatwindowconfig.so
+usr/lib/kde4/kcm_kopete_cryptography.so
 usr/lib/kde4/kcm_kopete_highlight.so
 usr/lib/kde4/kcm_kopete_history.so
 usr/lib/kde4/kcm_kopete_history2.so
@@ -30,6 +31,7 @@ usr/lib/kde4/kopete_autoreplace.so
 usr/lib/kde4/kopete_bonjour.so
 usr/lib/kde4/kopete_chatwindow.so
 usr/lib/kde4/kopete_contactnotes.so
+usr/lib/kde4/kopete_cryptography.so
 usr/lib/kde4/kopete_emailwindow.so
 usr/lib/kde4/kopete_gadu.so
 usr/lib/kde4/kopete_groupwise.so
@@ -145,6 +147,8 @@ usr/share/kde4/apps/kconf_update/kopete-update_yahoo_server.upd
 usr/share/kde4/apps/kopete/
 usr/share/kde4/apps/kopete/webpresence/
 usr/share/kde4/apps/kopete_contactnotes/
+usr/share/kde4/apps/kopete_cryptography/cryptographychatui.rc
+usr/share/kde4/apps/kopete_cryptography/cryptographyui.rc
 usr/share/kde4/apps/kopete_groupwise/
 usr/share/kde4/apps/kopete_history/
 usr/share/kde4/apps/kopete_history2/
@@ -176,6 +180,7 @@ usr/share/kde4/services/chatwindow.desktop
 usr/share/kde4/services/emailwindow.desktop
 usr/share/kde4/services/kconfiguredialog/kopete_addbookmarks_config.desktop
 usr/share/kde4/services/kconfiguredialog/kopete_autoreplace_config.desktop
+usr/share/kde4/services/kconfiguredialog/kopete_cryptography_config.desktop
 usr/share/kde4/services/kconfiguredialog/kopete_highlight_config.desktop
 usr/share/kde4/services/kconfiguredialog/kopete_history2_config.desktop
 usr/share/kde4/services/kconfiguredialog/kopete_history_config.desktop
@@ -198,6 +203,7 @@ usr/share/kde4/services/kopete_behaviorconfig.desktop
 usr/share/kde4/services/kopete_bonjour.desktop
 usr/share/kde4/services/kopete_chatwindowconfig.desktop
 usr/share/kde4/services/kopete_contactnotes.desktop
+usr/share/kde4/services/kopete_cryptography.desktop
 usr/share/kde4/services/kopete_gadu.desktop
 usr/share/kde4/services/kopete_groupwise.desktop
 usr/share/kde4/services/kopete_highlight.desktop

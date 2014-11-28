@@ -1,7 +1,7 @@
 Source: kopete
 Section: kde
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
            Fathi Boudra <fabo@debian.org>,
            Modestas Vainius <modax@debian.org>,
@@ -12,17 +12,20 @@ Build-Depends: cmake,
                debhelper (>= 9),
                kde-sc-dev-latest (>= 4:4.12),
                kdelibs5-dev,
+               kdepim-dev,
                kdepimlibs5-dev (>= 4:4.13.3-2),
                libasound2-dev (>= 1.0.14a) [linux-any],
-               libboost-dev,
+               libboost1.55-dev,
                libexpat-dev,
                libgadu-dev (>= 1.8.0),
                libgif-dev,
+               libgnutls-dev,
                libgpgme11-dev,
                libidn11-dev,
                libjasper-dev,
                libjpeg-dev,
                libjsoncpp-dev,
+               libkleo4,
                libmeanwhile-dev,
                libmediastreamer-dev (>= 3.6),
                libmsn-dev (>= 4.1),

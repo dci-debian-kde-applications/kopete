@@ -551,7 +551,7 @@ License: public-domain
 Files: protocols/jabber/libjingle/talk/base/base64.h
        protocols/jabber/libjingle/talk/base/base64.cc
 Copyright: 1999, Bob Withers <bwit@pobox.com>
-License:
+License: unrestricted
  This code may be freely used for any purpose, either personal
  or commercial, provided the authors copyright notice remains
  intact.
@@ -560,7 +560,7 @@ Files: protocols/jabber/libjingle/talk/base/scoped_ptr.h
 Copyright: 1998-1999, Greg Colvin
            1998-1999, Beman Dawes
            2001-2002, Peter Dimov
-License:
+License: unrestricted
  Permission to copy, use, modify, sell and distribute this software
  is granted provided this copyright notice appears in all copies.
  This software is provided "as is" without express or implied
