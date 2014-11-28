@@ -5,6 +5,8 @@ kopete (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
     - build-dep on libgnutls-dev
     - build-dep on libboost1.55-dev
     - build-dep on libkleo4
+    - add cypto files to .install
+    - kopete recommends kopete-message-indicator
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 28 Nov 2014 19:23:42 +0100
 

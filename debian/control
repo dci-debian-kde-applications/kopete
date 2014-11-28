@@ -69,7 +69,7 @@ Package: kopete
 Section: net
 Architecture: any
 Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
-Recommends: libqca2-plugin-ossl, libqt4-sql-sqlite
+Recommends: libqca2-plugin-ossl, libqt4-sql-sqlite, kopete-message-indicator
 Suggests: kdeartwork-emoticons, khelpcenter4, texlive-latex-base, imagemagick
 Description: instant messaging and chat application
  Kopete is an instant messaging and chat application with support for a wide
