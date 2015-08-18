@@ -1,4 +1,4 @@
-kopete (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
+kopete (4:15.07.90-0ubuntu1) wily; urgency=medium
 
   [ José Manuel Santamaría Lema ]
   * Build depend on libboost-dev instead of libboost1.55-dev. Right now the
@@ -8,7 +8,7 @@ kopete (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * new upstream beta release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Aug 2015 11:26:12 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 10:50:51 +0100
 
 kopete (4:15.04.2-0ubuntu3) wily; urgency=medium
 
