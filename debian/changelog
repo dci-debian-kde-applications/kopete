@@ -1,4 +1,4 @@
-kopete (4:15.08.0-0ubuntu2) UNRELEASED; urgency=medium
+kopete (4:15.08.0-0ubuntu2) wily; urgency=medium
 
   * Rebuild against kdelibs5-dev >= 4:4.14.10-1ubuntu1~
     + This is to adopt new the libgpgme++ soversion (gcc5 transition)
