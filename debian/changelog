@@ -1,4 +1,4 @@
-kopete (4:15.08.0-1~) UNRELEASED; urgency=medium
+kopete (4:15.08.0-1) unstable; urgency=medium
 
   * New upstream release (15.04.0).
   * Update symbols files from buildds logs (4:14.12.3-1).
@@ -7,7 +7,7 @@ kopete (4:15.08.0-1~) UNRELEASED; urgency=medium
   * New upstream release (15.08.0).
   * Add libsoprano-dev build dep. (Closes: #797644)
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Sep 2015 10:05:03 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 05 Sep 2015 23:21:40 +0200
 
 kopete (4:14.12.3-1) experimental; urgency=medium
 
