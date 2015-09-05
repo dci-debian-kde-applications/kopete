@@ -27,6 +27,7 @@ Build-Depends: cmake,
                libkleo4,
                libmeanwhile-dev,
                libmediastreamer-dev (>= 3.6),
+               libmsn-dev (>= 4.1),
                libortp-dev (>= 0.13),
                libotr5-dev,
                libqca2-dev (>= 2.0.0),
@@ -55,7 +56,7 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: kopete (= ${binary:Version})
 Description: main Kopete library
  Kopete is an instant messaging and chat application with support for a wide
- variety of services, such as AIM, Yahoo, ICQ, and Jabber.  Advanced
+ variety of services, such as AIM, Yahoo, ICQ, MSN, and Jabber.  Advanced
  features and additional protocols are available as plugins.
  .
  This package contains main Kopete library which is used by Kopete and its
@@ -71,7 +72,7 @@ Recommends: libqca2-plugin-ossl, libqt4-sql-sqlite
 Suggests: imagemagick, kdeartwork-emoticons, khelpcenter, texlive-latex-base
 Description: instant messaging and chat application
  Kopete is an instant messaging and chat application with support for a wide
- variety of services, such as AIM, Yahoo, ICQ, and Jabber.  Advanced
+ variety of services, such as AIM, Yahoo, ICQ, MSN, and Jabber.  Advanced
  features and additional protocols are available as plugins.
  .
  This package is part of the KDE networking module.
@@ -84,7 +85,7 @@ Depends: libkopete4 (= ${binary:Version}),
          ${sameVersionDep:kdelibs5-dev:libkopete4}
 Description: development files for the Kopete instant messaging and chat application
  Kopete is an instant messaging and chat application with support for a wide
- variety of services, such as AIM, Yahoo, ICQ, and Jabber. Advanced
+ variety of services, such as AIM, Yahoo, ICQ, MSN, and Jabber. Advanced
  features and additional protocols are available as plugins.
  .
  This package contains development files needed for building Kopete plugins.
