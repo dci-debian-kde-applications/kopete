@@ -5,7 +5,7 @@ kopete (4:15.08.0-1~) UNRELEASED; urgency=medium
   * New upstream release (15.04.2).
   * New upstream release (15.04.3).
   * New upstream release (15.08.0).
-  * Add libsoprano-dev build dep.
+  * Add libsoprano-dev build dep. (Closes: #797644)
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Sep 2015 10:05:03 +0200
 
