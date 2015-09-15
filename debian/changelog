@@ -1,9 +1,9 @@
-kopete (4:15.08.0-2~1) UNRELEASED; urgency=medium
+kopete (4:15.08.0-2) unstable; urgency=medium
 
   * Set kdepim-runtime as a recommends. (Closes: #797746) Thanks to
     Salvo Tomaselli
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 12:32:29 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:45:55 +0200
 
 kopete (4:15.08.0-1) unstable; urgency=medium
 
