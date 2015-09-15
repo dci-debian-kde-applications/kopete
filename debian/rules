@@ -24,5 +24,5 @@ override_dh_auto_test:
 	:
 
 override_dh_shlibdeps:
-	$(overridden_command) -plibkopete4 -- -xkopete
-	$(overridden_command) --remaining-packages
+	$(overridden_command) -plibkopete4 -- -xkopete -xkdepim-runtime
+	$(overridden_command) --remaining-packages -- -xkdepim-runtime
