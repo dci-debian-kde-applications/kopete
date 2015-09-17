@@ -1,3 +1,9 @@
+kopete (4:15.08.1-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.08.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Sep 2015 20:00:47 +0200
+
 kopete (4:15.08.0-2) unstable; urgency=medium
 
   * Set kdepim-runtime as a recommends. (Closes: #797746) Thanks to
