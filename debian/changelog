@@ -1,3 +1,9 @@
+kopete (4:15.08.1-0ubuntu2) wily; urgency=medium
+
+  * remove random build-dep on libkleo4
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 23 Sep 2015 14:36:00 +0100
+
 kopete (4:15.08.1-0ubuntu1) wily; urgency=medium
 
   * New upstream release
