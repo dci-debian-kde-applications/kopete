@@ -487,15 +487,6 @@ Copyright: 2010, Rion
 License: GPL-2+
 
 Files: protocols/jabber/libjingle/*
-       - protocols/jabber/libjingle/talk/third_party/libudev/libudev.h
-       - protocols/jabber/libjingle/talk/base/scoped_ptr.h
-       - protocols/jabber/libjingle/talk/base/base64.h
-       - protocols/jabber/libjingle/talk/base/base64.cc
-       - protocols/jabber/libjingle/talk/base/sigslot.h
-       - protocols/jabber/libjingle/talk/base/sha1.h
-       - protocols/jabber/libjingle/talk/base/sha1.c
-       - protocols/jabber/libjingle/talk/base/md5.h
-       - protocols/jabber/libjingle/talk/base/md5c.c
 Copyright: 2003-2012, Google Inc.
 License: BSD-3-clause
  Redistribution and use in source and binary forms, with or without

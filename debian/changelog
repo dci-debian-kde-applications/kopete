@@ -2,6 +2,8 @@ kopete (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
 
   * Debian merge: No remaining changes. 
   * Fix copyright file to subtract duplicate files from catch all. 
+  * Revert last commit, new lintain error. According
+    to docs original format should have been fine. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 08 Feb 2016 17:02:11 -0800
 
