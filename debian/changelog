@@ -1,11 +1,11 @@
-kopete (4:15.12.1-1ubuntu1) UNRELEASED; urgency=medium
+kopete (4:15.12.1-1ubuntu1) xenial; urgency=medium
 
   * Debian merge: No remaining changes. 
   * Fix copyright file to subtract duplicate files from catch all. 
   * Revert last commit, new lintain error. According
     to docs original format should have been fine. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 08 Feb 2016 17:02:11 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 10:58:51 +0100
 
 kopete (4:15.12.1-1) experimental; urgency=medium
 
