@@ -85,6 +85,7 @@ Copyright: 1998-1999, Adam Fritzler <afritz@auk.cx>
 License: GPL-2+
 
 Files: cmake/*
+       protocols/jabber/libjingle/*
 Copyright: 2006, Alessandro Praduroux <pradu@pradu.it>
            2008, Detlev Casanova <detlev.casanova @ gmail.com>
            2009, Jaroslav Reznik <jreznik@redhat.com>
@@ -98,6 +99,7 @@ Copyright: 2006, Alessandro Praduroux <pradu@pradu.it>
            2009, Tiago Salem Herrmann <tiagosh@gmail.com>
            2007, Urs Wolfer <uwolfer @ kde.org>
            2006, Will Stephenson <wstephenson@kde.org>
+           2003-2012, Google Inc.
 License: BSD-3-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
@@ -376,7 +378,12 @@ License: LGPL-2
 
 Files: libkopete/avdevice/bayer.cpp
        libkopete/avdevice/bayer.h
+       protocols/yahoo/libkyahoo/sha1.c
+       protocols/yahoo/libkyahoo/sha1.h
+       protocols/oscar/liboscar/tests/main.cpp
 Copyright: 2004, Takafumi Mizuno <taka-qce@ls-a.jp>
+           2001-2003, Allan Saddi <allan@saddi.com>
+           2004, Zack Rusin <zack@kde.org>
 License: BSD-2-clause
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
@@ -486,32 +493,6 @@ Files: protocols/jabber/libiris/src/xmpp/xmpp-im/xmpp_bitsofbinary.cpp
 Copyright: 2010, Rion
 License: GPL-2+
 
-Files: protocols/jabber/libjingle/*
-Copyright: 2003-2012, Google Inc.
-License: BSD-3-clause
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions are met:
- .
- * Redistributions of source code must retain the above copyright notice,
-   this list of conditions and the following disclaimer.
- * Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
- * The name of the author may not be used to endorse or promote products
-   derived from this software without specific prior written permission.
- .
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
- AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
- LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
- CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
- GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
- HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
- STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY
- WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
- SUCH DAMAGE.
-
 Files: protocols/jabber/libjingle/talk/base/md5.h
        protocols/jabber/libjingle/talk/base/md5c.c
 Copyright: No copyright claimed
@@ -551,7 +532,7 @@ License: public-domain
 Files: protocols/jabber/libjingle/talk/base/base64.h
        protocols/jabber/libjingle/talk/base/base64.cc
 Copyright: 1999, Bob Withers <bwit@pobox.com>
-License: unrestricted
+License: unrestricted-copyright-remain
  This code may be freely used for any purpose, either personal
  or commercial, provided the authors copyright notice remains
  intact.
@@ -737,30 +718,6 @@ Copyright: 2009, Benson Tsai <btsai@vrwarp.com>
            2002-2008, the Kopete developers <kopete-devel@kde.org>
 License: LGPL-2+
 
-Files: protocols/oscar/liboscar/tests/main.cpp
-Copyright: 2004, Zack Rusin <zack@kde.org>
-License: BSD-2-clause
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- .
- 1. Redistributions of source code must retain the above copyright
-   notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the above copyright
-   notice, this list of conditions and the following disclaimer in the
-   documentation and/or other materials provided with the distribution.
- .
- THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
- IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
- IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
- INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
- NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
 Files: protocols/oscar/aim/aimjoinchat.cpp
        protocols/oscar/aim/aimjoinchat.h
        protocols/oscar/liboscar/oftmetatransfer.cpp
@@ -925,31 +882,6 @@ Files: protocols/yahoo/libkyahoo/md5.c
        protocols/yahoo/libkyahoo/md5.h
 Copyright: 1999, Aladdin Enterprises. All rights reserved
 License: Zlib
-
-Files: protocols/yahoo/libkyahoo/sha1.c
-       protocols/yahoo/libkyahoo/sha1.h
-Copyright: 2001-2003, Allan Saddi <allan@saddi.com>
-License: BSD-2-clause
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- 1. Redistributions of source code must retain the above copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the above copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- .
- THIS SOFTWARE IS PROVIDED BY ALLAN SADDI AND HIS CONTRIBUTORS ``AS IS''
- AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
- IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
- ARE DISCLAIMED.  IN NO EVENT SHALL ALLAN SADDI OR HIS CONTRIBUTORS BE
- LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
- CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
- SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
- INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
- CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
- ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
- POSSIBILITY OF SUCH DAMAGE.
 
 Files: protocols/yahoo/libkyahoo/bytestream.cpp
        protocols/yahoo/libkyahoo/bytestream.h
