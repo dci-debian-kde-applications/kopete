@@ -1,8 +1,9 @@
-kopete (4:15.12.2-0ubuntu1) UNRELEASED; urgency=medium
+kopete (4:15.12.3-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream bugfix release. 
   * Combine duplicate licence entries into single licence types
     to make lintian happy. 
+  * Another new upstream bugfix release. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 10 Mar 2016 08:59:50 -0800
 
