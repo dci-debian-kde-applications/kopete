@@ -7,6 +7,13 @@ kopete (4:15.12.3-0ubuntu1) UNRELEASED; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 10 Mar 2016 08:59:50 -0800
 
+kopete (4:15.12.1-1ubuntu2) xenial; urgency=medium
+
+  * Add disable_failing_test.diff to disable a test that fails upstream and
+    blocks the autopkgtest QA
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Mon, 21 Mar 2016 22:43:10 +0100
+
 kopete (4:15.12.1-1ubuntu1) xenial; urgency=medium
 
   * Debian merge: No remaining changes. 
