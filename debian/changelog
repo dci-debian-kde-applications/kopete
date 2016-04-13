@@ -1,3 +1,12 @@
+kopete (4:15.12.3-1~1.gbp113c55) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @113c55b1121ebb6f041f8705eab0e8e7fe515d5d **
+
+  * Bump Standards-Version to 3.9.8
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:34:30 +0200
+
 kopete (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
