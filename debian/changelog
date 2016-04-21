@@ -1,6 +1,6 @@
-kopete (4:15.12.3-1~2.gbp7cba44) UNRELEASED; urgency=medium
+kopete (4:16.04.0-1~1.gbpe9b0ca) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @7cba44f642be164f3a589fca1af10eb4ec86763c **
+  ** SNAPSHOT build @e9b0caaffa69ab3bf19b7adafc5bbe6e69ff6f48 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @113c55b1121ebb6f041f8705eab0e8e7fe515d5d **
@@ -13,8 +13,9 @@ kopete (4:15.12.3-1~2.gbp7cba44) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Drop kdepim-runtime as a test build dependency
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 18 Apr 2016 14:31:16 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Thu, 21 Apr 2016 05:31:42 +0200
 
 kopete (4:15.12.1-1) experimental; urgency=medium
 
