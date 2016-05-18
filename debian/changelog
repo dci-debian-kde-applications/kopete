@@ -1,3 +1,9 @@
+kopete (4:16.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:44:59 +0200
+
 kopete (4:15.12.3-1~1.gbp113c55) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @113c55b1121ebb6f041f8705eab0e8e7fe515d5d **
