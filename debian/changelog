@@ -1,3 +1,10 @@
+kopete (4:16.04.0-2) unstable; urgency=medium
+
+  * Follow jasper archive removal. (Closes: #818212)
+  * Yahoo support is gone with the jasper removal
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 24 May 2016 14:10:28 +0200
+
 kopete (4:16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
