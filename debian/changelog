@@ -1,10 +1,8 @@
-kopete (4:16.04.2-1~1.gbp56b3d3) UNRELEASED; urgency=medium
+kopete (4:16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @56b3d398dfe5520d0508fa0b12b30c65c54c2b42 **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 05:31:59 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Jun 2016 11:08:33 +0200
 
 kopete (4:16.04.0-2) unstable; urgency=medium
 
