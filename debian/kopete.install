@@ -53,7 +53,6 @@ usr/lib/kde4/kopete_texteffect.so
 usr/lib/kde4/kopete_translator.so
 usr/lib/kde4/kopete_urlpicpreview.so
 usr/lib/kde4/kopete_webpresence.so
-usr/lib/kde4/kopete_wlm.so
 usr/lib/kde4/kopete_wp.so
 usr/lib/kde4/libchattexteditpart.so
 usr/lib/kde4/plugins/accessible/chatwindowaccessiblewidgetfactory.so
@@ -152,7 +151,6 @@ usr/share/kde4/apps/kopete_privacy/
 usr/share/kde4/apps/kopete_skype/
 usr/share/kde4/apps/kopete_statistics/
 usr/share/kde4/apps/kopete_translator/
-usr/share/kde4/apps/kopete_wlm/
 usr/share/kde4/apps/kopeterichtexteditpart/
 usr/share/kde4/config.kcfg/history2config.kcfg
 usr/share/kde4/config.kcfg/historyconfig.kcfg
@@ -218,7 +216,6 @@ usr/share/kde4/services/kopete_texteffect.desktop
 usr/share/kde4/services/kopete_translator.desktop
 usr/share/kde4/services/kopete_urlpicpreview.desktop
 usr/share/kde4/services/kopete_webpresence.desktop
-usr/share/kde4/services/kopete_wlm.desktop
 usr/share/kde4/services/kopete_wp.desktop
 usr/share/kde4/services/skype.protocol
 usr/share/kde4/services/tel.protocol
