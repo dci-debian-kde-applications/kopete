@@ -1,12 +1,13 @@
-kopete (4:16.04.2-3~1.gbpf5c26b) UNRELEASED; urgency=medium
+kopete (4:16.04.3-1~1.gbp974656) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @f5c26b788a8bdaeeda415288d27d7f8f20427bb1 **
+  ** SNAPSHOT build @974656f271e8488163998e07e81ccf7b062e943c **
 
   * Team upload.
   * Drop libmsn-dev from build-depends since MSN is long dead, this is useless
   * Update kopete.install as well.
+  * UNRELEASED
 
- -- Scott Kitterman <scott@kitterman.com>  Mon, 20 Jun 2016 09:31:22 +0200
+ -- Scott Kitterman <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 23:31:35 +0200
 
 kopete (4:16.04.2-1) unstable; urgency=medium
 
