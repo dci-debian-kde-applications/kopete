@@ -1,5 +1,8 @@
-kopete (4:16.08.0-1~1.gbp3e2068) UNRELEASED; urgency=medium
+kopete (4:16.08.1-1~1.gbpf7fd72) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @f7fd723ca005bf2885a10cbf95ab49c97533cea7 **
+
+  [ Scott Kitterman ]
   ** SNAPSHOT build @3e20681e023a85486275ad9dbca1cb8cd6acfee2 **
 
   * Team upload.
@@ -8,7 +11,10 @@ kopete (4:16.08.0-1~1.gbp3e2068) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
 
- -- Scott Kitterman <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 23:31:32 +0200
+  [ Automatic packaging ]
+  * Update symbols files.
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 23:32:24 +0200
 
 kopete (4:16.04.2-1) unstable; urgency=medium
 
