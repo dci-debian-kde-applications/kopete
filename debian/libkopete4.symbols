@@ -1,12 +1,8 @@
-# SymbolsHelper-Confirmed: 4:16.08.0 armhf
+# SymbolsHelper-Confirmed: 4:16.08.1 amd64
 libkopete.so.4 libkopete4 #MINVER#
- (optional=templinst)_Z21qMetaTypeDeleteHelperIPN6Kopete7ContactEEvPT_@Base 4:16.08.0
- (optional=templinst)_Z24qMetaTypeConstructHelperIPN6Kopete7ContactEEPvPKT_@Base 4:16.08.0
  _ZGVZN6Kopete2UI8ListView4Item7Private18theVisibilityTimerEvE5timer@Base 4:4.3.4
  _ZGVZN6Kopete2UI8ListView4Item7Private21theLayoutAnimateTimerEvE5timer@Base 4:4.3.4
  _ZN10KopeteView14appendMessagesE5QListIN6Kopete7MessageEE@Base 4:4.3.4
- _ZN10KopeteView22registerTooltipHandlerEP7QObjectPKc@Base 4:16.08.0
- _ZN10KopeteView26registerContextMenuHandlerEP7QObjectPKc@Base 4:16.08.0
  _ZN10KopeteView5clearEv@Base 4:4.3.4
  _ZN10KopeteView6pluginEv@Base 4:4.3.4
  _ZN10KopeteViewC1EPN6Kopete11ChatSessionEPNS0_10ViewPluginE@Base 4:4.3.4
@@ -14,24 +10,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN10KopeteViewD0Ev@Base 4:4.3.4
  _ZN10KopeteViewD1Ev@Base 4:4.3.4
  _ZN10KopeteViewD2Ev@Base 4:4.3.4
- _ZN10Q3ListView10removeItemEP14Q3ListViewItem@Base 4:16.08.0
- _ZN11ArrowButton10paintEventEP11QPaintEvent@Base 4:16.08.0
- _ZN11ArrowButtonC1EP7QWidget@Base 4:16.08.0
- _ZN11ArrowButtonC2EP7QWidget@Base 4:16.08.0
- _ZN11ArrowButtonD0Ev@Base 4:16.08.0
- _ZN11ArrowButtonD1Ev@Base 4:16.08.0
- _ZN11ArrowButtonD2Ev@Base 4:16.08.0
- (optional=templinst)_ZN11QLinkedListIPN6Kopete21MessageHandlerFactoryEE13detach_helperEv@Base 4:16.08.0
- _ZN11TempFactory14filterPositionEPN6Kopete11ChatSessionENS0_7Message16MessageDirectionE@Base 4:16.08.0
- _ZN11TempFactory6createEPN6Kopete11ChatSessionENS0_7Message16MessageDirectionE@Base 4:16.08.0
- _ZN11TempFactoryD0Ev@Base 4:16.08.0
- _ZN11TempFactoryD1Ev@Base 4:16.08.0
- _ZN11TempFactoryD2Ev@Base 4:16.08.0
- _ZN13AddresseeItemC1EP10Q3ListViewRKN4KABC9AddresseeE@Base 4:16.08.0
- _ZN13AddresseeItemC2EP10Q3ListViewRKN4KABC9AddresseeE@Base 4:16.08.0
- _ZN13AddresseeItemD0Ev@Base 4:16.08.0
- _ZN13AddresseeItemD1Ev@Base 4:16.08.0
- _ZN13AddresseeItemD2Ev@Base 4:16.08.0
  _ZN14AddContactPage11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN14AddContactPage11qt_metacastEPKc@Base 4:4.3.4
  _ZN14AddContactPage16staticMetaObjectE@Base 4:4.3.4
@@ -41,17 +19,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN14AddContactPageD0Ev@Base 4:4.3.4
  _ZN14AddContactPageD1Ev@Base 4:4.3.4
  _ZN14AddContactPageD2Ev@Base 4:4.3.4
- _ZN14ClickableLabel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.08.0
- _ZN14ClickableLabel11qt_metacastEPKc@Base 4:16.08.0
- _ZN14ClickableLabel16staticMetaObjectE@Base 4:16.08.0
- _ZN14ClickableLabel17mouseReleaseEventEP11QMouseEvent@Base 4:16.08.0
- _ZN14ClickableLabel7clickedEv@Base 4:16.08.0
- _ZN14ClickableLabelC1EP7QWidget@Base 4:16.08.0
- _ZN14ClickableLabelC2EP7QWidget@Base 4:16.08.0
- _ZN14ClickableLabelD0Ev@Base 4:16.08.0
- _ZN14ClickableLabelD1Ev@Base 4:16.08.0
- _ZN14ClickableLabelD2Ev@Base 4:16.08.0
- _ZN14Q3ListViewItem10removeItemEPS_@Base 4:16.08.0
  _ZN15AccountSelector10isSelectedEPN6Kopete7AccountE@Base 4:4.3.4
  _ZN15AccountSelector11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN15AccountSelector11qt_metacastEPKc@Base 4:4.3.4
@@ -82,7 +49,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN15KopeteStdAction4chatEPK7QObjectPKcPS0_@Base 4:4.3.4
  _ZN15KopeteStdAction8addGroupEPK7QObjectPKcPS0_@Base 4:4.3.4
  _ZN15KopeteStdAction8sendFileEPK7QObjectPKcPS0_@Base 4:4.3.4
- _ZN15QListWidgetItem18setBackgroundColorERK6QColor@Base 4:16.08.0
  _ZN17CollapsibleWidget10setCaptionERK7QString@Base 4:4.3.4
  _ZN17CollapsibleWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN17CollapsibleWidget11qt_metacastEPKc@Base 4:4.3.4
@@ -128,28 +94,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN17SettingsContainerD0Ev@Base 4:4.3.4
  _ZN17SettingsContainerD1Ev@Base 4:4.3.4
  _ZN17SettingsContainerD2Ev@Base 4:4.3.4
- _ZN18KopeteWalletSignal11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.08.0
- _ZN18KopeteWalletSignal11qt_metacastEPKc@Base 4:16.08.0
- _ZN18KopeteWalletSignal12walletOpenedEPN7KWallet6WalletE@Base 4:16.08.0
- _ZN18KopeteWalletSignal16staticMetaObjectE@Base 4:16.08.0
- _ZN18KopeteWalletSignalD0Ev@Base 4:16.08.0
- _ZN18KopeteWalletSignalD1Ev@Base 4:16.08.0
- _ZN18KopeteWalletSignalD2Ev@Base 4:16.08.0
- (optional=templinst)_ZN18QAlgorithmsPrivate11qSortHelperIN5QListIPN6Kopete7AccountEE8iteratorES4_PFiS4_S4_EEEvT_S9_RKT0_T1_@Base 4:16.08.0
- (optional=templinst)_ZN18QSharedDataPointerIN6Kopete7Message7PrivateEE13detach_helperEv@Base 4:16.08.0
- _ZN19AccountListViewItemD0Ev@Base 4:16.08.0
- _ZN19AccountListViewItemD1Ev@Base 4:16.08.0
- _ZN19AccountListViewItemD2Ev@Base 4:16.08.0
- _ZN19KCoreConfigSkeleton8ItemEnum7Choice2C1Ev@Base 4:16.08.0
- _ZN19KCoreConfigSkeleton8ItemEnum7Choice2C2Ev@Base 4:16.08.0
- _ZN20KCleanUpGlobalStaticD1Ev@Base 4:16.08.0
- _ZN20KCleanUpGlobalStaticD2Ev@Base 4:16.08.0
- _ZN21KopetePasswordRequest11gotPasswordERK7QStringb@Base 4:16.08.0
- _ZN21KopetePasswordRequest14walletReceivedEPN7KWallet6WalletE@Base 4:16.08.0
- _ZN21KopetePasswordRequest17slotCancelPressedEv@Base 4:16.08.0
- _ZN22KopeteCommandGUIClientD0Ev@Base 4:16.08.0
- _ZN22KopeteCommandGUIClientD1Ev@Base 4:16.08.0
- _ZN22KopeteCommandGUIClientD2Ev@Base 4:16.08.0
  _ZN23KopeteEditAccountWidget10setAccountEPN6Kopete7AccountE@Base 4:4.3.4
  _ZN23KopeteEditAccountWidgetC1EPN6Kopete7AccountE@Base 4:4.3.4
  _ZN23KopeteEditAccountWidgetC2EPN6Kopete7AccountE@Base 4:4.3.4
@@ -166,211 +110,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN23KopetePreferencesActionD0Ev@Base 4:4.3.4
  _ZN23KopetePreferencesActionD1Ev@Base 4:4.3.4
  _ZN23KopetePreferencesActionD2Ev@Base 4:4.3.4
- _ZN24KopetePasswordSetRequest14processRequestEv@Base 4:16.08.0
- _ZN24KopetePasswordSetRequestD0Ev@Base 4:16.08.0
- _ZN24KopetePasswordSetRequestD1Ev@Base 4:16.08.0
- _ZN24KopetePasswordSetRequestD2Ev@Base 4:16.08.0
- _ZN25KopetePasswordRequestBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.08.0
- _ZN25KopetePasswordRequestBase11qt_metacastEPKc@Base 4:16.08.0
- _ZN25KopetePasswordRequestBase15requestFinishedERK7QString@Base 4:16.08.0
- _ZN25KopetePasswordRequestBase16staticMetaObjectE@Base 4:16.08.0
- _ZN26KopetePasswordClearRequest14processRequestEv@Base 4:16.08.0
- _ZN26KopetePasswordClearRequestD0Ev@Base 4:16.08.0
- _ZN26KopetePasswordClearRequestD1Ev@Base 4:16.08.0
- _ZN26KopetePasswordClearRequestD2Ev@Base 4:16.08.0
- _ZN27Ui_ContactAddedNotifyWidget7setupUiEP7QWidget@Base 4:16.08.0
- _ZN27Ui_KopetePasswordWidgetBase7setupUiEP7QWidget@Base 4:16.08.0
- _ZN30KopetePasswordGetRequestPrompt11gotPasswordERK7QStringb@Base 4:16.08.0
- _ZN30KopetePasswordGetRequestPrompt14processRequestEv@Base 4:16.08.0
- _ZN30KopetePasswordGetRequestPrompt17slotCancelPressedEv@Base 4:16.08.0
- _ZN30KopetePasswordGetRequestPromptD0Ev@Base 4:16.08.0
- _ZN30KopetePasswordGetRequestPromptD1Ev@Base 4:16.08.0
- _ZN30KopetePasswordGetRequestPromptD2Ev@Base 4:16.08.0
- _ZN32KopetePasswordGetRequestNoPrompt14processRequestEv@Base 4:16.08.0
- _ZN32KopetePasswordGetRequestNoPromptD0Ev@Base 4:16.08.0
- _ZN32KopetePasswordGetRequestNoPromptD1Ev@Base 4:16.08.0
- _ZN32KopetePasswordGetRequestNoPromptD2Ev@Base 4:16.08.0
- _ZN33Ui_AddressBookSelectorWidget_Base7setupUiEP7QWidget@Base 4:16.08.0
- _ZN3KIO3Job5startEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapI11KPluginInfoPN6Kopete6PluginEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapI11KPluginInfoPN6Kopete6PluginEE5eraseENS4_8iteratorE@Base 4:16.08.0
- (optional=templinst)_ZN4QMapI11KPluginInfoPN6Kopete6PluginEE6removeERKS0_@Base 4:16.08.0
- (optional=templinst)_ZN4QMapI14ContactWrapperPN6Kopete7ContactEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapI7QString11QStringListE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapI7QString5QListIS_IS0_S0_EEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapI7QString5QListIS_IS0_S0_EEE6removeERKS0_@Base 4:16.08.0
- (optional=templinst)_ZN4QMapI7QStringN6Kopete12PropertyTmplEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapI7QStringN6Kopete12PropertyTmplEE6removeERKS0_@Base 4:16.08.0
- (optional=templinst)_ZN4QMapI7QStringN6Kopete8PropertyEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapI7QStringN6Kopete8PropertyEE6removeERKS0_@Base 4:16.08.0
- (optional=templinst)_ZN4QMapI7QStringS0_E13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapI7QStringS_IS0_S0_EE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapI7QStringS_IS0_S0_EE6removeERKS0_@Base 4:16.08.0
- (optional=templinst)_ZN4QMapI7QStringbE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIN6Kopete12OnlineStatusENS0_19OnlineStatusManager7Private14QMapDummyValueEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIN6Kopete18ContactListElement9IconStateE7QStringE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIN6Kopete18ContactListElement9IconStateE7QStringE6removeERKS2_@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIP7QObject10QMultiHashI7QStringPN6Kopete7CommandEEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIP7QObject10QMultiHashI7QStringPN6Kopete7CommandEEE6removeERKS1_@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIP8KProcess5QPairIPN6Kopete11ChatSessionENS3_7Message16MessageDirectionEEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIP8KProcess5QPairIPN6Kopete11ChatSessionENS3_7Message16MessageDirectionEEE6removeERKS1_@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIPK13KNotificationN6Kopete5Utils21ErrorNotificationInfoEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIPK13KNotificationN6Kopete5Utils21ErrorNotificationInfoEE6removeERKS2_@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIPKN6Kopete7ContactENS0_12OnlineStatusEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIPKN6Kopete7ContactENS0_12OnlineStatusEE6removeERKS3_@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIPN6Kopete11ChatSessionEP10KopeteViewE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIPN6Kopete11ChatSessionEP10KopeteViewE6removeERKS2_@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIPN6Kopete8ProtocolES_INS0_12OnlineStatusENS0_19OnlineStatusManager7Private14QMapDummyValueEEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIi5QListIPN6Kopete14MessageHandlerEEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIi7QStringE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIj7QStringE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIjN6Kopete16FileTransferInfoEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIjN6Kopete16FileTransferInfoEE6removeERKj@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIjPN6Kopete8TransferEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN4QMapIjPN6Kopete8TransferEE6removeERKj@Base 4:16.08.0
- (optional=templinst)_ZN4QSetIP15QAbstractSocketED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN4QSetIP15QAbstractSocketED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QString8QVariantE11deleteNode2EPN9QHashData4NodeE@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QString8QVariantE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QString8QVariantE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringP7QPixmapE11deleteNode2EPN9QHashData4NodeE@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringP7QPixmapE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringP7QPixmapE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete15MimeTypeHandlerEE11deleteNode2EPN9QHashData4NodeE@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete15MimeTypeHandlerEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete15MimeTypeHandlerEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete15MimeTypeHandlerEE6removeERKS0_@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete15MimeTypeHandlerEED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete15MimeTypeHandlerEED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete18ActiveNotificationEE11deleteNode2EPN9QHashData4NodeE@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete18ActiveNotificationEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete18ActiveNotificationEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete18ActiveNotificationEE6removeERKS0_@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete6Status10StatusItemEE11deleteNode2EPN9QHashData4NodeE@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete6Status10StatusItemEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete7CommandEE11deleteNode2EPN9QHashData4NodeE@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete7CommandEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete7CommandEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete7CommandEE6removeERKS0_@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete7ContactEE11deleteNode2EPN9QHashData4NodeE@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete7ContactEE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete7ContactEE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:16.08.0
- (optional=templinst)_ZN5QHashI7QStringPN6Kopete7ContactEE6removeERKS0_@Base 4:16.08.0
- (optional=templinst)_ZN5QHashIP15QAbstractSocket15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 4:16.08.0
- (optional=templinst)_ZN5QHashIP15QAbstractSocket15QHashDummyValueE13detach_helperEv@Base 4:16.08.0
- (optional=templinst)_ZN5QHashIP15QAbstractSocket15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:16.08.0
- (optional=templinst)_ZN5QHashIP15QAbstractSocket15QHashDummyValueE6removeERKS1_@Base 4:16.08.0
- (optional=templinst)_ZN5QHashIPN6Kopete8ProtocolE15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 4:16.08.0
- (optional=templinst)_ZN5QHashIPN6Kopete8ProtocolE15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:16.08.0
- (optional=templinst)_ZN5QHashIj15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE@Base 4:16.08.0
- (optional=templinst)_ZN5QHashIj15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv@Base 4:16.08.0
- (optional=templinst)_ZN5QListI10KSharedPtrI8KServiceEE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListI10KSharedPtrI8KServiceEED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListI10KSharedPtrI8KServiceEED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListI11KPluginInfoE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListI11KPluginInfoE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListI11KPluginInfoED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListI11KPluginInfoED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListI11QDomElementE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListI11QDomElementE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListI11QDomElementE6appendERKS0_@Base 4:16.08.0
- (optional=templinst)_ZN5QListI11QDomElementED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListI11QDomElementED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListI4QMapI7QStringS1_EE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListI4QMapI7QStringS1_EE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListI4QMapI7QStringS1_EED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListI4QMapI7QStringS1_EED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListI5QPairI7QString4QMapIS1_S1_EEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListI5QPairI7QString4QMapIS1_S1_EEED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListI5QPairI7QString4QMapIS1_S1_EEED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListI7QStringE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListI7QStringE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListI7QStringE6appendERKS0_@Base 4:16.08.0
- (optional=templinst)_ZN5QListI7QStringE9removeAllERKS0_@Base 4:16.08.0
- (optional=templinst)_ZN5QListI7QStringED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListI7QStringED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIN15KEmoticonsTheme5TokenEE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIN15KEmoticonsTheme5TokenEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIN15KEmoticonsTheme5TokenEE6appendERKS1_@Base 4:16.08.0
- (optional=templinst)_ZN5QListIN15KEmoticonsTheme5TokenEED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIN15KEmoticonsTheme5TokenEED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum7Choice2EE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum7Choice2EE6appendERKS2_@Base 4:16.08.0
- (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum7Choice2EED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIN19KCoreConfigSkeleton8ItemEnum7Choice2EED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIN6Kopete12OnlineStatusEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIN6Kopete13AvatarManager11AvatarEntryEE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIN6Kopete13AvatarManager11AvatarEntryEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIN6Kopete13AvatarManager11AvatarEntryEED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIN6Kopete13AvatarManager11AvatarEntryEED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIN6Kopete7MessageEE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIN6Kopete9IdleTimer7Private15TimeoutReceiverEE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIN6Kopete9IdleTimer7Private15TimeoutReceiverEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIP15QListWidgetItemE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIP15QListWidgetItemED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIP15QListWidgetItemED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIP4KJobE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIP7KActionE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN4KABC8ResourceEE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN4KABC8ResourceEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN4KABC8ResourceEED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN4KABC8ResourceEED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete11ChatSessionEE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete11ChatSessionEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete11ChatSessionEE9removeAllERKS2_@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete11MetaContactEE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete11MetaContactEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete11MetaContactEE9removeAllERKS2_@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete11MetaContactEED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete11MetaContactEED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete12MessageEventEE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete12MessageEventEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete12MessageEventEE6appendERKS2_@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete12MessageEventEE9removeAllERKS2_@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete12MessageEventEED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete12MessageEventEED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete14MessageHandlerEE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete14MessageHandlerEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete14MessageHandlerEED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete14MessageHandlerEED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete2UI8ListView9ComponentEE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete2UI8ListView9ComponentEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete2UI8ListView9ComponentEE9removeAllERKS4_@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete2UI8ListView9ComponentEED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete2UI8ListView9ComponentEED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete5GroupEE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete5GroupEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete5GroupEE6appendERKS2_@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete5GroupEE9removeAllERKS2_@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete5GroupEED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete5GroupEED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete6PluginEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete6Status10StatusItemEE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete6Status10StatusItemEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete6Status10StatusItemEE9removeAllERKS3_@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete6Status10StatusItemEED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete6Status10StatusItemEED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete7AccountEE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete7AccountEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete7AccountEE6appendERKS2_@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete7AccountEE9removeAllERKS2_@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete7AccountEED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete7AccountEED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete7ContactEE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete7ContactEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete7ContactEE5clearEv@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete7ContactEE6appendERKS2_@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete7ContactEE9removeAllERKS2_@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete7ContactEED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete7ContactEED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete8IdentityEE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete8IdentityEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete8IdentityEE9removeAllERKS2_@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete8IdentityEED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete8IdentityEED2Ev@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete9InfoEventEE13detach_helperEi@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete9InfoEventEE18detach_helper_growEii@Base 4:16.08.0
- (optional=templinst)_ZN5QListIPN6Kopete9InfoEventEE9removeAllERKS2_@Base 4:16.08.0
  _ZN6Kopete10FileEngine11setFileNameERK7QString@Base 4:4.3.4
  _ZN6Kopete10FileEngine14setPermissionsEj@Base 4:4.3.4
  _ZN6Kopete10FileEngine4openE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 4:4.3.4
@@ -389,34 +128,9 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete10FileEngineD0Ev@Base 4:4.3.4
  _ZN6Kopete10FileEngineD1Ev@Base 4:4.3.4
  _ZN6Kopete10FileEngineD2Ev@Base 4:4.3.4
- _ZN6Kopete10Properties12variantToXMLE8QVariantR11QDomElement@Base 4:16.08.0
- _ZN6Kopete10Properties14variantFromXMLERK11QDomElement@Base 4:16.08.0
- _ZN6Kopete10Properties31customPropertyDataIncorrectTypeEPKcRKSt9type_infoS5_@Base 4:16.08.0
- (optional=templinst)_ZN6Kopete10Properties9variantToIiEET_8QVariant@Base 4:16.08.0
- _ZN6Kopete10ViewPlugin10createViewEPNS_11ChatSessionE@Base 4:16.08.0
  _ZN6Kopete10ViewPlugin13aboutToUnloadEv@Base 4:4.3.4
  _ZN6Kopete10ViewPluginC1ERK14KComponentDataP7QObject@Base 4:4.3.4
  _ZN6Kopete10ViewPluginC2ERK14KComponentDataP7QObject@Base 4:4.3.4
- _ZN6Kopete10ViewPluginD0Ev@Base 4:16.08.0
- _ZN6Kopete10ViewPluginD1Ev@Base 4:16.08.0
- _ZN6Kopete10ViewPluginD2Ev@Base 4:16.08.0
- _ZN6Kopete11BlackLister10addContactEPNS_7ContactE@Base 4:16.08.0
- _ZN6Kopete11BlackLister10addContactERK7QString@Base 4:16.08.0
- _ZN6Kopete11BlackLister10saveToDiskEv@Base 4:16.08.0
- _ZN6Kopete11BlackLister11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.08.0
- _ZN6Kopete11BlackLister11qt_metacastEPKc@Base 4:16.08.0
- _ZN6Kopete11BlackLister12contactAddedERK7QString@Base 4:16.08.0
- _ZN6Kopete11BlackLister13removeContactEPNS_7ContactE@Base 4:16.08.0
- _ZN6Kopete11BlackLister13removeContactERK7QString@Base 4:16.08.0
- _ZN6Kopete11BlackLister14contactRemovedERK7QString@Base 4:16.08.0
- _ZN6Kopete11BlackLister16staticMetaObjectE@Base 4:16.08.0
- _ZN6Kopete11BlackLister9isBlockedEPNS_7ContactE@Base 4:16.08.0
- _ZN6Kopete11BlackLister9isBlockedERK7QString@Base 4:16.08.0
- _ZN6Kopete11BlackListerC1ERK7QStringS3_P7QObject@Base 4:16.08.0
- _ZN6Kopete11BlackListerC2ERK7QStringS3_P7QObject@Base 4:16.08.0
- _ZN6Kopete11BlackListerD0Ev@Base 4:16.08.0
- _ZN6Kopete11BlackListerD1Ev@Base 4:16.08.0
- _ZN6Kopete11BlackListerD2Ev@Base 4:16.08.0
  _ZN6Kopete11ChatSession10addContactEPKNS_7ContactERKNS_12OnlineStatusEb@Base 4:4.3.4
  _ZN6Kopete11ChatSession10addContactEPKNS_7ContactEb@Base 4:4.3.4
  _ZN6Kopete11ChatSession10setLastUrlERK7QString@Base 4:4.4.1
@@ -571,18 +285,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete11MetaContactD0Ev@Base 4:4.3.4
  _ZN6Kopete11MetaContactD1Ev@Base 4:4.3.4
  _ZN6Kopete11MetaContactD2Ev@Base 4:4.3.4
- _ZN6Kopete12IdlePlatform11secondsIdleEv@Base 4:16.08.0
- _ZN6Kopete12IdlePlatform4initEv@Base 4:16.08.0
- _ZN6Kopete12IdlePlatform7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.08.0
- _ZN6Kopete12IdlePlatform7Private11qt_metacastEPKc@Base 4:16.08.0
- _ZN6Kopete12IdlePlatform7Private16staticMetaObjectE@Base 4:16.08.0
- _ZN6Kopete12IdlePlatform7PrivateD0Ev@Base 4:16.08.0
- _ZN6Kopete12IdlePlatform7PrivateD1Ev@Base 4:16.08.0
- _ZN6Kopete12IdlePlatform7PrivateD2Ev@Base 4:16.08.0
- _ZN6Kopete12IdlePlatformC1Ev@Base 4:16.08.0
- _ZN6Kopete12IdlePlatformC2Ev@Base 4:16.08.0
- _ZN6Kopete12IdlePlatformD1Ev@Base 4:16.08.0
- _ZN6Kopete12IdlePlatformD2Ev@Base 4:16.08.0
  _ZN6Kopete12MessageEvent10setMessageERKNS_7MessageE@Base 4:4.3.4
  _ZN6Kopete12MessageEvent11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6Kopete12MessageEvent11qt_metacastEPKc@Base 4:4.3.4
@@ -935,9 +637,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete15TransferManager8sendFileERK4KUrlRK7QStringmbP7QObjectPKc@Base 4:4.3.4
  _ZN6Kopete15TransferManagerC1EP7QObject@Base 4:4.3.4
  _ZN6Kopete15TransferManagerC2EP7QObject@Base 4:4.3.4
- _ZN6Kopete15TransferManagerD0Ev@Base 4:16.08.0
- _ZN6Kopete15TransferManagerD1Ev@Base 4:16.08.0
- _ZN6Kopete15TransferManagerD2Ev@Base 4:16.08.0
  _ZN6Kopete15nameFromContactEPNS_7ContactE@Base 4:4.3.4
  _ZN6Kopete16BehaviorSettings4selfEv@Base 4:4.3.4
  _ZN6Kopete16BehaviorSettingsC1Ev@Base 4:4.3.4
@@ -977,9 +676,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete17DeleteContactTaskD0Ev@Base 4:4.3.4
  _ZN6Kopete17DeleteContactTaskD1Ev@Base 4:4.3.4
  _ZN6Kopete17DeleteContactTaskD2Ev@Base 4:4.3.4
- _ZN6Kopete17FileEngineHandlerD0Ev@Base 4:16.08.0
- _ZN6Kopete17FileEngineHandlerD1Ev@Base 4:16.08.0
- _ZN6Kopete17FileEngineHandlerD2Ev@Base 4:16.08.0
  _ZN6Kopete17PasswordedAccount11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6Kopete17PasswordedAccount11qt_metacastEPKc@Base 4:4.3.4
  _ZN6Kopete17PasswordedAccount12disconnectedENS_7Account16DisconnectReasonE@Base 4:4.3.4
@@ -1020,16 +716,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete17XmlContactStorageD0Ev@Base 4:4.3.4
  _ZN6Kopete17XmlContactStorageD1Ev@Base 4:4.3.4
  _ZN6Kopete17XmlContactStorageD2Ev@Base 4:4.3.4
- _ZN6Kopete18ActiveNotification11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.08.0
- _ZN6Kopete18ActiveNotification11qt_metacastEPKc@Base 4:16.08.0
- _ZN6Kopete18ActiveNotification16showNotificationEv@Base 4:16.08.0
- _ZN6Kopete18ActiveNotification16staticMetaObjectE@Base 4:16.08.0
- _ZN6Kopete18ActiveNotification17incrementMessagesEv@Base 4:16.08.0
- _ZN6Kopete18ActiveNotificationC1EP13KNotificationRK7QStringR5QHashIS3_PS0_ES5_S5_@Base 4:16.08.0
- _ZN6Kopete18ActiveNotificationC2EP13KNotificationRK7QStringR5QHashIS3_PS0_ES5_S5_@Base 4:16.08.0
- _ZN6Kopete18ActiveNotificationD0Ev@Base 4:16.08.0
- _ZN6Kopete18ActiveNotificationD1Ev@Base 4:16.08.0
- _ZN6Kopete18ActiveNotificationD2Ev@Base 4:16.08.0
  _ZN6Kopete18AppearanceSettings11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6Kopete18AppearanceSettings11qt_metacastEPKc@Base 4:4.3.4
  _ZN6Kopete18AppearanceSettings14usrWriteConfigEv@Base 4:4.3.4
@@ -1101,29 +787,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete18ContactListStorageD0Ev@Base 4:4.3.4
  _ZN6Kopete18ContactListStorageD1Ev@Base 4:4.3.4
  _ZN6Kopete18ContactListStorageD2Ev@Base 4:4.3.4
- _ZN6Kopete18ProcessMessageTask11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.08.0
- _ZN6Kopete18ProcessMessageTask11qt_metacastEPKc@Base 4:16.08.0
- _ZN6Kopete18ProcessMessageTask16staticMetaObjectE@Base 4:16.08.0
- _ZN6Kopete18ProcessMessageTask4killEb@Base 4:16.08.0
- _ZN6Kopete18ProcessMessageTask5eventEv@Base 4:16.08.0
- _ZN6Kopete18ProcessMessageTask5startEv@Base 4:16.08.0
- _ZN6Kopete18ProcessMessageTask8slotDoneEv@Base 4:16.08.0
- _ZN6Kopete18ProcessMessageTaskC1E10KSharedPtrINS_19MessageHandlerChainEEPNS_12MessageEventE@Base 4:16.08.0
- _ZN6Kopete18ProcessMessageTaskC2E10KSharedPtrINS_19MessageHandlerChainEEPNS_12MessageEventE@Base 4:16.08.0
- _ZN6Kopete18ProcessMessageTaskD0Ev@Base 4:16.08.0
- _ZN6Kopete18ProcessMessageTaskD1Ev@Base 4:16.08.0
- _ZN6Kopete18ProcessMessageTaskD2Ev@Base 4:16.08.0
- _ZN6Kopete19MessageHandlerChain11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.08.0
- _ZN6Kopete19MessageHandlerChain11qt_metacastEPKc@Base 4:16.08.0
- _ZN6Kopete19MessageHandlerChain12capabilitiesEv@Base 4:16.08.0
- _ZN6Kopete19MessageHandlerChain14processMessageERKNS_7MessageE@Base 4:16.08.0
- _ZN6Kopete19MessageHandlerChain16staticMetaObjectE@Base 4:16.08.0
- _ZN6Kopete19MessageHandlerChain6createEPNS_11ChatSessionENS_7Message16MessageDirectionE@Base 4:16.08.0
- _ZN6Kopete19MessageHandlerChainC1Ev@Base 4:16.08.0
- _ZN6Kopete19MessageHandlerChainC2Ev@Base 4:16.08.0
- _ZN6Kopete19MessageHandlerChainD0Ev@Base 4:16.08.0
- _ZN6Kopete19MessageHandlerChainD1Ev@Base 4:16.08.0
- _ZN6Kopete19MessageHandlerChainD2Ev@Base 4:16.08.0
  _ZN6Kopete19OnlineStatusManager11fingerprintERKNS_12OnlineStatusERK7QStringi6QColorb@Base 4:4.3.4
  _ZN6Kopete19OnlineStatusManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6Kopete19OnlineStatusManager11qt_metacastEPKc@Base 4:4.3.4
@@ -1140,18 +803,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete19OnlineStatusManagerD0Ev@Base 4:4.3.4
  _ZN6Kopete19OnlineStatusManagerD1Ev@Base 4:4.3.4
  _ZN6Kopete19OnlineStatusManagerD2Ev@Base 4:4.3.4
- _ZN6Kopete20PluginManagerPrivateD1Ev@Base 4:16.08.0
- _ZN6Kopete20PluginManagerPrivateD2Ev@Base 4:16.08.0
- _ZN6Kopete20SimpleMessageHandler11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.08.0
- _ZN6Kopete20SimpleMessageHandler11qt_metacastEPKc@Base 4:16.08.0
- _ZN6Kopete20SimpleMessageHandler13handleMessageEPNS_12MessageEventE@Base 4:16.08.0
- _ZN6Kopete20SimpleMessageHandler16staticMetaObjectE@Base 4:16.08.0
- _ZN6Kopete20SimpleMessageHandler6handleERNS_7MessageE@Base 4:16.08.0
- _ZN6Kopete20SimpleMessageHandlerC1Ev@Base 4:16.08.0
- _ZN6Kopete20SimpleMessageHandlerC2Ev@Base 4:16.08.0
- _ZN6Kopete20SimpleMessageHandlerD0Ev@Base 4:16.08.0
- _ZN6Kopete20SimpleMessageHandlerD1Ev@Base 4:16.08.0
- _ZN6Kopete20SimpleMessageHandlerD2Ev@Base 4:16.08.0
  _ZN6Kopete20SocketTimeoutWatcher11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6Kopete20SocketTimeoutWatcher11qt_metacastEPKc@Base 4:4.3.4
  _ZN6Kopete20SocketTimeoutWatcher12bytesWrittenEv@Base 4:4.3.4
@@ -1173,16 +824,8 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete21MessageHandlerFactoryD0Ev@Base 4:4.3.4
  _ZN6Kopete21MessageHandlerFactoryD1Ev@Base 4:4.3.4
  _ZN6Kopete21MessageHandlerFactoryD2Ev@Base 4:4.3.4
- _ZN6Kopete22OnlineStatusIconEngine5paintEP8QPainterRK5QRectN5QIcon4ModeENS6_5StateE@Base 4:16.08.0
- _ZN6Kopete22OnlineStatusIconEngine6pixmapERK5QSizeN5QIcon4ModeENS4_5StateE@Base 4:16.08.0
- _ZN6Kopete22OnlineStatusIconEngineD0Ev@Base 4:16.08.0
- _ZN6Kopete22OnlineStatusIconEngineD1Ev@Base 4:16.08.0
- _ZN6Kopete22OnlineStatusIconEngineD2Ev@Base 4:16.08.0
  _ZN6Kopete23EmoticonMimeTypeHandlerC1Ev@Base 4:4.3.4
  _ZN6Kopete23EmoticonMimeTypeHandlerC2Ev@Base 4:4.3.4
- _ZN6Kopete23EmoticonMimeTypeHandlerD0Ev@Base 4:16.08.0
- _ZN6Kopete23EmoticonMimeTypeHandlerD1Ev@Base 4:16.08.0
- _ZN6Kopete23EmoticonMimeTypeHandlerD2Ev@Base 4:16.08.0
  _ZN6Kopete27ChatSessionMembersListModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6Kopete27ChatSessionMembersListModel11qt_metacastEPKc@Base 4:4.3.4
  _ZN6Kopete27ChatSessionMembersListModel14setChatSessionEPNS_11ChatSessionE@Base 4:4.3.4
@@ -1206,11 +849,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete27SimpleMessageHandlerFactoryD0Ev@Base 4:4.3.4
  _ZN6Kopete27SimpleMessageHandlerFactoryD1Ev@Base 4:4.3.4
  _ZN6Kopete27SimpleMessageHandlerFactoryD2Ev@Base 4:4.3.4
- _ZN6Kopete29MessageHandlerChainTerminator12capabilitiesEv@Base 4:16.08.0
- _ZN6Kopete29MessageHandlerChainTerminator13handleMessageEPNS_12MessageEventE@Base 4:16.08.0
- _ZN6Kopete29MessageHandlerChainTerminatorD0Ev@Base 4:16.08.0
- _ZN6Kopete29MessageHandlerChainTerminatorD1Ev@Base 4:16.08.0
- _ZN6Kopete29MessageHandlerChainTerminatorD2Ev@Base 4:16.08.0
  _ZN6Kopete2UI10InfoDialog10initializeEv@Base 4:4.3.4
  _ZN6Kopete2UI10InfoDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6Kopete2UI10InfoDialog11qt_metacastEPKc@Base 4:4.3.4
@@ -1246,9 +884,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete2UI13ContactAction9triggeredERK7QStringb@Base 4:4.3.4
  _ZN6Kopete2UI13ContactActionC1EPNS_7ContactEP17KActionCollection@Base 4:4.3.4
  _ZN6Kopete2UI13ContactActionC2EPNS_7ContactEP17KActionCollection@Base 4:4.3.4
- _ZN6Kopete2UI13ContactActionD0Ev@Base 4:16.08.0
- _ZN6Kopete2UI13ContactActionD1Ev@Base 4:16.08.0
- _ZN6Kopete2UI13ContactActionD2Ev@Base 4:16.08.0
  _ZN6Kopete2UI14PasswordWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6Kopete2UI14PasswordWidget11qt_metacastEPKc@Base 4:4.3.4
  _ZN6Kopete2UI14PasswordWidget11setPasswordERK7QString@Base 4:4.3.4
@@ -1308,12 +943,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete2UI21AddressBookLinkWidget22selectAddresseeClickedEv@Base 4:4.3.4
  _ZN6Kopete2UI21AddressBookLinkWidgetC1EP7QWidgetPKc@Base 4:4.3.4
  _ZN6Kopete2UI21AddressBookLinkWidgetC2EP7QWidgetPKc@Base 4:4.3.4
- _ZN6Kopete2UI21AddressBookLinkWidgetD0Ev@Base 4:16.08.0
- _ZN6Kopete2UI21AddressBookLinkWidgetD1Ev@Base 4:16.08.0
- _ZN6Kopete2UI21AddressBookLinkWidgetD2Ev@Base 4:16.08.0
- _ZN6Kopete2UI24AvatarSelectorWidgetItemD0Ev@Base 4:16.08.0
- _ZN6Kopete2UI24AvatarSelectorWidgetItemD1Ev@Base 4:16.08.0
- _ZN6Kopete2UI24AvatarSelectorWidgetItemD2Ev@Base 4:16.08.0
  _ZN6Kopete2UI24ContactAddedNotifyDialog11infoClickedERK7QString@Base 4:4.3.4
  _ZN6Kopete2UI24ContactAddedNotifyDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6Kopete2UI24ContactAddedNotifyDialog11qt_metacastEPKc@Base 4:4.3.4
@@ -1370,19 +999,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete2UI25MetaContactSelectorWidgetD0Ev@Base 4:4.3.4
  _ZN6Kopete2UI25MetaContactSelectorWidgetD1Ev@Base 4:4.3.4
  _ZN6Kopete2UI25MetaContactSelectorWidgetD2Ev@Base 4:4.3.4
- _ZN6Kopete2UI28MetaContactSelectorWidgetLVI11metaContactEv@Base 4:16.08.0
- _ZN6Kopete2UI28MetaContactSelectorWidgetLVI11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.08.0
- _ZN6Kopete2UI28MetaContactSelectorWidgetLVI11qt_metacastEPKc@Base 4:16.08.0
- _ZN6Kopete2UI28MetaContactSelectorWidgetLVI16slotPhotoChangedEv@Base 4:16.08.0
- _ZN6Kopete2UI28MetaContactSelectorWidgetLVI16staticMetaObjectE@Base 4:16.08.0
- _ZN6Kopete2UI28MetaContactSelectorWidgetLVI20slotUpdateContactBoxEv@Base 4:16.08.0
- _ZN6Kopete2UI28MetaContactSelectorWidgetLVI21buildVisualComponentsEv@Base 4:16.08.0
- _ZN6Kopete2UI28MetaContactSelectorWidgetLVI22slotDisplayNameChangedEv@Base 4:16.08.0
- _ZN6Kopete2UI28MetaContactSelectorWidgetLVIC1EPNS_11MetaContactEP10Q3ListViewP7QObject@Base 4:16.08.0
- _ZN6Kopete2UI28MetaContactSelectorWidgetLVIC2EPNS_11MetaContactEP10Q3ListViewP7QObject@Base 4:16.08.0
- _ZN6Kopete2UI28MetaContactSelectorWidgetLVID0Ev@Base 4:16.08.0
- _ZN6Kopete2UI28MetaContactSelectorWidgetLVID1Ev@Base 4:16.08.0
- _ZN6Kopete2UI28MetaContactSelectorWidgetLVID2Ev@Base 4:16.08.0
  _ZN6Kopete2UI6Global10mainWidgetEv@Base 4:4.3.4
  _ZN6Kopete2UI6Global13setMainWidgetEP7QWidget@Base 4:4.3.4
  _ZN6Kopete2UI8ListView10SearchLine11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -1397,9 +1013,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete2UI8ListView10SearchLineD0Ev@Base 4:4.3.4
  _ZN6Kopete2UI8ListView10SearchLineD1Ev@Base 4:4.3.4
  _ZN6Kopete2UI8ListView10SearchLineD2Ev@Base 4:4.3.4
- _ZN6Kopete2UI8ListView11SharedTimerD0Ev@Base 4:16.08.0
- _ZN6Kopete2UI8ListView11SharedTimerD1Ev@Base 4:16.08.0
- _ZN6Kopete2UI8ListView11SharedTimerD2Ev@Base 4:16.08.0
  _ZN6Kopete2UI8ListView12BoxComponent11calcMinSizeEv@Base 4:4.3.4
  _ZN6Kopete2UI8ListView12BoxComponent14componentAddedEPNS1_9ComponentE@Base 4:4.3.4
  _ZN6Kopete2UI8ListView12BoxComponent14heightForWidthEi@Base 4:4.3.4
@@ -1457,9 +1070,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete2UI8ListView14ImageComponentD2Ev@Base 4:4.3.4
  _ZN6Kopete2UI8ListView15SpacerComponentC1EPNS1_13ComponentBaseEii@Base 4:4.3.4
  _ZN6Kopete2UI8ListView15SpacerComponentC2EPNS1_13ComponentBaseEii@Base 4:4.3.4
- _ZN6Kopete2UI8ListView15SpacerComponentD0Ev@Base 4:16.08.0
- _ZN6Kopete2UI8ListView15SpacerComponentD1Ev@Base 4:16.08.0
- _ZN6Kopete2UI8ListView15SpacerComponentD2Ev@Base 4:16.08.0
  _ZN6Kopete2UI8ListView16ContactComponent12updatePixmapEv@Base 4:4.3.4
  _ZN6Kopete2UI8ListView16ContactComponent7contactEv@Base 4:4.3.4
  _ZN6Kopete2UI8ListView16ContactComponent7toolTipERK6QPoint@Base 4:4.3.4
@@ -1472,16 +1082,10 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete2UI8ListView16HSpacerComponent4RTTIE@Base 4:4.3.4
  _ZN6Kopete2UI8ListView16HSpacerComponentC1EPNS1_13ComponentBaseE@Base 4:4.3.4
  _ZN6Kopete2UI8ListView16HSpacerComponentC2EPNS1_13ComponentBaseE@Base 4:4.3.4
- _ZN6Kopete2UI8ListView16HSpacerComponentD0Ev@Base 4:16.08.0
- _ZN6Kopete2UI8ListView16HSpacerComponentD1Ev@Base 4:16.08.0
- _ZN6Kopete2UI8ListView16HSpacerComponentD2Ev@Base 4:16.08.0
  _ZN6Kopete2UI8ListView16VSpacerComponent14heightForWidthEi@Base 4:4.3.4
  _ZN6Kopete2UI8ListView16VSpacerComponent4RTTIE@Base 4:4.3.4
  _ZN6Kopete2UI8ListView16VSpacerComponentC1EPNS1_13ComponentBaseE@Base 4:4.3.4
  _ZN6Kopete2UI8ListView16VSpacerComponentC2EPNS1_13ComponentBaseE@Base 4:4.3.4
- _ZN6Kopete2UI8ListView16VSpacerComponentD0Ev@Base 4:16.08.0
- _ZN6Kopete2UI8ListView16VSpacerComponentD1Ev@Base 4:16.08.0
- _ZN6Kopete2UI8ListView16VSpacerComponentD2Ev@Base 4:16.08.0
  _ZN6Kopete2UI8ListView20DisplayNameComponent15setDefaultColorEv@Base 4:4.3.4
  _ZN6Kopete2UI8ListView20DisplayNameComponent4RTTIE@Base 4:4.3.4
  _ZN6Kopete2UI8ListView20DisplayNameComponent4textEv@Base 4:4.3.4
@@ -1581,10 +1185,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete2UI8ListView9ComponentD0Ev@Base 4:4.3.4
  _ZN6Kopete2UI8ListView9ComponentD1Ev@Base 4:4.3.4
  _ZN6Kopete2UI8ListView9ComponentD2Ev@Base 4:4.3.4
- _ZN6Kopete40TemporaryKMMCallbackAppendMessageHandler13handleMessageEPNS_12MessageEventE@Base 4:16.08.0
- _ZN6Kopete40TemporaryKMMCallbackAppendMessageHandlerD0Ev@Base 4:16.08.0
- _ZN6Kopete40TemporaryKMMCallbackAppendMessageHandlerD1Ev@Base 4:16.08.0
- _ZN6Kopete40TemporaryKMMCallbackAppendMessageHandlerD2Ev@Base 4:16.08.0
  _ZN6Kopete4Task10addSubTaskEP4KJob@Base 4:4.3.4
  _ZN6Kopete4Task11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6Kopete4Task11qt_metacastEPKc@Base 4:4.3.4
@@ -1621,23 +1221,8 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete5GroupD0Ev@Base 4:4.3.4
  _ZN6Kopete5GroupD1Ev@Base 4:4.3.4
  _ZN6Kopete5GroupD2Ev@Base 4:4.3.4
- _ZN6Kopete5Utils12NotifyHelper11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.08.0
- _ZN6Kopete5Utils12NotifyHelper11qt_metacastEPKc@Base 4:16.08.0
- _ZN6Kopete5Utils12NotifyHelper15slotEventClosedEv@Base 4:16.08.0
- _ZN6Kopete5Utils12NotifyHelper16staticMetaObjectE@Base 4:16.08.0
- _ZN6Kopete5Utils12NotifyHelper18slotEventActivatedEj@Base 4:16.08.0
- _ZN6Kopete5Utils12NotifyHelper20registerNotificationEPK13KNotificationNS0_21ErrorNotificationInfoE@Base 4:16.08.0
- _ZN6Kopete5Utils12NotifyHelper22unregisterNotificationEPK13KNotification@Base 4:16.08.0
- _ZN6Kopete5Utils12NotifyHelper4selfEv@Base 4:16.08.0
- _ZN6Kopete5Utils12NotifyHelper6s_selfE@Base 4:16.08.0
- _ZN6Kopete5Utils12NotifyHelperC1Ev@Base 4:16.08.0
- _ZN6Kopete5Utils12NotifyHelperC2Ev@Base 4:16.08.0
- _ZN6Kopete5Utils12NotifyHelperD0Ev@Base 4:16.08.0
- _ZN6Kopete5Utils12NotifyHelperD1Ev@Base 4:16.08.0
- _ZN6Kopete5Utils12NotifyHelperD2Ev@Base 4:16.08.0
  _ZN6Kopete5Utils19notifyCannotConnectEPKNS_7AccountE7QStringS4_@Base 4:4.3.4
  _ZN6Kopete5Utils20notifyConnectionLostEPKNS_7AccountE7QStringS4_S4_S4_@Base 4:4.3.4
- _ZN6Kopete5Utils6notifyE7QPixmapRK7QStringS4_S4_S2_S2_@Base 4:16.08.0
  _ZN6Kopete6Global10Properties12isRegisteredERK7QString@Base 4:4.3.4
  _ZN6Kopete6Global10Properties16registerTemplateERK7QStringRKNS_12PropertyTmplE@Base 4:4.3.4
  _ZN6Kopete6Global10Properties18unregisterTemplateERK7QString@Base 4:4.3.4
@@ -1685,9 +1270,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete6Status11StatusGroupC1Ev@Base 4:4.3.4
  _ZN6Kopete6Status11StatusGroupC2ERK7QString@Base 4:4.3.4
  _ZN6Kopete6Status11StatusGroupC2Ev@Base 4:4.3.4
- _ZN6Kopete6Status11StatusGroupD0Ev@Base 4:16.08.0
- _ZN6Kopete6Status11StatusGroupD1Ev@Base 4:16.08.0
- _ZN6Kopete6Status11StatusGroupD2Ev@Base 4:16.08.0
  _ZN6Kopete6Status6Status10setMessageERK7QString@Base 4:4.3.4
  _ZN6Kopete6Status6Status11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
  _ZN6Kopete6Status6Status11qt_metacastEPKc@Base 4:4.3.4
@@ -1696,9 +1278,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete6Status6StatusC1Ev@Base 4:4.3.4
  _ZN6Kopete6Status6StatusC2ERK7QString@Base 4:4.3.4
  _ZN6Kopete6Status6StatusC2Ev@Base 4:4.3.4
- _ZN6Kopete6Status6StatusD0Ev@Base 4:16.08.0
- _ZN6Kopete6Status6StatusD1Ev@Base 4:16.08.0
- _ZN6Kopete6Status6StatusD2Ev@Base 4:16.08.0
  _ZN6Kopete7Account10addContactERK7QStringPNS_11MetaContactENS0_7AddModeE@Base 4:4.3.4
  _ZN6Kopete7Account10addContactERK7QStringS3_PNS_5GroupENS0_7AddModeE@Base 4:4.3.4
  _ZN6Kopete7Account11blackListerEv@Base 4:4.3.4
@@ -1738,18 +1317,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete7AccountD0Ev@Base 4:4.3.4
  _ZN6Kopete7AccountD1Ev@Base 4:4.3.4
  _ZN6Kopete7AccountD2Ev@Base 4:4.3.4
- _ZN6Kopete7Command10slotActionEv@Base 4:16.08.0
- _ZN6Kopete7Command11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:16.08.0
- _ZN6Kopete7Command11qt_metacastEPKc@Base 4:16.08.0
- _ZN6Kopete7Command13handleCommandERK7QStringPNS_11ChatSessionE@Base 4:16.08.0
- _ZN6Kopete7Command14processCommandERK7QStringPNS_11ChatSessionEb@Base 4:16.08.0
- _ZN6Kopete7Command16staticMetaObjectE@Base 4:16.08.0
- _ZN6Kopete7Command4initERK7QStringPKcS3_NS_14CommandHandler11CommandTypeES3_ji@Base 4:16.08.0
- _ZN6Kopete7CommandC1EP7QObjectRK7QStringPKcS5_NS_14CommandHandler11CommandTypeES5_jiRK9KShortcutS5_@Base 4:16.08.0
- _ZN6Kopete7CommandC2EP7QObjectRK7QStringPKcS5_NS_14CommandHandler11CommandTypeES5_jiRK9KShortcutS5_@Base 4:16.08.0
- _ZN6Kopete7CommandD0Ev@Base 4:16.08.0
- _ZN6Kopete7CommandD1Ev@Base 4:16.08.0
- _ZN6Kopete7CommandD2Ev@Base 4:16.08.0
  _ZN6Kopete7Contact10slotDeleteEv@Base 4:4.3.4
  _ZN6Kopete7Contact11isReachableEv@Base 4:4.3.4
  _ZN6Kopete7Contact11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:4.3.4
@@ -1758,7 +1325,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete7Contact11setIdleTimeEm@Base 4:4.3.4
  _ZN6Kopete7Contact11setNickNameERK7QString@Base 4:4.3.4
  _ZN6Kopete7Contact11slotUnblockEv@Base 4:4.3.4
- _ZN6Kopete7Contact12slotUserInfoEv@Base 4:16.08.0
  _ZN6Kopete7Contact13deleteContactEv@Base 4:4.3.4
  _ZN6Kopete7Contact13setCustomNameERK7QString@Base 4:4.14.0
  _ZN6Kopete7Contact14setFileCapableEb@Base 4:4.3.4
@@ -2003,23 +1569,8 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN6Kopete9InfoEventD0Ev@Base 4:4.3.4
  _ZN6Kopete9InfoEventD1Ev@Base 4:4.3.4
  _ZN6Kopete9InfoEventD2Ev@Base 4:4.3.4
- _ZN6QDebugD1Ev@Base 4:16.08.0
- _ZN6QDebugD2Ev@Base 4:16.08.0
- _ZN6QDebuglsEPKc@Base 4:16.08.0
- _ZN6QDebuglsERK7QString@Base 4:16.08.0
- _ZN7Private14insertMultipleE5QListIPN6Kopete7ContactEE@Base 4:16.08.0
- _ZN7QStringD1Ev@Base 4:16.08.0
- _ZN7QStringD2Ev@Base 4:16.08.0
- (optional=templinst)_ZN7QVectorI5QRectE7reallocEii@Base 4:16.08.0
- (optional=templinst)_ZN7QVectorI7QStringE6appendERKS0_@Base 4:16.08.0
- (optional=templinst)_ZN7QVectorI7QStringE7reallocEii@Base 4:16.08.0
- (optional=templinst)_ZN8QPointerI7QWidgetED1Ev@Base 4:16.08.0
- (optional=templinst)_ZN8QPointerI7QWidgetED2Ev@Base 4:16.08.0
  _ZNK10KopeteView10msgManagerEv@Base 4:4.3.4
- _ZNK11ArrowButton8sizeHintEv@Base 4:16.08.0
- _ZNK13AddresseeItem3keyEib@Base 4:16.08.0
  _ZNK14AddContactPage10metaObjectEv@Base 4:4.3.4
- _ZNK14ClickableLabel10metaObjectEv@Base 4:16.08.0
  _ZNK15AccountSelector10metaObjectEv@Base 4:4.3.4
  _ZNK17CollapsibleWidget10isExpandedEv@Base 4:4.3.4
  _ZNK17CollapsibleWidget10metaObjectEv@Base 4:4.3.4
@@ -2028,34 +1579,8 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZNK17KopeteViewManager10activeViewEv@Base 4:4.3.4
  _ZNK17KopeteViewManager10metaObjectEv@Base 4:4.3.4
  _ZNK17SettingsContainer10metaObjectEv@Base 4:4.3.4
- _ZNK18KopeteWalletSignal10metaObjectEv@Base 4:16.08.0
  _ZNK23KopeteEditAccountWidget7accountEv@Base 4:4.3.4
  _ZNK23KopetePreferencesAction10metaObjectEv@Base 4:4.3.4
- _ZNK25KopetePasswordRequestBase10metaObjectEv@Base 4:16.08.0
- (optional=templinst)_ZNK4QMapI11KPluginInfoPN6Kopete6PluginEE15mutableFindNodeEPPN8QMapData4NodeERKS0_@Base 4:16.08.0
- (optional=templinst)_ZNK4QMapI7QString11QStringListE15mutableFindNodeEPPN8QMapData4NodeERKS0_@Base 4:16.08.0
- (optional=templinst)_ZNK4QMapI7QStringN6Kopete12PropertyTmplEE15mutableFindNodeEPPN8QMapData4NodeERKS0_@Base 4:16.08.0
- (optional=templinst)_ZNK4QMapI7QStringN6Kopete8PropertyEE15mutableFindNodeEPPN8QMapData4NodeERKS0_@Base 4:16.08.0
- (optional=templinst)_ZNK4QMapI7QStringN6Kopete8PropertyEE4keysEv@Base 4:16.08.0
- (optional=templinst)_ZNK4QMapI7QStringS0_E15mutableFindNodeEPPN8QMapData4NodeERKS0_@Base 4:16.08.0
- (optional=templinst)_ZNK4QMapIN6Kopete12OnlineStatusENS0_19OnlineStatusManager7Private14QMapDummyValueEE4keysEv@Base 4:16.08.0
- (optional=templinst)_ZNK4QMapIP7QObject10QMultiHashI7QStringPN6Kopete7CommandEEE15mutableFindNodeEPPN8QMapData4NodeERKS1_@Base 4:16.08.0
- (optional=templinst)_ZNK4QMapIP8KProcess5QPairIPN6Kopete11ChatSessionENS3_7Message16MessageDirectionEEE15mutableFindNodeEPPN8QMapData4NodeERKS1_@Base 4:16.08.0
- (optional=templinst)_ZNK4QMapIPK13KNotificationN6Kopete5Utils21ErrorNotificationInfoEE15mutableFindNodeEPPN8QMapData4NodeERKS2_@Base 4:16.08.0
- (optional=templinst)_ZNK4QMapIPN6Kopete11ChatSessionEP10KopeteViewE15mutableFindNodeEPPN8QMapData4NodeERKS2_@Base 4:16.08.0
- (optional=templinst)_ZNK5QHashI7QString8QVariantE8findNodeERKS0_Pj@Base 4:16.08.0
- (optional=templinst)_ZNK5QHashI7QStringP7QPixmapE8findNodeERKS0_Pj@Base 4:16.08.0
- (optional=templinst)_ZNK5QHashI7QStringPN6Kopete15MimeTypeHandlerEE8findNodeERKS0_Pj@Base 4:16.08.0
- (optional=templinst)_ZNK5QHashI7QStringPN6Kopete18ActiveNotificationEE8findNodeERKS0_Pj@Base 4:16.08.0
- (optional=templinst)_ZNK5QHashI7QStringPN6Kopete6Status10StatusItemEE8findNodeERKS0_Pj@Base 4:16.08.0
- (optional=templinst)_ZNK5QHashI7QStringPN6Kopete7CommandEE8findNodeERKS0_Pj@Base 4:16.08.0
- (optional=templinst)_ZNK5QHashI7QStringPN6Kopete7ContactEE8findNodeERKS0_Pj@Base 4:16.08.0
- (optional=templinst)_ZNK5QListI7QStringE5valueEi@Base 4:16.08.0
- (optional=templinst)_ZNK5QListI7QStringE7indexOfERKS0_i@Base 4:16.08.0
- (optional=templinst)_ZNK5QListIPN6Kopete11MetaContactEE7indexOfERKS2_i@Base 4:16.08.0
- (optional=templinst)_ZNK5QListIPN6Kopete6Status10StatusItemEE7indexOfERKS3_i@Base 4:16.08.0
- (optional=templinst)_ZNK5QListIPN6Kopete7AccountEE7indexOfERKS2_i@Base 4:16.08.0
- (optional=templinst)_ZNK5QListIPN6Kopete8IdentityEE7indexOfERKS2_i@Base 4:16.08.0
  _ZNK6Kopete10FileEngine12isSequentialEv@Base 4:4.3.4
  _ZNK6Kopete10FileEngine13caseSensitiveEv@Base 4:4.3.4
  _ZNK6Kopete10FileEngine14isRelativePathEv@Base 4:4.3.4
@@ -2070,7 +1595,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZNK6Kopete10FileEngine8fileTimeEN19QAbstractFileEngine8FileTimeE@Base 4:4.3.4
  _ZNK6Kopete10FileEngine9entryListE6QFlagsIN4QDir6FilterEERK11QStringList@Base 4:4.3.4
  _ZNK6Kopete10FileEngine9fileFlagsE6QFlagsIN19QAbstractFileEngine8FileFlagEE@Base 4:4.3.4
- _ZNK6Kopete11BlackLister10metaObjectEv@Base 4:16.08.0
  _ZNK6Kopete11ChatSession10metaObjectEv@Base 4:4.3.4
  _ZNK6Kopete11ChatSession13warnGroupChatEv@Base 4:4.3.4
  _ZNK6Kopete11ChatSession19contactOnlineStatusEPKNS_7ContactE@Base 4:4.3.4
@@ -2118,7 +1642,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZNK6Kopete11MetaContact8contactsEv@Base 4:4.3.4
  _ZNK6Kopete11MetaContact8idleTimeEv@Base 4:4.3.4
  _ZNK6Kopete11MetaContact8isOnlineEv@Base 4:4.3.4
- _ZNK6Kopete12IdlePlatform7Private10metaObjectEv@Base 4:16.08.0
  _ZNK6Kopete12MessageEvent10metaObjectEv@Base 4:4.3.4
  _ZNK6Kopete12OnlineStatus10categoriesEv@Base 4:4.3.4
  _ZNK6Kopete12OnlineStatus10mimeSourceERK7QStringi6QColorb@Base 4:4.3.4
@@ -2224,7 +1747,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZNK6Kopete17XmlContactStorage23storeContactListElementEPNS_18ContactListElementE@Base 4:4.3.4
  _ZNK6Kopete17XmlContactStorage6isBusyEv@Base 4:4.3.4
  _ZNK6Kopete17XmlContactStorage7isValidEv@Base 4:4.3.4
- _ZNK6Kopete18ActiveNotification10metaObjectEv@Base 4:16.08.0
  _ZNK6Kopete18AppearanceSettings10metaObjectEv@Base 4:4.3.4
  _ZNK6Kopete18ChatSessionManager10metaObjectEv@Base 4:4.3.4
  _ZNK6Kopete18ContactListElement10metaObjectEv@Base 4:4.3.4
@@ -2240,17 +1762,12 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZNK6Kopete18ContactListStorage5groupEj@Base 4:4.3.4
  _ZNK6Kopete18ContactListStorage6groupsEv@Base 4:4.3.4
  _ZNK6Kopete18ContactListStorage8contactsEv@Base 4:4.3.4
- _ZNK6Kopete18ProcessMessageTask10metaObjectEv@Base 4:16.08.0
- _ZNK6Kopete19MessageHandlerChain10metaObjectEv@Base 4:16.08.0
  _ZNK6Kopete19OnlineStatusManager10metaObjectEv@Base 4:4.3.4
  _ZNK6Kopete19OnlineStatusManager10renderIconERKNS_12OnlineStatusERK7QStringi6QColorb@Base 4:4.3.4
  _ZNK6Kopete19OnlineStatusManager12onlineStatusEPNS_8ProtocolE6QFlagsINS0_8CategoryEE@Base 4:4.3.4
  _ZNK6Kopete19OnlineStatusManager13initialStatusEv@Base 4:4.3.4
  _ZNK6Kopete19OnlineStatusManager20registeredStatusListEPNS_8ProtocolE@Base 4:4.3.4
- _ZNK6Kopete20SimpleMessageHandler10metaObjectEv@Base 4:16.08.0
  _ZNK6Kopete20SocketTimeoutWatcher10metaObjectEv@Base 4:4.3.4
- _ZNK6Kopete22OnlineStatusIconEngine3keyEv@Base 4:16.08.0
- _ZNK6Kopete22OnlineStatusIconEngine5cloneEv@Base 4:16.08.0
  _ZNK6Kopete23EmoticonMimeTypeHandler9handleURLERK4KUrl@Base 4:4.3.4
  _ZNK6Kopete23EmoticonMimeTypeHandler9handleURLERK7QStringRK4KUrl@Base 4:4.3.4
  _ZNK6Kopete27ChatSessionMembersListModel10headerDataEiN2Qt11OrientationEi@Base 4:4.3.4
@@ -2279,15 +1796,7 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZNK6Kopete2UI25AddressBookSelectorDialog10metaObjectEv@Base 4:4.3.4
  _ZNK6Kopete2UI25AddressBookSelectorWidget10metaObjectEv@Base 4:4.3.4
  _ZNK6Kopete2UI25MetaContactSelectorWidget10metaObjectEv@Base 4:4.3.4
- _ZNK6Kopete2UI28MetaContactSelectorWidgetLVI10metaObjectEv@Base 4:16.08.0
- _ZNK6Kopete2UI28MetaContactSelectorWidgetLVI4textEi@Base 4:16.08.0
  _ZNK6Kopete2UI8ListView10SearchLine10metaObjectEv@Base 4:4.3.4
- _ZNK6Kopete2UI8ListView12BoxComponent4rttiEv@Base 4:16.08.0
- _ZNK6Kopete2UI8ListView13TextComponent4rttiEv@Base 4:16.08.0
- _ZNK6Kopete2UI8ListView14ImageComponent4rttiEv@Base 4:16.08.0
- _ZNK6Kopete2UI8ListView16HSpacerComponent4rttiEv@Base 4:16.08.0
- _ZNK6Kopete2UI8ListView16VSpacerComponent4rttiEv@Base 4:16.08.0
- _ZNK6Kopete2UI8ListView20DisplayNameComponent4rttiEv@Base 4:16.08.0
  _ZNK6Kopete2UI8ListView4Item10metaObjectEv@Base 4:4.3.4
  _ZNK6Kopete2UI8ListView4Item5widthERK12QFontMetricsPK10Q3ListViewi@Base 4:4.3.4
  _ZNK6Kopete2UI8ListView8ListView10metaObjectEv@Base 4:4.3.4
@@ -2297,7 +1806,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZNK6Kopete2UI8ListView8ListView15smoothScrollingEv@Base 4:4.3.4
  _ZNK6Kopete2UI8ListView8ListView21scrollAutoHideTimeoutEv@Base 4:4.3.4
  _ZNK6Kopete2UI8ListView8ListView28smoothScrollingTimerIntervalEv@Base 4:4.3.4
- _ZNK6Kopete2UI8ListView9Component4rttiEv@Base 4:16.08.0
  _ZNK6Kopete4Task10metaObjectEv@Base 4:4.3.4
  _ZNK6Kopete5Group10isExpandedEv@Base 4:4.3.4
  _ZNK6Kopete5Group10metaObjectEv@Base 4:4.3.4
@@ -2307,7 +1815,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZNK6Kopete5Group4typeEv@Base 4:4.3.4
  _ZNK6Kopete5Group7groupIdEv@Base 4:4.3.4
  _ZNK6Kopete5Group7membersEv@Base 4:4.3.4
- _ZNK6Kopete5Utils12NotifyHelper10metaObjectEv@Base 4:16.08.0
  _ZNK6Kopete6Global10Properties10createPropERK7QStringS4_S4_b@Base 4:4.3.4
  _ZNK6Kopete6Global10Properties10customNameEv@Base 4:4.14.0
  _ZNK6Kopete6Global10Properties11onlineSinceEv@Base 4:4.3.4
@@ -2338,16 +1845,10 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZNK6Kopete6Status10StatusItem10metaObjectEv@Base 4:4.3.4
  _ZNK6Kopete6Status10StatusItem11parentGroupEv@Base 4:4.3.4
  _ZNK6Kopete6Status10StatusItem5indexEv@Base 4:4.3.4
- _ZNK6Kopete6Status11StatusGroup10childCountEv@Base 4:16.08.0
  _ZNK6Kopete6Status11StatusGroup10metaObjectEv@Base 4:4.3.4
  _ZNK6Kopete6Status11StatusGroup4copyEv@Base 4:4.3.4
- _ZNK6Kopete6Status11StatusGroup5childEi@Base 4:16.08.0
- _ZNK6Kopete6Status11StatusGroup7isGroupEv@Base 4:16.08.0
- _ZNK6Kopete6Status6Status10childCountEv@Base 4:16.08.0
  _ZNK6Kopete6Status6Status10metaObjectEv@Base 4:4.3.4
  _ZNK6Kopete6Status6Status4copyEv@Base 4:4.3.4
- _ZNK6Kopete6Status6Status5childEi@Base 4:16.08.0
- _ZNK6Kopete6Status6Status7isGroupEv@Base 4:16.08.0
  _ZNK6Kopete7Account10customIconEv@Base 4:4.3.4
  _ZNK6Kopete7Account10metaObjectEv@Base 4:4.3.4
  _ZNK6Kopete7Account11accountIconEi@Base 4:4.3.4
@@ -2366,8 +1867,6 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZNK6Kopete7Account8priorityEv@Base 4:4.3.4
  _ZNK6Kopete7Account8protocolEv@Base 4:4.3.4
  _ZNK6Kopete7Account9accountIdEv@Base 4:4.3.4
- _ZNK6Kopete7Command10metaObjectEv@Base 4:16.08.0
- _ZNK6Kopete7Command10printErrorERK7QStringPNS_11ChatSessionEb@Base 4:16.08.0
  _ZNK6Kopete7Contact10customNameEv@Base 4:4.14.0
  _ZNK6Kopete7Contact10metaObjectEv@Base 4:4.3.4
  _ZNK6Kopete7Contact11displayNameEv@Base 4:4.14.0
@@ -2450,41 +1949,18 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZNK6Kopete9InfoEvent7actionsEv@Base 4:4.3.4
  _ZNK6Kopete9InfoEvent8isClosedEv@Base 4:4.4.1
  _ZTI10KopeteView@Base 4:4.3.4
- _ZTI11ArrowButton@Base 4:16.08.0
- _ZTI11QSharedData@Base 4:16.08.0
- _ZTI11TempFactory@Base 4:16.08.0
- _ZTI13AddresseeItem@Base 4:16.08.0
  _ZTI14AddContactPage@Base 4:4.3.4
- _ZTI14ClickableLabel@Base 4:16.08.0
  _ZTI15AccountSelector@Base 4:4.3.4
  _ZTI17CollapsibleWidget@Base 4:4.3.4
  _ZTI17KopeteViewManager@Base 4:4.3.4
  _ZTI17SettingsContainer@Base 4:4.3.4
- _ZTI18KopeteWalletSignal@Base 4:16.08.0
- _ZTI19AccountListViewItem@Base 4:16.08.0
- _ZTI21KopetePasswordRequest@Base 4:16.08.0
- _ZTI22KopeteCommandGUIClient@Base 4:16.08.0
  _ZTI23KopeteEditAccountWidget@Base 4:4.3.4
  _ZTI23KopetePreferencesAction@Base 4:4.3.4
- _ZTI24KopetePasswordGetRequest@Base 4:16.08.0
- _ZTI24KopetePasswordSetRequest@Base 4:16.08.0
- _ZTI25KopetePasswordRequestBase@Base 4:16.08.0
- _ZTI26KopetePasswordClearRequest@Base 4:16.08.0
- _ZTI27Ui_KopetePasswordWidgetBase@Base 4:16.08.0
- _ZTI28Ui_AddressBookLinkWidgetBase@Base 4:16.08.0
- _ZTI30KopetePasswordGetRequestPrompt@Base 4:16.08.0
- _ZTI32KopetePasswordGetRequestNoPrompt@Base 4:16.08.0
- _ZTI33Ui_AddressBookSelectorWidget_Base@Base 4:16.08.0
- _ZTIN2Ui24KopetePasswordWidgetBaseE@Base 4:16.08.0
- _ZTIN2Ui25AddressBookLinkWidgetBaseE@Base 4:16.08.0
- _ZTIN2Ui30AddressBookSelectorWidget_BaseE@Base 4:16.08.0
  _ZTIN6Kopete10FileEngineE@Base 4:4.3.4
  _ZTIN6Kopete10ViewPluginE@Base 4:4.3.4
- _ZTIN6Kopete11BlackListerE@Base 4:16.08.0
  _ZTIN6Kopete11ChatSessionE@Base 4:4.3.4
  _ZTIN6Kopete11ContactListE@Base 4:4.3.4
  _ZTIN6Kopete11MetaContactE@Base 4:4.3.4
- _ZTIN6Kopete12IdlePlatform7PrivateE@Base 4:16.08.0
  _ZTIN6Kopete12MessageEventE@Base 4:4.3.4
  _ZTIN6Kopete12WebcamWidgetE@Base 4:4.3.4
  _ZTIN6Kopete13AvatarManagerE@Base 4:4.3.4
@@ -2509,22 +1985,16 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZTIN6Kopete17PasswordedAccountE@Base 4:4.3.4
  _ZTIN6Kopete17PropertyContainerE@Base 4:4.3.4
  _ZTIN6Kopete17XmlContactStorageE@Base 4:4.3.4
- _ZTIN6Kopete18ActiveNotificationE@Base 4:16.08.0
  _ZTIN6Kopete18AppearanceSettingsE@Base 4:4.3.4
  _ZTIN6Kopete18ChatSessionManagerE@Base 4:4.3.4
  _ZTIN6Kopete18ContactListElementE@Base 4:4.3.4
  _ZTIN6Kopete18ContactListStorageE@Base 4:4.3.4
- _ZTIN6Kopete18ProcessMessageTaskE@Base 4:16.08.0
- _ZTIN6Kopete19MessageHandlerChainE@Base 4:16.08.0
  _ZTIN6Kopete19OnlineStatusManagerE@Base 4:4.3.4
- _ZTIN6Kopete20SimpleMessageHandlerE@Base 4:16.08.0
  _ZTIN6Kopete20SocketTimeoutWatcherE@Base 4:4.3.4
  _ZTIN6Kopete21MessageHandlerFactoryE@Base 4:4.3.4
- _ZTIN6Kopete22OnlineStatusIconEngineE@Base 4:16.08.0
  _ZTIN6Kopete23EmoticonMimeTypeHandlerE@Base 4:4.3.4
  _ZTIN6Kopete27ChatSessionMembersListModelE@Base 4:4.3.4
  _ZTIN6Kopete27SimpleMessageHandlerFactoryE@Base 4:4.3.4
- _ZTIN6Kopete29MessageHandlerChainTerminatorE@Base 4:16.08.0
  _ZTIN6Kopete2UI10InfoDialogE@Base 4:4.3.4
  _ZTIN6Kopete2UI12AvatarDialogE@Base 4:4.3.4
  _ZTIN6Kopete2UI13ContactActionE@Base 4:4.3.4
@@ -2532,14 +2002,11 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZTIN6Kopete2UI18AvatarWebcamDialogE@Base 4:4.4.1
  _ZTIN6Kopete2UI20AvatarSelectorWidgetE@Base 4:4.3.4
  _ZTIN6Kopete2UI21AddressBookLinkWidgetE@Base 4:4.3.4
- _ZTIN6Kopete2UI24AvatarSelectorWidgetItemE@Base 4:16.08.0
  _ZTIN6Kopete2UI24ContactAddedNotifyDialogE@Base 4:4.3.4
  _ZTIN6Kopete2UI25AddressBookSelectorDialogE@Base 4:4.3.4
  _ZTIN6Kopete2UI25AddressBookSelectorWidgetE@Base 4:4.3.4
  _ZTIN6Kopete2UI25MetaContactSelectorWidgetE@Base 4:4.3.4
- _ZTIN6Kopete2UI28MetaContactSelectorWidgetLVIE@Base 4:16.08.0
  _ZTIN6Kopete2UI8ListView10SearchLineE@Base 4:4.3.4
- _ZTIN6Kopete2UI8ListView11SharedTimerE@Base 4:16.08.0
  _ZTIN6Kopete2UI8ListView12BoxComponentE@Base 4:4.3.4
  _ZTIN6Kopete2UI8ListView13ComponentBaseE@Base 4:4.3.4
  _ZTIN6Kopete2UI8ListView13TextComponentE@Base 4:4.3.4
@@ -2552,16 +2019,13 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZTIN6Kopete2UI8ListView4ItemE@Base 4:4.3.4
  _ZTIN6Kopete2UI8ListView8ListViewE@Base 4:4.3.4
  _ZTIN6Kopete2UI8ListView9ComponentE@Base 4:4.3.4
- _ZTIN6Kopete40TemporaryKMMCallbackAppendMessageHandlerE@Base 4:16.08.0
  _ZTIN6Kopete4TaskE@Base 4:4.3.4
  _ZTIN6Kopete5GroupE@Base 4:4.3.4
- _ZTIN6Kopete5Utils12NotifyHelperE@Base 4:16.08.0
  _ZTIN6Kopete6PluginE@Base 4:4.3.4
  _ZTIN6Kopete6Status10StatusItemE@Base 4:4.3.4
  _ZTIN6Kopete6Status11StatusGroupE@Base 4:4.3.4
  _ZTIN6Kopete6Status6StatusE@Base 4:4.3.4
  _ZTIN6Kopete7AccountE@Base 4:4.3.4
- _ZTIN6Kopete7CommandE@Base 4:16.08.0
  _ZTIN6Kopete7ContactE@Base 4:4.3.4
  _ZTIN6Kopete8IdentityE@Base 4:4.3.4
  _ZTIN6Kopete8PasswordE@Base 4:4.3.4
@@ -2570,41 +2034,18 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZTIN6Kopete9IdleTimerE@Base 4:4.3.4
  _ZTIN6Kopete9InfoEventE@Base 4:4.3.4
  _ZTS10KopeteView@Base 4:4.3.4
- _ZTS11ArrowButton@Base 4:16.08.0
- _ZTS11QSharedData@Base 4:16.08.0
- _ZTS11TempFactory@Base 4:16.08.0
- _ZTS13AddresseeItem@Base 4:16.08.0
  _ZTS14AddContactPage@Base 4:4.3.4
- _ZTS14ClickableLabel@Base 4:16.08.0
  _ZTS15AccountSelector@Base 4:4.3.4
  _ZTS17CollapsibleWidget@Base 4:4.3.4
  _ZTS17KopeteViewManager@Base 4:4.3.4
  _ZTS17SettingsContainer@Base 4:4.3.4
- _ZTS18KopeteWalletSignal@Base 4:16.08.0
- _ZTS19AccountListViewItem@Base 4:16.08.0
- _ZTS21KopetePasswordRequest@Base 4:16.08.0
- _ZTS22KopeteCommandGUIClient@Base 4:16.08.0
  _ZTS23KopeteEditAccountWidget@Base 4:4.3.4
  _ZTS23KopetePreferencesAction@Base 4:4.3.4
- _ZTS24KopetePasswordGetRequest@Base 4:16.08.0
- _ZTS24KopetePasswordSetRequest@Base 4:16.08.0
- _ZTS25KopetePasswordRequestBase@Base 4:16.08.0
- _ZTS26KopetePasswordClearRequest@Base 4:16.08.0
- _ZTS27Ui_KopetePasswordWidgetBase@Base 4:16.08.0
- _ZTS28Ui_AddressBookLinkWidgetBase@Base 4:16.08.0
- _ZTS30KopetePasswordGetRequestPrompt@Base 4:16.08.0
- _ZTS32KopetePasswordGetRequestNoPrompt@Base 4:16.08.0
- _ZTS33Ui_AddressBookSelectorWidget_Base@Base 4:16.08.0
- _ZTSN2Ui24KopetePasswordWidgetBaseE@Base 4:16.08.0
- _ZTSN2Ui25AddressBookLinkWidgetBaseE@Base 4:16.08.0
- _ZTSN2Ui30AddressBookSelectorWidget_BaseE@Base 4:16.08.0
  _ZTSN6Kopete10FileEngineE@Base 4:4.3.4
  _ZTSN6Kopete10ViewPluginE@Base 4:4.3.4
- _ZTSN6Kopete11BlackListerE@Base 4:16.08.0
  _ZTSN6Kopete11ChatSessionE@Base 4:4.3.4
  _ZTSN6Kopete11ContactListE@Base 4:4.3.4
  _ZTSN6Kopete11MetaContactE@Base 4:4.3.4
- _ZTSN6Kopete12IdlePlatform7PrivateE@Base 4:16.08.0
  _ZTSN6Kopete12MessageEventE@Base 4:4.3.4
  _ZTSN6Kopete12WebcamWidgetE@Base 4:4.3.4
  _ZTSN6Kopete13AvatarManagerE@Base 4:4.3.4
@@ -2629,22 +2070,16 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZTSN6Kopete17PasswordedAccountE@Base 4:4.3.4
  _ZTSN6Kopete17PropertyContainerE@Base 4:4.3.4
  _ZTSN6Kopete17XmlContactStorageE@Base 4:4.3.4
- _ZTSN6Kopete18ActiveNotificationE@Base 4:16.08.0
  _ZTSN6Kopete18AppearanceSettingsE@Base 4:4.3.4
  _ZTSN6Kopete18ChatSessionManagerE@Base 4:4.3.4
  _ZTSN6Kopete18ContactListElementE@Base 4:4.3.4
  _ZTSN6Kopete18ContactListStorageE@Base 4:4.3.4
- _ZTSN6Kopete18ProcessMessageTaskE@Base 4:16.08.0
- _ZTSN6Kopete19MessageHandlerChainE@Base 4:16.08.0
  _ZTSN6Kopete19OnlineStatusManagerE@Base 4:4.3.4
- _ZTSN6Kopete20SimpleMessageHandlerE@Base 4:16.08.0
  _ZTSN6Kopete20SocketTimeoutWatcherE@Base 4:4.3.4
  _ZTSN6Kopete21MessageHandlerFactoryE@Base 4:4.3.4
- _ZTSN6Kopete22OnlineStatusIconEngineE@Base 4:16.08.0
  _ZTSN6Kopete23EmoticonMimeTypeHandlerE@Base 4:4.3.4
  _ZTSN6Kopete27ChatSessionMembersListModelE@Base 4:4.3.4
  _ZTSN6Kopete27SimpleMessageHandlerFactoryE@Base 4:4.3.4
- _ZTSN6Kopete29MessageHandlerChainTerminatorE@Base 4:16.08.0
  _ZTSN6Kopete2UI10InfoDialogE@Base 4:4.3.4
  _ZTSN6Kopete2UI12AvatarDialogE@Base 4:4.3.4
  _ZTSN6Kopete2UI13ContactActionE@Base 4:4.3.4
@@ -2652,14 +2087,11 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZTSN6Kopete2UI18AvatarWebcamDialogE@Base 4:4.4.1
  _ZTSN6Kopete2UI20AvatarSelectorWidgetE@Base 4:4.3.4
  _ZTSN6Kopete2UI21AddressBookLinkWidgetE@Base 4:4.3.4
- _ZTSN6Kopete2UI24AvatarSelectorWidgetItemE@Base 4:16.08.0
  _ZTSN6Kopete2UI24ContactAddedNotifyDialogE@Base 4:4.3.4
  _ZTSN6Kopete2UI25AddressBookSelectorDialogE@Base 4:4.3.4
  _ZTSN6Kopete2UI25AddressBookSelectorWidgetE@Base 4:4.3.4
  _ZTSN6Kopete2UI25MetaContactSelectorWidgetE@Base 4:4.3.4
- _ZTSN6Kopete2UI28MetaContactSelectorWidgetLVIE@Base 4:16.08.0
  _ZTSN6Kopete2UI8ListView10SearchLineE@Base 4:4.3.4
- _ZTSN6Kopete2UI8ListView11SharedTimerE@Base 4:16.08.0
  _ZTSN6Kopete2UI8ListView12BoxComponentE@Base 4:4.3.4
  _ZTSN6Kopete2UI8ListView13ComponentBaseE@Base 4:4.3.4
  _ZTSN6Kopete2UI8ListView13TextComponentE@Base 4:4.3.4
@@ -2672,16 +2104,13 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZTSN6Kopete2UI8ListView4ItemE@Base 4:4.3.4
  _ZTSN6Kopete2UI8ListView8ListViewE@Base 4:4.3.4
  _ZTSN6Kopete2UI8ListView9ComponentE@Base 4:4.3.4
- _ZTSN6Kopete40TemporaryKMMCallbackAppendMessageHandlerE@Base 4:16.08.0
  _ZTSN6Kopete4TaskE@Base 4:4.3.4
  _ZTSN6Kopete5GroupE@Base 4:4.3.4
- _ZTSN6Kopete5Utils12NotifyHelperE@Base 4:16.08.0
  _ZTSN6Kopete6PluginE@Base 4:4.3.4
  _ZTSN6Kopete6Status10StatusItemE@Base 4:4.3.4
  _ZTSN6Kopete6Status11StatusGroupE@Base 4:4.3.4
  _ZTSN6Kopete6Status6StatusE@Base 4:4.3.4
  _ZTSN6Kopete7AccountE@Base 4:4.3.4
- _ZTSN6Kopete7CommandE@Base 4:16.08.0
  _ZTSN6Kopete7ContactE@Base 4:4.3.4
  _ZTSN6Kopete8IdentityE@Base 4:4.3.4
  _ZTSN6Kopete8PasswordE@Base 4:4.3.4
@@ -2690,33 +2119,18 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZTSN6Kopete9IdleTimerE@Base 4:4.3.4
  _ZTSN6Kopete9InfoEventE@Base 4:4.3.4
  _ZTV10KopeteView@Base 4:4.3.4
- _ZTV11ArrowButton@Base 4:16.08.0
- _ZTV11TempFactory@Base 4:16.08.0
- _ZTV13AddresseeItem@Base 4:16.08.0
  _ZTV14AddContactPage@Base 4:4.3.4
- _ZTV14ClickableLabel@Base 4:16.08.0
  _ZTV15AccountSelector@Base 4:4.3.4
  _ZTV17CollapsibleWidget@Base 4:4.3.4
  _ZTV17KopeteViewManager@Base 4:4.3.4
  _ZTV17SettingsContainer@Base 4:4.3.4
- _ZTV18KopeteWalletSignal@Base 4:16.08.0
- _ZTV19AccountListViewItem@Base 4:16.08.0
- _ZTV21KopetePasswordRequest@Base 4:16.08.0
- _ZTV22KopeteCommandGUIClient@Base 4:16.08.0
  _ZTV23KopeteEditAccountWidget@Base 4:4.3.4
  _ZTV23KopetePreferencesAction@Base 4:4.3.4
- _ZTV24KopetePasswordSetRequest@Base 4:16.08.0
- _ZTV25KopetePasswordRequestBase@Base 4:16.08.0
- _ZTV26KopetePasswordClearRequest@Base 4:16.08.0
- _ZTV30KopetePasswordGetRequestPrompt@Base 4:16.08.0
- _ZTV32KopetePasswordGetRequestNoPrompt@Base 4:16.08.0
  _ZTVN6Kopete10FileEngineE@Base 4:4.3.4
  _ZTVN6Kopete10ViewPluginE@Base 4:4.3.4
- _ZTVN6Kopete11BlackListerE@Base 4:16.08.0
  _ZTVN6Kopete11ChatSessionE@Base 4:4.3.4
  _ZTVN6Kopete11ContactListE@Base 4:4.3.4
  _ZTVN6Kopete11MetaContactE@Base 4:4.3.4
- _ZTVN6Kopete12IdlePlatform7PrivateE@Base 4:16.08.0
  _ZTVN6Kopete12MessageEventE@Base 4:4.3.4
  _ZTVN6Kopete12WebcamWidgetE@Base 4:4.3.4
  _ZTVN6Kopete13AvatarManagerE@Base 4:4.3.4
@@ -2741,22 +2155,16 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZTVN6Kopete17PasswordedAccountE@Base 4:4.3.4
  _ZTVN6Kopete17PropertyContainerE@Base 4:4.3.4
  _ZTVN6Kopete17XmlContactStorageE@Base 4:4.3.4
- _ZTVN6Kopete18ActiveNotificationE@Base 4:16.08.0
  _ZTVN6Kopete18AppearanceSettingsE@Base 4:4.3.4
  _ZTVN6Kopete18ChatSessionManagerE@Base 4:4.3.4
  _ZTVN6Kopete18ContactListElementE@Base 4:4.3.4
  _ZTVN6Kopete18ContactListStorageE@Base 4:4.3.4
- _ZTVN6Kopete18ProcessMessageTaskE@Base 4:16.08.0
- _ZTVN6Kopete19MessageHandlerChainE@Base 4:16.08.0
  _ZTVN6Kopete19OnlineStatusManagerE@Base 4:4.3.4
- _ZTVN6Kopete20SimpleMessageHandlerE@Base 4:16.08.0
  _ZTVN6Kopete20SocketTimeoutWatcherE@Base 4:4.3.4
  _ZTVN6Kopete21MessageHandlerFactoryE@Base 4:4.3.4
- _ZTVN6Kopete22OnlineStatusIconEngineE@Base 4:16.08.0
  _ZTVN6Kopete23EmoticonMimeTypeHandlerE@Base 4:4.3.4
  _ZTVN6Kopete27ChatSessionMembersListModelE@Base 4:4.3.4
  _ZTVN6Kopete27SimpleMessageHandlerFactoryE@Base 4:4.3.4
- _ZTVN6Kopete29MessageHandlerChainTerminatorE@Base 4:16.08.0
  _ZTVN6Kopete2UI10InfoDialogE@Base 4:4.3.4
  _ZTVN6Kopete2UI12AvatarDialogE@Base 4:4.3.4
  _ZTVN6Kopete2UI13ContactActionE@Base 4:4.3.4
@@ -2764,14 +2172,11 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZTVN6Kopete2UI18AvatarWebcamDialogE@Base 4:4.4.1
  _ZTVN6Kopete2UI20AvatarSelectorWidgetE@Base 4:4.3.4
  _ZTVN6Kopete2UI21AddressBookLinkWidgetE@Base 4:4.3.4
- _ZTVN6Kopete2UI24AvatarSelectorWidgetItemE@Base 4:16.08.0
  _ZTVN6Kopete2UI24ContactAddedNotifyDialogE@Base 4:4.3.4
  _ZTVN6Kopete2UI25AddressBookSelectorDialogE@Base 4:4.3.4
  _ZTVN6Kopete2UI25AddressBookSelectorWidgetE@Base 4:4.3.4
  _ZTVN6Kopete2UI25MetaContactSelectorWidgetE@Base 4:4.3.4
- _ZTVN6Kopete2UI28MetaContactSelectorWidgetLVIE@Base 4:16.08.0
  _ZTVN6Kopete2UI8ListView10SearchLineE@Base 4:4.3.4
- _ZTVN6Kopete2UI8ListView11SharedTimerE@Base 4:16.08.0
  _ZTVN6Kopete2UI8ListView12BoxComponentE@Base 4:4.3.4
  _ZTVN6Kopete2UI8ListView13ComponentBaseE@Base 4:4.3.4
  _ZTVN6Kopete2UI8ListView13TextComponentE@Base 4:4.3.4
@@ -2784,16 +2189,13 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZTVN6Kopete2UI8ListView4ItemE@Base 4:4.3.4
  _ZTVN6Kopete2UI8ListView8ListViewE@Base 4:4.3.4
  _ZTVN6Kopete2UI8ListView9ComponentE@Base 4:4.3.4
- _ZTVN6Kopete40TemporaryKMMCallbackAppendMessageHandlerE@Base 4:16.08.0
  _ZTVN6Kopete4TaskE@Base 4:4.3.4
  _ZTVN6Kopete5GroupE@Base 4:4.3.4
- _ZTVN6Kopete5Utils12NotifyHelperE@Base 4:16.08.0
  _ZTVN6Kopete6PluginE@Base 4:4.3.4
  _ZTVN6Kopete6Status10StatusItemE@Base 4:4.3.4
  _ZTVN6Kopete6Status11StatusGroupE@Base 4:4.3.4
  _ZTVN6Kopete6Status6StatusE@Base 4:4.3.4
  _ZTVN6Kopete7AccountE@Base 4:4.3.4
- _ZTVN6Kopete7CommandE@Base 4:16.08.0
  _ZTVN6Kopete7ContactE@Base 4:4.3.4
  _ZTVN6Kopete8IdentityE@Base 4:4.3.4
  _ZTVN6Kopete8PasswordE@Base 4:4.3.4
@@ -2801,21 +2203,14 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZTVN6Kopete8TransferE@Base 4:4.3.4
  _ZTVN6Kopete9IdleTimerE@Base 4:4.3.4
  _ZTVN6Kopete9InfoEventE@Base 4:4.3.4
- (optional=templinst)_ZZN11QMetaTypeIdIPN6Kopete7ContactEE14qt_metatype_idEvE11metatype_id@Base 4:16.08.0
  _ZZN6Kopete2UI8ListView4Item7Private18theVisibilityTimerEvE5timer@Base 4:4.3.4
  _ZZN6Kopete2UI8ListView4Item7Private21theLayoutAnimateTimerEvE5timer@Base 4:4.3.4
- (optional=templinst)_ZpLI13QLatin1StringS0_ER7QStringS2_RK14QStringBuilderIT_T0_E@Base 4:16.08.0
- (optional=templinst)_ZpLI14QStringBuilderI13QLatin1String7QStringES1_ERS2_S4_RKS0_IT_T0_E@Base 4:16.08.0
- _ZpLI7QStringA3_cERS0_S2_RK14QStringBuilderIT_T0_E@Base 4:16.08.0
  (c++)"non-virtual thunk to AccountSelector::~AccountSelector()@Base" 4:4.3.4
  (c++)"non-virtual thunk to AddContactPage::~AddContactPage()@Base" 4:4.3.4
- (c++)"non-virtual thunk to ArrowButton::~ArrowButton()@Base" 4:16.08.0
- (c++)"non-virtual thunk to ClickableLabel::~ClickableLabel()@Base" 4:16.08.0
  (c++)"non-virtual thunk to CollapsibleWidget::~CollapsibleWidget()@Base" 4:4.3.4
  (c++)"non-virtual thunk to Kopete::ChatSession::~ChatSession()@Base" 4:4.3.4
  (c++)"non-virtual thunk to Kopete::Plugin::~Plugin()@Base" 4:4.3.4
  (c++)"non-virtual thunk to Kopete::Protocol::~Protocol()@Base" 4:4.3.4
- (c++)"non-virtual thunk to Kopete::UI::AddressBookLinkWidget::~AddressBookLinkWidget()@Base" 4:16.08.0
  (c++)"non-virtual thunk to Kopete::UI::AddressBookSelectorDialog::~AddressBookSelectorDialog()@Base" 4:4.3.4
  (c++)"non-virtual thunk to Kopete::UI::AddressBookSelectorWidget::~AddressBookSelectorWidget()@Base" 4:4.3.4
  (c++)"non-virtual thunk to Kopete::UI::AvatarDialog::~AvatarDialog()@Base" 4:4.3.4
@@ -2836,11 +2231,6 @@ libkopete.so.4 libkopete4 #MINVER#
  (c++)"non-virtual thunk to Kopete::UI::ListView::ListView::~ListView()@Base" 4:4.3.4
  (c++)"non-virtual thunk to Kopete::UI::ListView::SearchLine::~SearchLine()@Base" 4:4.3.4
  (c++)"non-virtual thunk to Kopete::UI::MetaContactSelectorWidget::~MetaContactSelectorWidget()@Base" 4:4.3.4
- (c++)"non-virtual thunk to Kopete::UI::MetaContactSelectorWidgetLVI::text(int) const@Base" 4:16.08.0
- (c++)"non-virtual thunk to Kopete::UI::MetaContactSelectorWidgetLVI::~MetaContactSelectorWidgetLVI()@Base" 4:16.08.0
  (c++)"non-virtual thunk to Kopete::UI::PasswordWidget::~PasswordWidget()@Base" 4:4.3.4
- (c++)"non-virtual thunk to Kopete::ViewPlugin::~ViewPlugin()@Base" 4:16.08.0
  (c++)"non-virtual thunk to Kopete::WebcamWidget::~WebcamWidget()@Base" 4:4.3.4
- (c++)"non-virtual thunk to KopeteCommandGUIClient::~KopeteCommandGUIClient()@Base" 4:16.08.0
  (c++)"non-virtual thunk to SettingsContainer::~SettingsContainer()@Base" 4:4.3.4
- xerrhandler@Base 4:16.08.0
