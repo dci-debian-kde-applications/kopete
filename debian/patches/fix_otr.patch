@@ -1,0 +1,23 @@
+Description: Fix invisible OTR status changes
+   * Add debian/patches/fix_otr.patch from upstream to resolve issue with
+     unencrypted messages being sent without notice (Closes: #827048)
+Author: Scott Kitterman <scott@kitterman.com>
+Bug-Debian: http://bugs.debian.org/827048
+Origin: upstream
+Bug: https://bugs.kde.org/show_bug.cgi?id=362535
+Forwarded: not-needed
+Last-Update: 2017-01-13
+
+--- kopete-16.08.1.orig/plugins/otr/otrlchatinterface.cpp
++++ kopete-16.08.1/plugins/otr/otrlchatinterface.cpp
+@@ -744,6 +744,10 @@ int OtrlChatInterface::privState( Kopete
+ 	ConnContext *context = otrl_context_find(userstate, session->members().first()->contactId().toLocal8Bit(), session->account()->accountId().toLocal8Bit(), session->account()->protocol()->displayName().toLocal8Bit(), instance, 0, NULL, NULL, NULL);
+ 
+ 	if( context ){
++		if( instance == OTRL_INSTAG_BEST && context->their_instance ){
++			kDebug(14318) << "Updating otr-instag to" << context->their_instance << "for session" << session;
++			session->setProperty("otr-instag", QString::number(context->their_instance));
++		}
+ 		switch( context->msgstate ){
+ 		case OTRL_MSGSTATE_PLAINTEXT:
+ 			return 0;
