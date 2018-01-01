@@ -12,6 +12,7 @@ kopete (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Update the build dependencies:
     - remove libsoprano-dev, not needed
     - add libqjson-dev, required for the Jabber protocol
+  * Remove unused entry in not-installed.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 18:02:13 +0100
 

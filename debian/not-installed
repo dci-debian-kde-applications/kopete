@@ -8,5 +8,4 @@
 ./usr/lib/libkopeteidentity.so
 ./usr/lib/libkopeteprivacy.so
 ./usr/lib/libkopetestatusmenu.so
-./usr/lib/libkyahoo.so
 ./usr/lib/liboscar.so
