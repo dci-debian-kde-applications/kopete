@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.08.1 amd64
+# SymbolsHelper-Confirmed: 4:17.08.3 amd64
 libkopete.so.4 libkopete4 #MINVER#
  _ZGVZN6Kopete2UI8ListView4Item7Private18theVisibilityTimerEvE5timer@Base 4:4.3.4
  _ZGVZN6Kopete2UI8ListView4Item7Private21theLayoutAnimateTimerEvE5timer@Base 4:4.3.4
@@ -26,7 +26,7 @@ libkopete.so.4 libkopete4 #MINVER#
  _ZN15AccountSelector12selectedItemEv@Base 4:4.3.4
  _ZN15AccountSelector16selectionChangedEPN6Kopete7AccountE@Base 4:4.3.4
  _ZN15AccountSelector16staticMetaObjectE@Base 4:4.3.4
- _ZN15AccountSelector20slotSelectionChangedEP14Q3ListViewItem@Base 4:4.3.4
+ _ZN15AccountSelector20slotSelectionChangedEP15QTreeWidgetItem@Base 4:17.08.3
  _ZN15AccountSelector6initUIEv@Base 4:4.3.4
  _ZN15AccountSelectorC1EP7QWidget@Base 4:4.3.4
  _ZN15AccountSelectorC1EPN6Kopete8ProtocolEP7QWidget@Base 4:4.3.4
