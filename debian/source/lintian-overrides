@@ -1,0 +1,2 @@
+# handled with $(overridden_command)
+kopete source: override_dh_clean-does-not-call-dh_clean

@@ -1,3 +1,6 @@
-kopete: package-name-doesnt-match-sonames libkopete-oscar4 libkopete-videodevice4 libkopeteaddaccountwizard1 libkopetechatwindow-shared1 libkopetecontactlist1 libkopeteidentity1 libkopeteprivacy1 libkopetestatusmenu1 libkyahoo1 liboscar1 libqgroupwise
+# private libraries
+kopete: package-name-doesnt-match-sonames libkopete-oscar4 libkopete-otr-shared1 libkopete-videodevice4 libkopeteaddaccountwizard1 libkopetechatwindow-shared1 libkopetecontactlist1 libkopeteidentity1 libkopeteprivacy1 libkopetestatusmenu1 liboscar1 libqgroupwise
 kopete: shlib-without-versioned-soname usr/lib/libqgroupwise.so libqgroupwise.so
 kopete: postrm-should-call-ldconfig usr/lib/libqgroupwise.so
+# private library
+kopete: no-symbols-control-file
