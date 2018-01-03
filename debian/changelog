@@ -15,6 +15,9 @@ kopete (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Remove unused entry in not-installed.
   * Update symbols file.
   * Update lintian overrides.
+  * Remove the kdepim-runtime recommend, as it is not useful anymore.
+  * Switch from the transitional libqca2-plugin-ossl recommend to
+    libqca2-plugins.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 18:02:13 +0100
 
